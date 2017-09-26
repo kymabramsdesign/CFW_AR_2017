@@ -1,16 +1,16 @@
-<?php 
+<?php
     $portfolio = get_page_by_title('portfolio');
-	
+
     $pDAjaxCheck  = 0;
 	$uniqueId = $portfolio->ID;
 	$options=get_post_meta($uniqueId);
-	
+
     $pPostPerPage  = $options["portfolio-posts-page"][0];
     $pfilterNav  = $options["portfolio-filter-nav"][0];
     $pfilter  = $options["portfolio-filter"][0];
 	$porder  = $options["order"][0];
 	$pordering  = $options["ordering"][0];
-	
+
     $portfolioId = 'portfolio_'.$uniqueId;
     $portfolioLoop =  'pLoop_'.$uniqueId;
     $pLoadMore = 'pLoadMore_'.$uniqueId;
@@ -19,8 +19,8 @@
     /* get Portfolio Skills */
     $portfolioTerms = get_terms('skills');
     $selectSkill  = '';
-	
-	
+
+
 
     foreach($portfolioTerms as $term ) {
         $skill = $term-> term_id;
@@ -100,13 +100,13 @@
             'noMorePostsText' => __('No More Posts', TEXTDOMAIN)
         )
     );
-    
+
     // headr title And Subtitle
 
     $checkTitle = get_post_meta( $portfolio->ID, "title-bar", true );
     $title = get_post_meta( $portfolio->ID, "title-text", true );
     $subTitle = get_post_meta( $portfolio->ID , "subtitle-text", true );
-    
+
 ?>
 
 <!-- Portfolio Section  -->
@@ -117,29 +117,29 @@
         <div class="container clearfix">
 
             <?php  if ( (!empty( $subTitle ) || !empty( $title ) ) || $checkTitle == 2 ) { ?>
-            
+
                 <?php if ( $checkTitle == 1 ) { ?>
                     <div class="titleSpace">
-                    
+
                         <?php if ( ( $checkTitle == 1 ) && ! empty( $title )) { ?>
-                                
+
                             <div class="title"><h3><?php echo esc_attr($title); ?></h3></div>
-                    
+
                         <?php } if (  ( $checkTitle == 1 ) && ! empty( $subTitle ) ) { ?>
-                         
+
                             <div class="subtitle"><?php echo esc_attr($subTitle); ?></div>
-                         
+
                         <?php } ?>
-                        
+
                     </div>
                 <?php }  if ( $checkTitle == 2  ) { ?>
-                    
+
                     <div class="titleSpace">
                         <div class="title"><h3><?php get_the_title($portfolio->ID); ?></h3></div>
                     </div>
-                    
+
                 <?php } ?>
-                
+
             <?php } ?>
 
         </div>

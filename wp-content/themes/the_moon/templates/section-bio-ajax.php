@@ -1,23 +1,22 @@
-<?php 
+<?php
 	$portfolio = get_page_by_title('portfolio');
 
 	$uniqueId = $portfolio->ID;
 	$options=get_post_meta($uniqueId);
 
-    $pDAjaxCheck  =$options["portfolio-detail-ajax"][0]; 
+    $pDAjaxCheck  =$options["portfolio-detail-ajax"][0];
     $pPostPerPage  = $options["portfolio-posts-page"][0];
     $pfilterNav  = $options["portfolio-filter-nav"][0];
     $pfilter  = $options["portfolio-filter"][0];
 	$porder  = isset($options["order"][0])?$options["order"][0]:"date";
 	$pordering  = isset($options["ordering"][0])?$options["ordering"][0]:"DESC";
 
-   
+
     $portfolioId = 'portfolio_'.$uniqueId;
     $portfolioLoop =  'pLoop_'.$uniqueId;
     $pLoadMore = 'pLoadMore_'.$uniqueId;
     $pagedNum = 'paged_'.$uniqueId;
-	
-	
+
 
     /* get Portfolio Skills */
     $portfolioTerms = get_terms('skills');
@@ -101,7 +100,7 @@
             'noMorePostsText' => __('No More Posts', TEXTDOMAIN)
         )
     );
-    
+
     // headr title And Subtitle
     $checkTitle = get_post_meta( $portfolio->ID, "title-bar", true );
     $title = get_post_meta( $portfolio->ID, "title-text", true );
@@ -122,14 +121,14 @@
             <div id="pDError"><?php _e('Sorry, we ran into a technical problem (unknown error). Please try again...', TEXTDOMAIN) ?> </div>
 
              <div class="navCloseWrap">
-             
+
                 <!-- Navigation -->
                 <ul class="pDNavigation navigation nextppost">
                     <li class="next">
                         <a href="#"></a>
                     </li>
                 </ul>
-             
+
                  <!-- Close button -->
                 <div id="pDClose" class="close"><a href="#" class="icon-close"></a></div>
 
@@ -139,9 +138,9 @@
                         <a href="#"></a>
                     </li>
                 </ul>
-                
-                
-                
+
+
+
             </div>
 
             <!-- portfolio Detail Content -->
@@ -152,29 +151,29 @@
         <div class="container clearfix">
 
             <?php  if ( (!empty( $subTitle ) || !empty( $title ) ) || $checkTitle == 2 ) { ?>
-            
+
                 <?php if ( $checkTitle == 1 ) { ?>
                     <div class="titleSpace">
-                    
+
                         <?php if ( ( $checkTitle == 1 ) && ! empty( $title )) { ?>
-                                
+
                             <div class="title"><h3><?php echo esc_attr($title); ?></h3></div>
-                    
+
                         <?php } if (  ( $checkTitle == 1 ) && ! empty( $subTitle ) ) { ?>
-                         
+
                             <div class="subtitle"><?php echo esc_attr($subTitle); ?></div>
-                         
+
                         <?php } ?>
-                        
+
                     </div>
                 <?php }  if ( $checkTitle == 2  ) { ?>
-                    
+
                     <div class="titleSpace">
                         <div class="title"><h3><?php $portfolio->post_title; ?></h3></div>
                     </div>
-                
+
                  <?php } ?>
-                 
+
             <?php } ?>
 
         </div>

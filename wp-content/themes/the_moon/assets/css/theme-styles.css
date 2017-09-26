@@ -1266,7 +1266,7 @@ header .navigation-button span{
 @media (min-width: 464px){
     header .navigation-button span{
         top: 12px;
-    }    
+    }
 }
 
 
@@ -2093,12 +2093,12 @@ header .container
 }
 
 #pxHeader.scooter-menu #logoMenuHeader {
-    z-index:3;
+  z-index:3;
 }
 
 #pxHeader.scooter-menu #logoHeader {
-    z-index:3;
-    background-color:#863eac;
+  z-index:3;
+  background-color: #eb917c;
 }
 
 /* Navigation */
@@ -6223,123 +6223,122 @@ a.postlink {
 }
 
 .postphoto .flexslider {
-    border:none;
-    margin:0;
-    padding:0;
+  border:none;
+  margin:0;
+  padding:0;
 }
 
 .postphoto .parent {
-    position:relative;
-    height:100%;
-    width:100%;
+  height:100%;
+  position:relative;
+  width:100%;
 }
 
 .postphoto .overlay .center-line {
-    height:5px;
-    background-color:#fff;
-    width:0;
-    top:50%;
-    margin:0 auto;
-    position:relative;
-    opacity:0;
+  background-color: #fff;
+  height: 2px;
+  margin: 0 auto;
+  opacity: 0;
+  position: relative;
+  top: 50%;
+  width: 0;
 
-    -moz-transition:width 150ms ease-in-out, opacity 150ms ease-in-out;
-    -o-transition:width 150ms ease-in-out, opacity 150ms ease-in-out;
-    -webkit-transition:width 150ms ease-in-out, opacity 150ms ease-in-out;
-    transition:width 150ms ease-in-out, opacity 150ms ease-in-out;
+  -moz-transition:width 150ms ease-in-out, opacity 150ms ease-in-out;
+  -o-transition:width 150ms ease-in-out, opacity 150ms ease-in-out;
+  -webkit-transition:width 150ms ease-in-out, opacity 150ms ease-in-out;
+  transition:width 150ms ease-in-out, opacity 150ms ease-in-out;
 }
 
 .postphoto .overlay:hover .center-line {
-    width:60%;
-    opacity:1;
+  opacity: 1;
+  width: 50%;
 
-    -moz-transition:width 250ms ease-in-out, opacity 250ms ease-in-out;
-    -o-transition:width 250ms ease-in-out, opacity 250ms ease-in-out;
-    -webkit-transition:width 250ms ease-in-out, opacity 250ms ease-in-out;
-    transition:width 250ms ease-in-out, opacity 250ms ease-in-out;
+  -moz-transition:width 250ms ease-in-out, opacity 250ms ease-in-out;
+  -o-transition:width 250ms ease-in-out, opacity 250ms ease-in-out;
+  -webkit-transition:width 250ms ease-in-out, opacity 250ms ease-in-out;
+  transition:width 250ms ease-in-out, opacity 250ms ease-in-out;
 }
 
-.postphoto .overlay  .hover-title {
-    position:absolute;
-    margin:0 auto;
-    bottom:45%;
-    opacity:0;
-    color:#fff;
-    font-size:47px;
-    line-height:50px;
-    text-align:center;
-    font-weight:700;
-    letter-spacing:-3px;
-    width:90%;
-    padding:0 5%;
-
-    -moz-transition:bottom 200ms ease-out, opacity 300ms ease-in;
-    -o-transition:bottom 200ms ease-out, opacity 300ms ease-in;
-    -webkit-transition:bottom 200ms ease-out, opacity 300ms ease-in;
-    transition:bottom 200ms ease-out, opacity 300ms ease-in;
+.postphoto .overlay .hover-title {
+  bottom: 45%;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin: 0 auto;
+  opacity: 0;
+  padding: 0 5%;
+  position: absolute;
+  text-align: center;
+  width: 90%;
+  -moz-transition: bottom 200ms ease-out, opacity 300ms ease-in;
+  -o-transition: bottom 200ms ease-out, opacity 300ms ease-in;
+  -webkit-transition: bottom 200ms ease-out, opacity 300ms ease-in;
+  transition: bottom 200ms ease-out, opacity 300ms ease-in;
 }
 
 .postphoto .overlay:hover .hover-title {
-    opacity:1;
-    bottom:calc(50% + 18px);
-
-    -moz-transition:bottom 250ms ease-out, opacity 500ms ease-in;
-    -o-transition:bottom 250ms ease-out, opacity 500ms ease-in;
-    -webkit-transition:bottom 250ms ease-out, opacity 500ms ease-in;
-    transition:bottom 250ms ease-out, opacity 500ms ease-in;
+  opacity: 1;
+  bottom: calc(50% + 18px);
+  -moz-transition: bottom 250ms ease-out, opacity 500ms ease-in;
+  -o-transition: bottom 250ms ease-out, opacity 500ms ease-in;
+  -webkit-transition: bottom 250ms ease-out, opacity 500ms ease-in;
+  transition: bottom 250ms ease-out, opacity 500ms ease-in;
 }
 
 .square .postphoto .overlay  .hover-title {
-    font-size:25px;
-    letter-spacing:-1px;
+  font-size:25px;
+  letter-spacing:-1px;
 }
 
 .square .postphoto .overlay .hover-subtitle {
-    font-size:13px;
-    letter-spacing:4px;
+  font-size: 13px;
+  letter-spacing: 1px;
 }
 
 .hslim .postphoto .overlay:hover .hover-subtitle {
-    letter-spacing: 2px;
-    line-height: 18px;
-    top: calc(50% + 15px);
+  letter-spacing: 1px;
+  line-height: 22px;
+  top: calc(50% + 15px);
 }
 
 .postphoto .overlay  .hover-subtitle {
-    position:absolute;
-    margin:0 auto;
-    bottom:48%;
-    opacity:0;
-    color:#fff;
-    font-size:18px;
-    line-height:50px;
-    text-align:center;
-    font-weight:300;
-    letter-spacing:6px;
-    width:100%;
+  bottom: 48%;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 22px;
+  margin: 0 auto;
+  opacity: 0;
+  padding: 0 5%;
+  position: absolute;
+  text-align: center;
+  width: 90%;
 }
 
 .postphoto .overlay:hover .hover-subtitle {
-    opacity:1;
-    bottom: calc(50% - 50px);
+  opacity:1;
+  bottom: calc(50% - 50px);
 
-    -moz-transition:bottom 250ms ease-out, opacity 500ms ease-in;
-    -o-transition:bottom 250ms ease-out, opacity 500ms ease-in;
-    -webkit-transition:bottom 250ms ease-out, opacity 500ms ease-in;
-    transition:bottom 250ms ease-out, opacity 500ms ease-in;
+  -moz-transition:bottom 250ms ease-out, opacity 500ms ease-in;
+  -o-transition:bottom 250ms ease-out, opacity 500ms ease-in;
+  -webkit-transition:bottom 250ms ease-out, opacity 500ms ease-in;
+  transition:bottom 250ms ease-out, opacity 500ms ease-in;
 }
 
 .square .postphoto .overlay:hover .hover-subtitle, .hslim .postphoto .overlay:hover .hover-subtitle {
-    bottom: calc(50% - 30px);
+  bottom: calc(50% - 30px);
 }
 
 .slim .postphoto .overlay:hover .hover-subtitle {
-    top: calc(50% + 15px);
+  top: calc(50% + 15px);
 }
 
 .square .postphoto .overlay:hover .hover-subtitle , .hslim .postphoto .overlay:hover .hover-subtitle , .slim .postphoto .overlay:hover .hover-subtitle   {
-    line-height:18px;
-    letter-spacing:2px;
+  letter-spacing: 1px;
+  line-height: 22px;
 }
 
 .square .postphoto .overlay:hover .hover-title , .hslim .postphoto .overlay:hover .hover-title {
@@ -6349,35 +6348,14 @@ a.postlink {
 /* ADJUST SUBTITLE PLACEMENT FOR THOSE THAT WRAP TO MULTIPLE LINES */
 
 .postphoto .overlay:hover .hover-subtitle{
-    bottom: calc(50% - 60px);
+  bottom: calc(50% - 60px);
 }
 
 #emily-dreke .postphoto .overlay:hover .hover-subtitle,
 #ilda-lagunas .postphoto .overlay:hover .hover-subtitle,
 #linda-l-wagner .postphoto .overlay:hover .hover-subtitle{
     bottom: calc(50% - 75px);
-    line-height: 150%;
-}
-
-@media screen and (max-width: 1370px){
-    #kendra-fortenberry .postphoto .overlay:hover .hover-subtitle{
-        bottom: calc(50% - 75px);
-        line-height: 150%;
-    }
-}
-
-@media (max-width: 1322px){
-    #agnes-meneses .postphoto .overlay:hover .hover-subtitle{
-        bottom: calc(50% - 75px);
-        line-height: 150%;
-    }
-}
-
-@media (min-width: 1201px) and (max-width: 1297px){
-    #eli-marsh .postphoto .overlay:hover .hover-subtitle{
-        bottom: calc(50% - 75px);
-        line-height: 150%;
-    }
+    line-height: 22px;
 }
 
 .postphoto .overlay .icon-type {
@@ -6386,7 +6364,6 @@ a.postlink {
     position:absolute;
     opacity:0;
     bottom:5%;
-    /*display:block;*/
     display: none;
     height:45px;
     width:55px;
@@ -6461,17 +6438,20 @@ a.postlink {
 
 .subnavigation
 {
-  font-size:13px;
-  position:absolute;
+  font-size: 13px;
+  position: initial;
   top:-63px;
-  right:0;
-  display:table;
-  margin:0 auto 15px;
+  display: table;
+  margin: 30px auto 15px;
 }
 
-.hassubtitle .subnavigation {
-    top:-83px;
+.portfolio-header {
+  margin-left: 0 !important;
 }
+
+/*.hassubtitle .subnavigation {
+    top:-83px;
+}*/
 
 .subnavigation li
 {
@@ -8771,57 +8751,62 @@ End of Retina displays styles
 ***************************/
 
 /***************************
-THIRDWAVE CUSTOM STYLES
+Kym Abrams Custom Styles
 ***************************/
 
 /* NAVIGATION */
 
 #logoHeader .logo,
 #pxHeader.scooter-menu #logoMenuHeader .container .logo{
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 #logoHeader .navigation li:hover,
 #pxHeader.scooter-menu #logoMenuHeader .container .navigation li:hover{
-    background-color: #fff;
+  background-color: #fff;
 }
 
 #logoHeader .navigation li:hover a,
 #pxHeader.scooter-menu #logoMenuHeader .container .navigation li:hover a{
-    color: #863EAC;
+  color: #ef483f;
 }
 
 #logoHeader .navigation li,
 #pxHeader.scooter-menu #logoMenuHeader .container .navigation li{
-    margin: 0;
+  margin: 0;
 }
 
 #logoHeader .navigation li a,
 #pxHeader.scooter-menu #logoMenuHeader .container .navigation li a{
-    margin: 37px 0 -37px 0;
-    padding-left: 16px;
-    padding-right: 16px;
+  letter-spacing: .4px;
+  margin: 37px 0 -37px 0;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 /* BLOG POST NAVIGATION */
 
 .single #logoHeader .navigation li:hover,
 .single #pxHeader.scooter-menu #logoMenuHeader .container .navigation li:hover{
-    background-color: #000;
+  background-color: #000;
 }
 
 .single #logoHeader .navigation li:hover a,
 .single #pxHeader.scooter-menu #logoMenuHeader .container .navigation li:hover a{
-    color: #fff;
+  color: #fff;
 }
 
 .menu-list a{
-    opacity: 1;
-    text-transform: uppercase;
-    top: 150px;
+  opacity: 1;
+  text-transform: uppercase;
+  top: 150px;
 }
 
 /* President's Letter */
+
+.presidents-letter p {
+  color: #fff;
+}
 
 #welcome-section .president-portrait{
     height: 104px;
@@ -9027,12 +9012,8 @@ THIRDWAVE CUSTOM STYLES
     color: #7ea4b7;
 }
 
-
-#financials{
-  /*background: url('../img/financials-bg.png');*/
+.page-id-963 {
     background-size: 1px 100%;
-
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5c2e90+0,82469c+100 */
     background: #5c2e90; /* Old browsers */
     background: -moz-linear-gradient(top,  #5c2e90 0%, #82469c 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  #5c2e90 0%,#82469c 100%); /* Chrome10-25,Safari5.1-6 */
@@ -9040,94 +9021,89 @@ THIRDWAVE CUSTOM STYLES
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c2e90', endColorstr='#82469c',GradientType=0 ); /* IE6-9 */
 }
 
-#financials h1{
-    color: #ad87be;
-    font-size: 49px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin: 133px 0 104px;
-    text-transform: uppercase;
+.page-id-963 h1{
+  color: #ad87be;
+  font-size: 49px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 133px 0 104px;
+  text-transform: uppercase;
 }
 
-
 .pie-chart h3{
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 28px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .pie-chart img{
-    height: auto;
-    width: 300px;
+  height: auto;
+  width: 300px;
 }
 
-#financials{
-    padding-bottom: 122px;
+.financials-item-list{
+  margin: 0 auto;
+  padding-bottom: 122px;
+  width: 776px;
 }
 
-#financials .financials-item-list{
-    margin: 0 auto;
-    width: 776px;
+.financials-item-list h3{
+  clear: both;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
-#financials .financials-item-list h3{
-    clear: both;
-    font-size: 18px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+.financials-item-list h3,
+.financials-item-list ul li{
+  color: #e6f6f9;
 }
 
-#financials .financials-item-list h3,
-#financials .financials-item-list ul li{
-    color: #e6f6f9;
+.financials-item-list h3:nth-of-type(2){
+  margin-top: 60px;
 }
 
-
-#financials .financials-item-list h3:nth-of-type(2){
-    margin-top: 60px;
+.financials-item-list h3 span{
+  display: block;
+  text-transform: none;
 }
 
-#financials .financials-item-list h3 span{
-    display: block;
-    text-transform: none;
+.financials-item-list h4{
+  color: #87aabc;
+  font-size: 13px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
 }
 
-#financials .financials-item-list h4{
-    color: #87aabc;
-    font-size: 13px;
-    margin-top: 50px;
-    margin-bottom: 5px;
-    text-transform: uppercase;
+.financials-item-list ul li{
+  clear: both;
+  font-size: 16px;
+  padding: 12px 0;
+  position: relative;
 }
 
-#financials .financials-item-list ul li{
-    clear: both;
-    font-size: 16px;
-    padding: 12px 0;
-    position: relative;
+.financials-item-list ul li.financials-list-total{
+  margin: 26px 0 30px;
 }
 
-#financials .financials-item-list ul li.financials-list-total{
-    margin: 26px 0 30px;
+.financials-item-list ul li.financials-list-spaced{
+  margin: 35px 0;
 }
 
-#financials .financials-item-list ul li.financials-list-spaced{
-    margin: 35px 0;
+.financials-item-list ul li span{
+  float: left;
 }
 
-#financials .financials-item-list ul li span{
-    float: left;
-}
-
-#financials .financials-item-list ul li span:nth-of-type(2){
-    border-bottom: 1px dotted #fff;
-    width: 100%;
-    margin-top: -21px;
-    text-align: right;
-    display: inline-block;
+.financials-item-list ul li span:nth-of-type(2){
+  border-bottom: 1px dotted #fff;
+  width: 100%;
+  margin-top: -21px;
+  text-align: right;
+  display: inline-block;
 }
 
 
