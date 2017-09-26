@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<themes>
+		<themoon>
+			<changelog>
+				<![CDATA[
+					<ol>
+						<li>1</li>
+						<li>2</li>
+					</ol>
+				]]>
+			</changelog>
+			<version>3</version>
+			
+		</themoon>
+		
+		<profession>3.5</profession>
+</themes>

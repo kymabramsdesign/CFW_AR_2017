@@ -1,0 +1,4501 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: the_moon\n"
+"POT-Creation-Date: 2014-11-07 22:19+0330\n"
+"PO-Revision-Date: 2014-11-07 22:20+0330\n"
+"Last-Translator: \n"
+"Language-Team: pixflow <pxflow@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:11
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:20
+msgid "404 ERROR"
+msgstr ""
+
+#: 404.php:21
+msgid "PAGE NOT FOUND"
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"Sorry, the page you are looking for is not available. You can use the search "
+"box below if you like."
+msgstr ""
+
+#: archive.php:15
+#, php-format
+msgid "All posts in %s"
+msgstr ""
+
+#: archive.php:18
+#, php-format
+msgid "All posts tagged %s"
+msgstr ""
+
+#: archive.php:21
+#: archive.php:24
+#: archive.php:27
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+#: archive.php:36
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: archive.php:39
+msgid "Blog Archives"
+msgstr ""
+
+#: comments.php:11
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:13
+msgid "Email Address (never published)"
+msgstr ""
+
+#: comments.php:15
+msgid "Website (Optional)"
+msgstr ""
+
+#: comments.php:54
+#, php-format
+msgid "<cite>%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#: comments.php:55
+msgid "(Author)"
+msgstr ""
+
+#: comments.php:57
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: comments.php:59
+msgid "(Edit)"
+msgstr ""
+
+#: comments.php:84
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:106
+msgid "Trackbacks for this post"
+msgstr ""
+
+#: comments.php:125
+msgid "Comments are now closed."
+msgstr ""
+
+#: comments.php:128
+msgid "Comments are now closed for this article."
+msgstr ""
+
+#: comments.php:140
+msgid "No comments so far."
+msgstr ""
+
+#: comments.php:143
+msgid "There are no comments for this article."
+msgstr ""
+
+#: comments.php:150
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:153
+msgid "Comments are closed for this article."
+msgstr ""
+
+#: comments.php:165
+msgid "Your email address will not be published. Website Field Is Optional"
+msgstr ""
+
+#: comments.php:166
+msgid "Your Message"
+msgstr ""
+
+#: index.php:100
+#: templates/loop-page-blog.php:43
+#: templates/loop-page-cblog.php:83
+#: templates/section-blog.php:68
+msgid "&larr; Older Entries"
+msgstr ""
+
+#: index.php:101
+#: templates/loop-page-blog.php:44
+#: templates/loop-page-cblog.php:84
+#: templates/section-blog.php:69
+msgid "Newer Entries &rarr;"
+msgstr ""
+
+#: search.php:11
+#, php-format
+msgid "Results for '%s'"
+msgstr ""
+
+#: search.php:11
+msgid "No Results Found"
+msgstr ""
+
+#: search.php:19
+msgid "You can start a new search by using the box below."
+msgstr ""
+
+#: searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: extendvc/extend-vc.php:179
+msgid "Padding Top"
+msgstr ""
+
+#: extendvc/extend-vc.php:181
+msgid "insert top padding for current row . example : 200 "
+msgstr ""
+
+#: extendvc/extend-vc.php:182
+#: extendvc/extend-vc.php:190
+#: extendvc/extend-vc.php:198
+#: extendvc/extend-vc.php:206
+msgid "Padding"
+msgstr ""
+
+#: extendvc/extend-vc.php:187
+msgid "Padding Bottom"
+msgstr ""
+
+#: extendvc/extend-vc.php:189
+msgid "insert bottom padding for current row . example : 200"
+msgstr ""
+
+#: extendvc/extend-vc.php:195
+msgid "Padding Right"
+msgstr ""
+
+#: extendvc/extend-vc.php:197
+msgid "insert Right padding for current row . example : 200"
+msgstr ""
+
+#: extendvc/extend-vc.php:203
+msgid "Padding Left"
+msgstr ""
+
+#: extendvc/extend-vc.php:205
+msgid "insert left padding for current row . example : 200"
+msgstr ""
+
+#: extendvc/extend-vc.php:212
+msgid "Margin Top"
+msgstr ""
+
+#: extendvc/extend-vc.php:214
+msgid "insert top margin for current row . example : 200"
+msgstr ""
+
+#: extendvc/extend-vc.php:215
+#: extendvc/extend-vc.php:223
+msgid "Margin"
+msgstr ""
+
+#: extendvc/extend-vc.php:220
+msgid "Margin Bottom"
+msgstr ""
+
+#: extendvc/extend-vc.php:222
+msgid "insert bottom margin for current row . example : 200"
+msgstr ""
+
+#: extendvc/extend-vc.php:230
+msgid "Container Type"
+msgstr ""
+
+#: extendvc/extend-vc.php:232
+msgid "Choose different type of containers and set the options."
+msgstr ""
+
+#: extendvc/extend-vc.php:243
+msgid "type"
+msgstr ""
+
+#: extendvc/extend-vc.php:245
+msgid ""
+"Full width will use all of your screen width, while Boxed will created an "
+"invisible box in middle of your screen."
+msgstr ""
+
+#: extendvc/extend-vc.php:261
+msgid "Image url"
+msgstr ""
+
+#: extendvc/extend-vc.php:263
+msgid "Choose an image to be used as this section's background."
+msgstr ""
+
+#: extendvc/extend-vc.php:276
+msgid "Background color"
+msgstr ""
+
+#: extendvc/extend-vc.php:278
+msgid ""
+"Choose a color to be used as this section's background. Please noticed that "
+"background color, has higher priority than background image."
+msgstr ""
+
+#: extendvc/extend-vc.php:290
+msgid "Minimum height"
+msgstr ""
+
+#: extendvc/extend-vc.php:292
+msgid "You can use pixels (px) or percents (%)."
+msgstr ""
+
+#: extendvc/extend-vc.php:303
+msgid "Parallax speed"
+msgstr ""
+
+#: extendvc/extend-vc.php:305
+msgid ""
+"Parallax speed 0 = parallax disabled (fixed image), parallax speed 10 = page "
+"scrolling speed ,parallax speed above 10 = parallax is faster than page "
+"scrolling speed. Enter a number between 0 - 100"
+msgstr ""
+
+#: extendvc/extend-vc.php:317
+msgid "Parallax Image Position"
+msgstr ""
+
+#: extendvc/extend-vc.php:320
+#, php-format
+msgid ""
+"Enter the parallax image position where 50 means 50% from top and left"
+"(center of parallax container)."
+msgstr ""
+
+#: extendvc/extend-vc.php:360
+#: lib/admin/form-settings.php:599
+msgid "Video Preview Image"
+msgstr ""
+
+#: extendvc/extend-vc.php:363
+msgid ""
+"Enter an image address which will be shown instead of video in tablet and "
+"mobile devices. Also it will be shown if the video does not load correctly."
+msgstr ""
+
+#: extendvc/extend-vc.php:375
+msgid "Overlay Texture"
+msgstr ""
+
+#: extendvc/extend-vc.php:398
+msgid "Overlay Color"
+msgstr ""
+
+#: extendvc/extend-vc.php:401
+#: extendvc/extend-vc.php:933
+#: extendvc/extend-vc.php:1085
+#: extendvc/extend-vc.php:1146
+#: extendvc/extend-vc.php:1219
+#: extendvc/extend-vc.php:1394
+#: extendvc/extend-vc.php:1546
+#: extendvc/extend-vc.php:1664
+#: extendvc/extend-vc.php:1803
+#: extendvc/extend-vc.php:1942
+msgid "Select optional title's color "
+msgstr ""
+
+#: extendvc/extend-vc.php:413
+#: extendvc/extend-vc.php:552
+msgid "Overlay Opacity"
+msgstr ""
+
+#: extendvc/extend-vc.php:416
+#: extendvc/extend-vc.php:555
+msgid ""
+"Enter overlay opacity where 1 = 100% and 0 means overlay is not visible. To "
+"have 50% opacity you should enter .5 ."
+msgstr ""
+
+#: extendvc/extend-vc.php:437
+#: extendvc/extend-vc.php:512
+#: lib/shortcodes/settings.php:164
+msgid "Separator's Color"
+msgstr ""
+
+#: extendvc/extend-vc.php:440
+#: extendvc/extend-vc.php:515
+msgid "Select optional Separator's color "
+msgstr ""
+
+#: extendvc/extend-vc.php:448
+#: extendvc/extend-vc.php:480
+#: extendvc/extend-vc.php:532
+#: lib/shortcodes/settings.php:140
+msgid "Separator size"
+msgstr ""
+
+#: extendvc/extend-vc.php:450
+#: lib/shortcodes/settings.php:141
+msgid "Choose the size of separator"
+msgstr ""
+
+#: extendvc/extend-vc.php:466
+#: lib/shortcodes/settings.php:148
+msgid "Vertical Spacing"
+msgstr ""
+
+#: extendvc/extend-vc.php:468
+#: lib/shortcodes/settings.php:149
+msgid "Select size of vertical space"
+msgstr ""
+
+#: extendvc/extend-vc.php:482
+#: extendvc/extend-vc.php:534
+#: lib/shortcodes/settings.php:157
+msgid "Select thickness of separator"
+msgstr ""
+
+#: extendvc/extend-vc.php:522
+#: extendvc/extend-vc.php:2183
+#: lib/shortcodes/settings.php:371
+#: lib/shortcodes/settings.php:507
+#: lib/shortcodes/settings.php:594
+#: lib/shortcodes/settings.php:681
+msgid "Title's Color"
+msgstr ""
+
+#: extendvc/extend-vc.php:525
+msgid "Select optional Title's color "
+msgstr ""
+
+#: extendvc/extend-vc.php:566
+msgid "Title Font size"
+msgstr ""
+
+#: extendvc/extend-vc.php:568
+#: extendvc/extend-vc.php:584
+msgid "Select separator title font size"
+msgstr ""
+
+#: extendvc/extend-vc.php:582
+msgid "Enable border right/left For Title"
+msgstr ""
+
+#: extendvc/extend-vc.php:585
+msgid "Enable or Disbale right/left title border"
+msgstr ""
+
+#: extendvc/extend-vc.php:626
+msgid "testimonial category"
+msgstr ""
+
+#: extendvc/extend-vc.php:628
+msgid ""
+"Select testimonial category, these categories are created when you are "
+"adding new testimonials in testimonial post type."
+msgstr ""
+
+#: extendvc/extend-vc.php:651
+#: extendvc/extend-vc.php:726
+#: extendvc/extend-vc.php:903
+#: extendvc/extend-vc.php:1091
+#: extendvc/extend-vc.php:1173
+#: extendvc/extend-vc.php:1318
+#: extendvc/extend-vc.php:1479
+#: extendvc/extend-vc.php:1588
+#: extendvc/extend-vc.php:1727
+#: extendvc/extend-vc.php:1866
+#: extendvc/extend-vc.php:1993
+#: extendvc/extend-vc.php:2140
+#: extendvc/extend-vc.php:2249
+#: extendvc/extend-vc.php:2322
+#: lib/shortcodes/settings.php:229
+#: lib/shortcodes/settings.php:435
+#: lib/shortcodes/settings.php:487
+#: lib/shortcodes/settings.php:600
+#: lib/shortcodes/settings.php:717
+#: lib/shortcodes/settings.php:822
+msgid "Animation"
+msgstr ""
+
+#: extendvc/extend-vc.php:653
+#: extendvc/extend-vc.php:728
+#: extendvc/extend-vc.php:905
+#: extendvc/extend-vc.php:1093
+#: extendvc/extend-vc.php:1175
+#: extendvc/extend-vc.php:1320
+#: extendvc/extend-vc.php:1481
+msgid "Select animation type"
+msgstr ""
+
+#: extendvc/extend-vc.php:660
+#: extendvc/extend-vc.php:735
+#: extendvc/extend-vc.php:912
+#: extendvc/extend-vc.php:1100
+#: extendvc/extend-vc.php:1182
+#: extendvc/extend-vc.php:1327
+#: extendvc/extend-vc.php:1488
+#: extendvc/extend-vc.php:1597
+#: extendvc/extend-vc.php:1736
+#: extendvc/extend-vc.php:1875
+#: extendvc/extend-vc.php:2002
+#: extendvc/extend-vc.php:2149
+#: extendvc/extend-vc.php:2258
+#: extendvc/extend-vc.php:2331
+#: lib/shortcodes/settings.php:237
+#: lib/shortcodes/settings.php:495
+#: lib/shortcodes/settings.php:608
+#: lib/shortcodes/settings.php:725
+#: lib/shortcodes/settings.php:830
+msgid "Animation Delay"
+msgstr ""
+
+#: extendvc/extend-vc.php:663
+#: extendvc/extend-vc.php:738
+#: extendvc/extend-vc.php:915
+#: extendvc/extend-vc.php:1103
+#: extendvc/extend-vc.php:1185
+#: extendvc/extend-vc.php:1330
+#: extendvc/extend-vc.php:1491
+#: extendvc/extend-vc.php:1600
+#: extendvc/extend-vc.php:1739
+#: extendvc/extend-vc.php:1878
+#: extendvc/extend-vc.php:2005
+#: extendvc/extend-vc.php:2152
+#: extendvc/extend-vc.php:2261
+#: extendvc/extend-vc.php:2334
+msgid ""
+"Enter animation delay (in milliseconds), for example if you want 3 seconds "
+"delay, you should enter 3000 ."
+msgstr ""
+
+#: extendvc/extend-vc.php:853
+msgid "image url"
+msgstr ""
+
+#: extendvc/extend-vc.php:856
+msgid "URL of the image"
+msgstr ""
+
+#: extendvc/extend-vc.php:862
+msgid "Image Box Hover Overlay"
+msgstr ""
+
+#: extendvc/extend-vc.php:864
+msgid "Enable or Disbale Image Box Hover Overlay"
+msgstr ""
+
+#: extendvc/extend-vc.php:874
+msgid "Image Box Overlay Style"
+msgstr ""
+
+#: extendvc/extend-vc.php:876
+msgid "Select image box overlay style"
+msgstr ""
+
+#: extendvc/extend-vc.php:890
+msgid "Image Box overlay's color"
+msgstr ""
+
+#: extendvc/extend-vc.php:893
+msgid "Select optional image box's color "
+msgstr ""
+
+#: extendvc/extend-vc.php:921
+#: extendvc/extend-vc.php:1125
+#: extendvc/extend-vc.php:1207
+#: extendvc/extend-vc.php:1382
+#: extendvc/extend-vc.php:1534
+#: extendvc/extend-vc.php:1652
+#: extendvc/extend-vc.php:1791
+#: extendvc/extend-vc.php:1930
+#: extendvc/extend-vc.php:2655
+#: lib/post-types/page.php:166
+#: lib/shortcodes/settings.php:272
+#: lib/shortcodes/settings.php:307
+#: lib/shortcodes/settings.php:365
+#: lib/shortcodes/settings.php:501
+#: lib/shortcodes/settings.php:588
+#: lib/shortcodes/settings.php:930
+msgid "Title"
+msgstr ""
+
+#: extendvc/extend-vc.php:924
+#: extendvc/extend-vc.php:1128
+#: extendvc/extend-vc.php:1210
+#: extendvc/extend-vc.php:1385
+#: extendvc/extend-vc.php:1537
+#: extendvc/extend-vc.php:1655
+#: extendvc/extend-vc.php:1794
+#: extendvc/extend-vc.php:1933
+#: lib/shortcodes/settings.php:366
+#: lib/shortcodes/settings.php:502
+#: lib/shortcodes/settings.php:589
+msgid "Enter title text"
+msgstr ""
+
+#: extendvc/extend-vc.php:930
+#: extendvc/extend-vc.php:1082
+#: extendvc/extend-vc.php:1143
+#: extendvc/extend-vc.php:1216
+#: extendvc/extend-vc.php:1391
+#: extendvc/extend-vc.php:1543
+#: extendvc/extend-vc.php:1661
+#: extendvc/extend-vc.php:1800
+#: extendvc/extend-vc.php:1939
+msgid "Title color "
+msgstr ""
+
+#: extendvc/extend-vc.php:939
+msgid "SubTitle"
+msgstr ""
+
+#: extendvc/extend-vc.php:942
+msgid "Enter Subtitle text"
+msgstr ""
+
+#: extendvc/extend-vc.php:948
+msgid "Subtitle color "
+msgstr ""
+
+#: extendvc/extend-vc.php:951
+msgid "Select optional Subtitle's color "
+msgstr ""
+
+#: extendvc/extend-vc.php:957
+#: extendvc/extend-vc.php:1291
+#: extendvc/extend-vc.php:1452
+#: extendvc/extend-vc.php:1552
+#: extendvc/extend-vc.php:1670
+#: extendvc/extend-vc.php:1809
+#: extendvc/extend-vc.php:1948
+#: extendvc/extend-vc.php:2536
+#: extendvc/extend-vc.php:2664
+#: lib/shortcodes/settings.php:525
+#: lib/shortcodes/settings.php:924
+msgid "Text"
+msgstr ""
+
+#: extendvc/extend-vc.php:960
+#: extendvc/extend-vc.php:1294
+#: extendvc/extend-vc.php:1455
+#: lib/shortcodes/settings.php:526
+msgid "Enter your text content here"
+msgstr ""
+
+#: extendvc/extend-vc.php:966
+msgid "text color "
+msgstr ""
+
+#: extendvc/extend-vc.php:969
+msgid "Select optional text's color "
+msgstr ""
+
+#: extendvc/extend-vc.php:975
+#: extendvc/extend-vc.php:1234
+#: extendvc/extend-vc.php:1409
+#: lib/shortcodes/settings.php:385
+#: lib/shortcodes/settings.php:537
+msgid "Text Align"
+msgstr ""
+
+#: extendvc/extend-vc.php:977
+#: extendvc/extend-vc.php:1236
+#: extendvc/extend-vc.php:1411
+#: lib/shortcodes/settings.php:386
+#: lib/shortcodes/settings.php:538
+msgid "Select text align"
+msgstr ""
+
+#: extendvc/extend-vc.php:988
+#: lib/shortcodes/settings.php:545
+msgid "Text's Background Color"
+msgstr ""
+
+#: extendvc/extend-vc.php:991
+msgid "Select optional text's background color "
+msgstr ""
+
+#: extendvc/extend-vc.php:997
+#: lib/shortcodes/settings.php:551
+msgid "Image Box border"
+msgstr ""
+
+#: extendvc/extend-vc.php:999
+#: lib/shortcodes/settings.php:552
+msgid "Enable or Disbale Image Box border"
+msgstr ""
+
+#: extendvc/extend-vc.php:1009
+#: lib/shortcodes/settings.php:559
+msgid "Image Box Border's Color"
+msgstr ""
+
+#: extendvc/extend-vc.php:1012
+msgid "Select optional border's color "
+msgstr ""
+
+#: extendvc/extend-vc.php:1018
+#: extendvc/extend-vc.php:1336
+#: extendvc/extend-vc.php:1497
+#: extendvc/extend-vc.php:1606
+#: extendvc/extend-vc.php:1745
+#: extendvc/extend-vc.php:1884
+#: extendvc/extend-vc.php:2011
+#: extendvc/extend-vc.php:2349
+#: extendvc/extend-vc.php:2572
+#: lib/shortcodes/settings.php:243
+#: lib/shortcodes/settings.php:278
+#: lib/shortcodes/settings.php:449
+#: lib/shortcodes/settings.php:565
+#: lib/shortcodes/settings.php:622
+#: lib/shortcodes/settings.php:948
+msgid "Link"
+msgstr ""
+
+#: extendvc/extend-vc.php:1021
+#: extendvc/extend-vc.php:1339
+#: extendvc/extend-vc.php:1500
+#: extendvc/extend-vc.php:1609
+#: extendvc/extend-vc.php:1748
+#: extendvc/extend-vc.php:1887
+#: extendvc/extend-vc.php:2014
+#: extendvc/extend-vc.php:2352
+#: extendvc/extend-vc.php:2382
+#: extendvc/extend-vc.php:2412
+#: extendvc/extend-vc.php:2442
+#: extendvc/extend-vc.php:2472
+#: extendvc/extend-vc.php:2502
+#: lib/post-types/carousel.php:100
+#: lib/shortcodes/settings.php:244
+#: lib/shortcodes/settings.php:279
+#: lib/shortcodes/settings.php:450
+#: lib/shortcodes/settings.php:566
+#: lib/shortcodes/settings.php:623
+msgid "Optional url to another web page"
+msgstr ""
+
+#: extendvc/extend-vc.php:1027
+#: extendvc/extend-vc.php:1345
+#: extendvc/extend-vc.php:1506
+#: extendvc/extend-vc.php:1624
+#: extendvc/extend-vc.php:1763
+#: extendvc/extend-vc.php:1902
+#: extendvc/extend-vc.php:2029
+#: extendvc/extend-vc.php:2358
+#: extendvc/extend-vc.php:2581
+#: lib/post-types/carousel.php:125
+#: lib/shortcodes/settings.php:249
+#: lib/shortcodes/settings.php:284
+#: lib/shortcodes/settings.php:455
+#: lib/shortcodes/settings.php:571
+#: lib/shortcodes/settings.php:634
+#: lib/shortcodes/settings.php:954
+msgid "Link's target"
+msgstr ""
+
+#: extendvc/extend-vc.php:1029
+#: extendvc/extend-vc.php:1347
+#: extendvc/extend-vc.php:1508
+#: extendvc/extend-vc.php:1626
+#: extendvc/extend-vc.php:1765
+#: extendvc/extend-vc.php:1904
+#: extendvc/extend-vc.php:2031
+#: extendvc/extend-vc.php:2360
+#: extendvc/extend-vc.php:2390
+#: extendvc/extend-vc.php:2420
+#: extendvc/extend-vc.php:2450
+#: extendvc/extend-vc.php:2480
+#: extendvc/extend-vc.php:2510
+#: extendvc/extend-vc.php:2583
+#: lib/post-types/carousel.php:126
+#: lib/shortcodes/settings.php:456
+#: lib/shortcodes/settings.php:572
+#: lib/shortcodes/settings.php:635
+msgid "Open the link in the same tab or a blank browser tab"
+msgstr ""
+
+#: extendvc/extend-vc.php:1055
+#: extendvc/extend-vc.php:2104
+#: lib/shortcodes/settings.php:798
+msgid "Number"
+msgstr ""
+
+#: extendvc/extend-vc.php:1058
+#: extendvc/extend-vc.php:2107
+#: lib/shortcodes/settings.php:799
+msgid "enter number which will be shown in counter"
+msgstr ""
+
+#: extendvc/extend-vc.php:1064
+#: extendvc/extend-vc.php:2113
+#: lib/shortcodes/settings.php:804
+msgid "counter's number Color"
+msgstr ""
+
+#: extendvc/extend-vc.php:1067
+msgid "Select optional ounter's number color"
+msgstr ""
+
+#: extendvc/extend-vc.php:1073
+#: extendvc/extend-vc.php:2122
+#: lib/shortcodes/settings.php:810
+msgid "Counter title"
+msgstr ""
+
+#: extendvc/extend-vc.php:1076
+#: extendvc/extend-vc.php:2125
+#: lib/shortcodes/settings.php:811
+msgid "Enter counter title"
+msgstr ""
+
+#: extendvc/extend-vc.php:1134
+msgid "Background text"
+msgstr ""
+
+#: extendvc/extend-vc.php:1137
+msgid "Enter background text that Shown Under the title"
+msgstr ""
+
+#: extendvc/extend-vc.php:1152
+msgid "Title underline"
+msgstr ""
+
+#: extendvc/extend-vc.php:1154
+msgid "Display Title Underline"
+msgstr ""
+
+#: extendvc/extend-vc.php:1164
+msgid "Title underline color "
+msgstr ""
+
+#: extendvc/extend-vc.php:1167
+msgid "Select optional title underline's color "
+msgstr ""
+
+#: extendvc/extend-vc.php:1225
+#: extendvc/extend-vc.php:1400
+msgid "Title Font Size"
+msgstr ""
+
+#: extendvc/extend-vc.php:1227
+#: extendvc/extend-vc.php:1402
+#: lib/shortcodes/settings.php:378
+msgid "Select Title Font Size"
+msgstr ""
+
+#: extendvc/extend-vc.php:1247
+#: lib/shortcodes/settings.php:393
+msgid "Tilte Style"
+msgstr ""
+
+#: extendvc/extend-vc.php:1249
+#: lib/shortcodes/settings.php:394
+msgid "Select Title style"
+msgstr ""
+
+#: extendvc/extend-vc.php:1261
+#: extendvc/extend-vc.php:1422
+msgid "Tile's Border/Underline Color "
+msgstr ""
+
+#: extendvc/extend-vc.php:1264
+#: extendvc/extend-vc.php:1425
+msgid "Select optional border or underline's color "
+msgstr ""
+
+#: extendvc/extend-vc.php:1274
+#: extendvc/extend-vc.php:1435
+#: lib/shortcodes/settings.php:407
+msgid "Text Underline's Align"
+msgstr ""
+
+#: extendvc/extend-vc.php:1276
+#: extendvc/extend-vc.php:1437
+msgid "Select text Underline's align"
+msgstr ""
+
+#: extendvc/extend-vc.php:1300
+#: extendvc/extend-vc.php:1461
+msgid "Content Font Size"
+msgstr ""
+
+#: extendvc/extend-vc.php:1302
+#: extendvc/extend-vc.php:1463
+#: lib/shortcodes/settings.php:422
+msgid "Select Content Font Size"
+msgstr ""
+
+#: extendvc/extend-vc.php:1309
+#: extendvc/extend-vc.php:1470
+msgid "textbox content's Color"
+msgstr ""
+
+#: extendvc/extend-vc.php:1312
+#: extendvc/extend-vc.php:1473
+msgid "Select optional textbox content's color "
+msgstr ""
+
+#: extendvc/extend-vc.php:1373
+#: extendvc/extend-vc.php:1570
+#: extendvc/extend-vc.php:1688
+#: extendvc/extend-vc.php:1827
+#: extendvc/extend-vc.php:1966
+#: extendvc/extend-vc.php:2240
+#: lib/shortcodes/settings.php:292
+#: lib/shortcodes/settings.php:654
+#: lib/shortcodes/settings.php:711
+msgid "Choose an icon"
+msgstr ""
+
+#: extendvc/extend-vc.php:1376
+msgid "Select an icon that shown before title"
+msgstr ""
+
+#: extendvc/extend-vc.php:1555
+#: extendvc/extend-vc.php:1673
+#: extendvc/extend-vc.php:1812
+#: extendvc/extend-vc.php:1951
+#: lib/shortcodes/settings.php:643
+msgid "Enter some description for your IconBox"
+msgstr ""
+
+#: extendvc/extend-vc.php:1561
+#: extendvc/extend-vc.php:1679
+#: extendvc/extend-vc.php:1818
+#: extendvc/extend-vc.php:1957
+#: lib/shortcodes/settings.php:429
+#: lib/shortcodes/settings.php:648
+msgid "Content's Color"
+msgstr ""
+
+#: extendvc/extend-vc.php:1564
+#: extendvc/extend-vc.php:1682
+#: extendvc/extend-vc.php:1821
+#: extendvc/extend-vc.php:1960
+#: lib/shortcodes/settings.php:649
+msgid "Enter optional content's color (e.g #CCCCCC or gray)"
+msgstr ""
+
+#: extendvc/extend-vc.php:1573
+#: extendvc/extend-vc.php:1691
+#: extendvc/extend-vc.php:1830
+#: extendvc/extend-vc.php:1969
+#: extendvc/extend-vc.php:2243
+#: lib/shortcodes/settings.php:655
+#: lib/shortcodes/settings.php:712
+msgid "Select an icon for the top of the box"
+msgstr ""
+
+#: extendvc/extend-vc.php:1579
+#: extendvc/extend-vc.php:1697
+#: extendvc/extend-vc.php:1836
+#: extendvc/extend-vc.php:1975
+#: lib/shortcodes/settings.php:660
+msgid "Icon's Color"
+msgstr ""
+
+#: extendvc/extend-vc.php:1582
+#: extendvc/extend-vc.php:1700
+#: extendvc/extend-vc.php:1709
+#: extendvc/extend-vc.php:1839
+#: extendvc/extend-vc.php:1848
+#: extendvc/extend-vc.php:1978
+#: extendvc/extend-vc.php:1987
+msgid "Enter optional icon's color"
+msgstr ""
+
+#: extendvc/extend-vc.php:1590
+#: extendvc/extend-vc.php:1729
+#: extendvc/extend-vc.php:1868
+#: extendvc/extend-vc.php:1995
+msgid "Select iconbox's animation"
+msgstr ""
+
+#: extendvc/extend-vc.php:1615
+#: extendvc/extend-vc.php:1754
+#: extendvc/extend-vc.php:1893
+#: extendvc/extend-vc.php:2020
+#: lib/shortcodes/settings.php:628
+msgid "Link Text"
+msgstr ""
+
+#: extendvc/extend-vc.php:1618
+#: extendvc/extend-vc.php:1757
+#: extendvc/extend-vc.php:1896
+#: extendvc/extend-vc.php:2023
+#: lib/shortcodes/settings.php:629
+msgid "Enter link's text"
+msgstr ""
+
+#: extendvc/extend-vc.php:1706
+#: extendvc/extend-vc.php:1845
+#: extendvc/extend-vc.php:1984
+msgid "Icon Border's Color"
+msgstr ""
+
+#: extendvc/extend-vc.php:1715
+#: extendvc/extend-vc.php:1854
+msgid "Icon Background Color"
+msgstr ""
+
+#: extendvc/extend-vc.php:1717
+#: extendvc/extend-vc.php:1856
+msgid "Select border style for icon"
+msgstr ""
+
+#: extendvc/extend-vc.php:2057
+#: lib/shortcodes/settings.php:739
+msgid "Socail Network URL"
+msgstr ""
+
+#: extendvc/extend-vc.php:2060
+#: lib/shortcodes/settings.php:740
+msgid "Enter SocailLink URL"
+msgstr ""
+
+#: extendvc/extend-vc.php:2066
+#: lib/shortcodes/settings.php:745
+msgid "Social Network Type"
+msgstr ""
+
+#: extendvc/extend-vc.php:2068
+msgid "Select socail link type"
+msgstr ""
+
+#: extendvc/extend-vc.php:2075
+msgid "Social Network style"
+msgstr ""
+
+#: extendvc/extend-vc.php:2077
+msgid "Select socail link style"
+msgstr ""
+
+#: extendvc/extend-vc.php:2116
+msgid "Enter optional counter's number color "
+msgstr ""
+
+#: extendvc/extend-vc.php:2131
+#: lib/shortcodes/settings.php:816
+msgid "Counter title color"
+msgstr ""
+
+#: extendvc/extend-vc.php:2134
+msgid "Enter optional counter's text color"
+msgstr ""
+
+#: extendvc/extend-vc.php:2142
+#: lib/shortcodes/settings.php:823
+msgid "Select counter's animation"
+msgstr ""
+
+#: extendvc/extend-vc.php:2174
+#: lib/shortcodes/settings.php:675
+msgid "Piechart Title"
+msgstr ""
+
+#: extendvc/extend-vc.php:2177
+#: lib/shortcodes/settings.php:676
+msgid "Enter Piechart title text"
+msgstr ""
+
+#: extendvc/extend-vc.php:2186
+msgid "Enter optional title's color  "
+msgstr ""
+
+#: extendvc/extend-vc.php:2192
+#: lib/shortcodes/settings.php:687
+msgid "Piechart Subtitle"
+msgstr ""
+
+#: extendvc/extend-vc.php:2195
+#: lib/shortcodes/settings.php:688
+msgid "Enter Piechart subtitle text"
+msgstr ""
+
+#: extendvc/extend-vc.php:2201
+#: lib/shortcodes/settings.php:519
+#: lib/shortcodes/settings.php:693
+msgid "Subtitle's Color"
+msgstr ""
+
+#: extendvc/extend-vc.php:2204
+msgid "Enter optional subtitle's color"
+msgstr ""
+
+#: extendvc/extend-vc.php:2210
+#: lib/shortcodes/settings.php:699
+msgid "Piechart Percent"
+msgstr ""
+
+#: extendvc/extend-vc.php:2213
+#: lib/shortcodes/settings.php:700
+msgid "Enter the number showing your progress in related skill here."
+msgstr ""
+
+#: extendvc/extend-vc.php:2219
+msgid "Pie chart data(percent) display "
+msgstr ""
+
+#: extendvc/extend-vc.php:2225
+msgid "You can Enable Or Disable  progress bar data ( persent ) display Here"
+msgstr ""
+
+#: extendvc/extend-vc.php:2231
+#: lib/shortcodes/settings.php:705
+msgid "Piechart Color"
+msgstr ""
+
+#: extendvc/extend-vc.php:2234
+msgid "Enter optional Pie Chart's color"
+msgstr ""
+
+#: extendvc/extend-vc.php:2251
+#: lib/shortcodes/settings.php:718
+msgid "Select piechart's animation"
+msgstr ""
+
+#: extendvc/extend-vc.php:2283
+#: lib/post-types/testimonial.php:168
+#: lib/shortcodes/settings.php:203
+msgid "Name"
+msgstr ""
+
+#: extendvc/extend-vc.php:2286
+#: lib/shortcodes/settings.php:204
+msgid "Name of the team member"
+msgstr ""
+
+#: extendvc/extend-vc.php:2292
+#: lib/shortcodes/settings.php:209
+msgid "Job Title"
+msgstr ""
+
+#: extendvc/extend-vc.php:2295
+#: lib/shortcodes/settings.php:210
+msgid "Team member's job title"
+msgstr ""
+
+#: extendvc/extend-vc.php:2301
+#: lib/shortcodes/settings.php:215
+#: lib/shortcodes/settings.php:473
+msgid "Image Address"
+msgstr ""
+
+#: extendvc/extend-vc.php:2304
+#: lib/shortcodes/settings.php:216
+msgid "Optional URL of the person's image"
+msgstr ""
+
+#: extendvc/extend-vc.php:2310
+#: lib/shortcodes/settings.php:221
+msgid "style"
+msgstr ""
+
+#: extendvc/extend-vc.php:2312
+#: lib/shortcodes/settings.php:222
+msgid "Choose between dark and light styles"
+msgstr ""
+
+#: extendvc/extend-vc.php:2324
+#: lib/shortcodes/settings.php:230
+msgid "Select team member's animation"
+msgstr ""
+
+#: extendvc/extend-vc.php:2340
+#: lib/shortcodes/settings.php:257
+#: lib/shortcodes/shortcodes.php:2310
+msgid "Description"
+msgstr ""
+
+#: extendvc/extend-vc.php:2343
+#: lib/shortcodes/settings.php:258
+msgid "Small description text about the person"
+msgstr ""
+
+#: extendvc/extend-vc.php:2370
+msgid "Choose an icon for team member icon 1"
+msgstr ""
+
+#: extendvc/extend-vc.php:2373
+msgid ""
+"Select an icon for team member icon 1(You can use it for social network "
+"icons)"
+msgstr ""
+
+#: extendvc/extend-vc.php:2379
+msgid "icon 1 Link"
+msgstr ""
+
+#: extendvc/extend-vc.php:2388
+msgid "icon 1 Link's target"
+msgstr ""
+
+#: extendvc/extend-vc.php:2400
+msgid "Choose an icon for team member icon 2"
+msgstr ""
+
+#: extendvc/extend-vc.php:2403
+msgid ""
+"Select an icon for team member icon 2(You can use it for social network "
+"icons)"
+msgstr ""
+
+#: extendvc/extend-vc.php:2409
+msgid "icon 2 Link"
+msgstr ""
+
+#: extendvc/extend-vc.php:2418
+msgid "icon 2 Link's target"
+msgstr ""
+
+#: extendvc/extend-vc.php:2430
+msgid "Choose an icon for team member icon 3"
+msgstr ""
+
+#: extendvc/extend-vc.php:2433
+msgid ""
+"Select an icon for team member icon 3(You can use it for social network "
+"icons)"
+msgstr ""
+
+#: extendvc/extend-vc.php:2439
+msgid "icon 3 Link"
+msgstr ""
+
+#: extendvc/extend-vc.php:2448
+msgid "icon 3 Link's target"
+msgstr ""
+
+#: extendvc/extend-vc.php:2460
+msgid "Choose an icon for team member icon 4"
+msgstr ""
+
+#: extendvc/extend-vc.php:2463
+msgid ""
+"Select an icon for team member icon 4(You can use it for social network "
+"icons)"
+msgstr ""
+
+#: extendvc/extend-vc.php:2469
+msgid "icon 4 Link"
+msgstr ""
+
+#: extendvc/extend-vc.php:2478
+msgid "icon 4 Link's target"
+msgstr ""
+
+#: extendvc/extend-vc.php:2490
+msgid "Choose an icon for team member icon 5"
+msgstr ""
+
+#: extendvc/extend-vc.php:2493
+msgid ""
+"Select an icon for team member icon 5(You can use it for social network "
+"icons)"
+msgstr ""
+
+#: extendvc/extend-vc.php:2499
+msgid "icon 5 Link"
+msgstr ""
+
+#: extendvc/extend-vc.php:2508
+msgid "icon 5 Link's target"
+msgstr ""
+
+#: extendvc/extend-vc.php:2539
+#: lib/shortcodes/settings.php:925
+msgid "Button text"
+msgstr ""
+
+#: extendvc/extend-vc.php:2545
+msgid "text's Color"
+msgstr ""
+
+#: extendvc/extend-vc.php:2548
+msgid "Enter optional text's color"
+msgstr ""
+
+#: extendvc/extend-vc.php:2554
+msgid "text hover's  Color"
+msgstr ""
+
+#: extendvc/extend-vc.php:2557
+msgid "Enter optional text hover's color"
+msgstr ""
+
+#: extendvc/extend-vc.php:2563
+msgid "Title text"
+msgstr ""
+
+#: extendvc/extend-vc.php:2566
+#: lib/shortcodes/settings.php:931
+msgid "Text that will be shown in tool tip on the button"
+msgstr ""
+
+#: extendvc/extend-vc.php:2575
+#: lib/shortcodes/settings.php:949
+msgid "URL to another web page"
+msgstr ""
+
+#: extendvc/extend-vc.php:2593
+msgid "Button size"
+msgstr ""
+
+#: extendvc/extend-vc.php:2595
+#: lib/shortcodes/settings.php:963
+msgid "Choose between three button sizes"
+msgstr ""
+
+#: extendvc/extend-vc.php:2606
+#: lib/shortcodes/settings.php:942
+msgid "button's Color"
+msgstr ""
+
+#: extendvc/extend-vc.php:2609
+#: lib/shortcodes/settings.php:943
+msgid "Enter optional button's color"
+msgstr ""
+
+#: extendvc/extend-vc.php:2615
+msgid "Button background Style"
+msgstr ""
+
+#: extendvc/extend-vc.php:2617
+msgid "Choose background button Style between fill Or transparent"
+msgstr ""
+
+#: extendvc/extend-vc.php:2627
+msgid "button alignment"
+msgstr ""
+
+#: extendvc/extend-vc.php:2629
+msgid "Choose button alignment between Right , center , left "
+msgstr ""
+
+#: extendvc/extend-vc.php:2658
+msgid "Enter your title here"
+msgstr ""
+
+#: extendvc/extend-vc.php:2667
+msgid "Enter your text  here"
+msgstr ""
+
+#: extendvc/extend-vc.php:2673
+msgid "text border's color"
+msgstr ""
+
+#: extendvc/extend-vc.php:2676
+msgid "Select text border's color "
+msgstr ""
+
+#: extendvc/extend-vc.php:2682
+msgid "images"
+msgstr ""
+
+#: extendvc/extend-vc.php:2685
+msgid "Select images from media library."
+msgstr ""
+
+#: extendvc/extend-vc.php:2691
+msgid "Image slider position"
+msgstr ""
+
+#: extendvc/extend-vc.php:2693
+msgid "Select Image Slider Position"
+msgstr ""
+
+#: extendvc/extend-vc.php:2703
+msgid "Style"
+msgstr ""
+
+#: extendvc/extend-vc.php:2705
+msgid "Select Style ( Dark / Light )"
+msgstr ""
+
+#: extendvc/extend-vc.php:2715
+#: lib/shortcodes/settings.php:340
+msgid "Animation Mode"
+msgstr ""
+
+#: extendvc/extend-vc.php:2717
+msgid "Select animation mode ( Slide / fade )"
+msgstr ""
+
+#: extendvc/extend-vc.php:2743
+#: lib/post-types/carousel.php:50
+msgid "Carousel Category"
+msgstr ""
+
+#: extendvc/extend-vc.php:2745
+msgid ""
+"Select carousel category, these categories will be created in carousel post "
+"type."
+msgstr ""
+
+#: extendvc/extend-vc.php:2752
+msgid "Visible Items"
+msgstr ""
+
+#: extendvc/extend-vc.php:2754
+msgid ""
+"Enter the maximum number of visible items that you want to shown in carousel"
+msgstr ""
+
+#: lib/menus.php:4
+msgid "Primary Navigation"
+msgstr ""
+
+#: lib/menus.php:5
+msgid "Mobile Navigation"
+msgstr ""
+
+#: lib/plugins-handler.php:103
+#: lib/includes/class-tgm-plugin-activation.php:155
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/plugins-handler.php:104
+#: lib/includes/class-tgm-plugin-activation.php:156
+msgid "Install Plugins"
+msgstr ""
+
+#: lib/plugins-handler.php:105
+#: lib/includes/class-tgm-plugin-activation.php:157
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: lib/plugins-handler.php:106
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: lib/plugins-handler.php:117
+#: lib/includes/class-tgm-plugin-activation.php:169
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/plugins-handler.php:118
+#: lib/includes/class-tgm-plugin-activation.php:171
+#: lib/includes/class-tgm-plugin-activation.php:1840
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/plugins-handler.php:119
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: lib/portfolio-nav-walker.php:16
+#, php-format
+msgid "View all items filed under %s"
+msgstr ""
+
+#: lib/scripts.php:234
+msgid "Send"
+msgstr ""
+
+#: lib/scripts.php:270
+#: templates/loop-page-portfolio.php:91
+#: templates/section-portfolio-ajax.php:87
+#: templates/section-portfolio.php:87
+msgid "Loading..."
+msgstr ""
+
+#: lib/scripts.php:271
+msgid "more posts +"
+msgstr ""
+
+#: lib/scripts.php:272
+#: templates/loop-page-portfolio.php:93
+#: templates/section-portfolio-ajax.php:89
+#: templates/section-portfolio.php:89
+msgid "No More Posts"
+msgstr ""
+
+#: lib/sidebars.php:7
+msgid "Main Sidebar"
+msgstr ""
+
+#: lib/sidebars.php:18
+#: lib/post-types/page.php:225
+msgid "Page Sidebar"
+msgstr ""
+
+#: lib/sidebars.php:21
+msgid "Footer Widget 1"
+msgstr ""
+
+#: lib/sidebars.php:24
+msgid "Footer Widget 2"
+msgstr ""
+
+#: lib/sidebars.php:27
+msgid "Footer Widget 3"
+msgstr ""
+
+#: lib/sidebars.php:30
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#: lib/sidebars.php:33
+msgid "Woocommerce Drop Down cart"
+msgstr ""
+
+#: lib/utilities.php:33
+msgid "Read more"
+msgstr ""
+
+#: lib/utilities.php:449
+msgid "Prev"
+msgstr ""
+
+#: lib/utilities.php:491
+msgid "Next"
+msgstr ""
+
+#: lib/utilities.php:506
+msgid "Featured"
+msgstr ""
+
+#: lib/admin/admin-base.php:22
+msgid "Pixflow Theme Setting"
+msgstr ""
+
+#: lib/admin/form-settings.php:52
+msgid "General Settings"
+msgstr ""
+
+#: lib/admin/form-settings.php:55
+msgid "Custom Favicon"
+msgstr ""
+
+#: lib/admin/form-settings.php:56
+msgid "Specify custom favicon url or upload new icon here"
+msgstr ""
+
+#: lib/admin/form-settings.php:60
+msgid "Upload Favicon"
+msgstr ""
+
+#: lib/admin/form-settings.php:66
+msgid "Scrolling Easing"
+msgstr ""
+
+#: lib/admin/form-settings.php:67
+msgid "You can adjust easing and speed of vertical scrolling in main page"
+msgstr ""
+
+#: lib/admin/form-settings.php:108
+msgid "Scrolling Speed"
+msgstr ""
+
+#: lib/admin/form-settings.php:109
+msgid "ms"
+msgstr ""
+
+#: lib/admin/form-settings.php:119
+#: lib/admin/form-settings.php:124
+msgid "Control Panel Login Logo"
+msgstr ""
+
+#: lib/admin/form-settings.php:120
+msgid ""
+"upload your admin panel login Logo .( best size : 302px X 62px ) ( PNG , "
+"JPG , GIF )"
+msgstr ""
+
+#: lib/admin/form-settings.php:215
+msgid "Colors"
+msgstr ""
+
+#: lib/admin/form-settings.php:219
+msgid "Preset Color"
+msgstr ""
+
+#: lib/admin/form-settings.php:220
+msgid ""
+"Choose a preset theme color or choose custom to set your own color for theme"
+msgstr ""
+
+#: lib/admin/form-settings.php:230
+msgid "Accent color"
+msgstr ""
+
+#: lib/admin/form-settings.php:231
+msgid "Accent color for page elements"
+msgstr ""
+
+#: lib/admin/form-settings.php:235
+#: lib/admin/form-settings.php:246
+#: lib/admin/form-settings.php:304
+#: lib/admin/form-settings.php:315
+#: lib/admin/form-settings.php:410
+msgid "Choose"
+msgstr ""
+
+#: lib/admin/form-settings.php:241
+msgid "Highlight color"
+msgstr ""
+
+#: lib/admin/form-settings.php:242
+msgid "Color for highlighted elements"
+msgstr ""
+
+#: lib/admin/form-settings.php:252
+msgid "Link Color"
+msgstr ""
+
+#: lib/admin/form-settings.php:253
+msgid "Choose link color and hover color"
+msgstr ""
+
+#: lib/admin/form-settings.php:257
+msgid "Normal Color"
+msgstr ""
+
+#: lib/admin/form-settings.php:262
+msgid "Hover Color"
+msgstr ""
+
+#: lib/admin/form-settings.php:272
+msgid "PreLoader"
+msgstr ""
+
+#: lib/admin/form-settings.php:275
+msgid "Display Loader"
+msgstr ""
+
+#: lib/admin/form-settings.php:276
+msgid ""
+"You can enable or disable the Loader which is shown before showing the pages."
+msgstr ""
+
+#: lib/admin/form-settings.php:280
+msgid "Don't show"
+msgstr ""
+
+#: lib/admin/form-settings.php:281
+msgid "show"
+msgstr ""
+
+#: lib/admin/form-settings.php:287
+msgid "Preloader Style"
+msgstr ""
+
+#: lib/admin/form-settings.php:288
+msgid "You can choose preloader style here."
+msgstr ""
+
+#: lib/admin/form-settings.php:292
+#: lib/admin/form-settings.php:574
+msgid "Fade"
+msgstr ""
+
+#: lib/admin/form-settings.php:293
+msgid "Grow"
+msgstr ""
+
+#: lib/admin/form-settings.php:299
+msgid "Loader Color"
+msgstr ""
+
+#: lib/admin/form-settings.php:300
+msgid "Choose the color of loader bar."
+msgstr ""
+
+#: lib/admin/form-settings.php:310
+msgid "Loader Background Color"
+msgstr ""
+
+#: lib/admin/form-settings.php:311
+msgid "Choose the background color of loading page."
+msgstr ""
+
+#: lib/admin/form-settings.php:321
+msgid "Loader Logo"
+msgstr ""
+
+#: lib/admin/form-settings.php:322
+msgid "Insert a logo which will be shown on loading page."
+msgstr ""
+
+#: lib/admin/form-settings.php:326
+msgid "Upload Preloader Logo"
+msgstr ""
+
+#: lib/admin/form-settings.php:337
+msgid "Notification Bar"
+msgstr ""
+
+#: lib/admin/form-settings.php:340
+msgid "Enable Notification Bar"
+msgstr ""
+
+#: lib/admin/form-settings.php:341
+msgid ""
+"You can enable or disable the notification bar here. Notification bar is the "
+"bar that sticks to top of your main page."
+msgstr ""
+
+#: lib/admin/form-settings.php:345
+msgid "Disable"
+msgstr ""
+
+#: lib/admin/form-settings.php:346
+msgid "Enable"
+msgstr ""
+
+#: lib/admin/form-settings.php:352
+#: lib/admin/form-settings.php:357
+msgid "Notification Icon"
+msgstr ""
+
+#: lib/admin/form-settings.php:353
+msgid "Select an icon for Notification."
+msgstr ""
+
+#: lib/admin/form-settings.php:359
+msgid "Select an icon for Notification"
+msgstr ""
+
+#: lib/admin/form-settings.php:365
+msgid "Notification Title"
+msgstr ""
+
+#: lib/admin/form-settings.php:366
+msgid "Write Notification Title"
+msgstr ""
+
+#: lib/admin/form-settings.php:370
+msgid "Add notification Title here"
+msgstr ""
+
+#: lib/admin/form-settings.php:375
+msgid "Notification text"
+msgstr ""
+
+#: lib/admin/form-settings.php:376
+msgid "Write Notification Text"
+msgstr ""
+
+#: lib/admin/form-settings.php:380
+msgid "Add notification Text here"
+msgstr ""
+
+#: lib/admin/form-settings.php:385
+msgid "Button Text"
+msgstr ""
+
+#: lib/admin/form-settings.php:386
+msgid "Write more info button text here"
+msgstr ""
+
+#: lib/admin/form-settings.php:390
+msgid "Add more info button text here"
+msgstr ""
+
+#: lib/admin/form-settings.php:395
+msgid "Button URL"
+msgstr ""
+
+#: lib/admin/form-settings.php:396
+msgid "Enter button URL here."
+msgstr ""
+
+#: lib/admin/form-settings.php:400
+msgid "button URL"
+msgstr ""
+
+#: lib/admin/form-settings.php:405
+#: lib/admin/form-settings.php:406
+msgid "Notification bar background color"
+msgstr ""
+
+#: lib/admin/form-settings.php:422
+msgid "Menu Styles"
+msgstr ""
+
+#: lib/admin/form-settings.php:425
+msgid "Header Menu Style"
+msgstr ""
+
+#: lib/admin/form-settings.php:426
+msgid "Select menu style"
+msgstr ""
+
+#: lib/admin/form-settings.php:436
+msgid "Initial Logo"
+msgstr ""
+
+#: lib/admin/form-settings.php:437
+msgid ""
+"It's the logo that will only be shown when you load the page from the top. "
+"It will be fade-out and replaced with Logo when you scroll down."
+msgstr ""
+
+#: lib/admin/form-settings.php:441
+msgid "Upload logo"
+msgstr ""
+
+#: lib/admin/form-settings.php:447
+msgid "Initial Menu Colors"
+msgstr ""
+
+#: lib/admin/form-settings.php:448
+msgid "Choose the color and set the opacity for initial menu."
+msgstr ""
+
+#: lib/admin/form-settings.php:452
+#: lib/admin/form-settings.php:493
+msgid "Background Color"
+msgstr ""
+
+#: lib/admin/form-settings.php:457
+#: lib/admin/form-settings.php:498
+msgid "Text Color"
+msgstr ""
+
+#: lib/admin/form-settings.php:462
+#: lib/admin/form-settings.php:503
+msgid "Text hover Color"
+msgstr ""
+
+#: lib/admin/form-settings.php:466
+#: lib/admin/form-settings.php:507
+msgid "Opacity"
+msgstr ""
+
+#: lib/admin/form-settings.php:467
+#: lib/admin/form-settings.php:508
+#: lib/admin/form-settings.php:709
+#: templates/single-post-audio-gallery.php:87
+#: templates/single-post-audio.php:57
+#: templates/single-post-gallery.php:66
+#: templates/single-post-standard.php:48
+#: templates/single-post-video-gallery.php:102
+#: templates/single-post-video.php:70
+msgid "%"
+msgstr ""
+
+#: lib/admin/form-settings.php:477
+msgid "Logo"
+msgstr ""
+
+#: lib/admin/form-settings.php:478
+msgid "It's your primary menu and will be shown when you scroll down."
+msgstr ""
+
+#: lib/admin/form-settings.php:482
+msgid "Upload Secound Logo"
+msgstr ""
+
+#: lib/admin/form-settings.php:488
+msgid "Menu Colors"
+msgstr ""
+
+#: lib/admin/form-settings.php:489
+msgid "Choose the color and set the opacity for menu."
+msgstr ""
+
+#: lib/admin/form-settings.php:518
+msgid "Menu Style"
+msgstr ""
+
+#: lib/admin/form-settings.php:519
+msgid "Choose the menu style."
+msgstr ""
+
+#: lib/admin/form-settings.php:523
+msgid "Hover Style - Border"
+msgstr ""
+
+#: lib/admin/form-settings.php:524
+msgid "Hover Style - Fill"
+msgstr ""
+
+#: lib/admin/form-settings.php:530
+msgid "Menu Font"
+msgstr ""
+
+#: lib/admin/form-settings.php:531
+msgid "Select your desired font name for menu."
+msgstr ""
+
+#: lib/admin/form-settings.php:544
+msgid "Intro"
+msgstr ""
+
+#: lib/admin/form-settings.php:547
+msgid "Intro Display"
+msgstr ""
+
+#: lib/admin/form-settings.php:548
+msgid "Enable or Disable Intro Section"
+msgstr ""
+
+#: lib/admin/form-settings.php:552
+#: lib/post-types/blog.php:94
+#: lib/post-types/page.php:102
+#: lib/post-types/page.php:128
+#: lib/post-types/page.php:138
+#: lib/post-types/page.php:143
+#: lib/post-types/portfolio.php:142
+msgid "Don't Show"
+msgstr ""
+
+#: lib/admin/form-settings.php:553
+#: lib/post-types/blog.php:95
+#: lib/post-types/page.php:103
+#: lib/post-types/page.php:128
+#: lib/post-types/page.php:138
+#: lib/post-types/page.php:143
+#: lib/post-types/portfolio.php:143
+msgid "Show"
+msgstr ""
+
+#: lib/admin/form-settings.php:559
+msgid "Intro Layout"
+msgstr ""
+
+#: lib/admin/form-settings.php:560
+msgid "Select your Intro layout"
+msgstr ""
+
+#: lib/admin/form-settings.php:569
+msgid "Full Screen Animation Mode"
+msgstr ""
+
+#: lib/admin/form-settings.php:570
+msgid "You can choose fullscreen animation style here."
+msgstr ""
+
+#: lib/admin/form-settings.php:575
+msgid "Slide"
+msgstr ""
+
+#: lib/admin/form-settings.php:582
+msgid "Intro Video Inputs"
+msgstr ""
+
+#: lib/admin/form-settings.php:583
+msgid ""
+"Insert your desired video file in related field and upload an image to be "
+"shown before video loads, or in responsive view."
+msgstr ""
+
+#: lib/admin/form-settings.php:587
+msgid "Video (MP4 format)"
+msgstr ""
+
+#: lib/admin/form-settings.php:588
+msgid "Upload Video (MP4 format)"
+msgstr ""
+
+#: lib/admin/form-settings.php:593
+msgid "Video (WebM format)"
+msgstr ""
+
+#: lib/admin/form-settings.php:594
+msgid "Upload Video (WebM format)"
+msgstr ""
+
+#: lib/admin/form-settings.php:600
+msgid "Upload Video Preview Image"
+msgstr ""
+
+#: lib/admin/form-settings.php:606
+msgid "Google Map Properties"
+msgstr ""
+
+#: lib/admin/form-settings.php:607
+#: lib/admin/form-settings.php:1523
+msgid ""
+"Enter your map address latitude & longitude and zoom levels. Zoom value can "
+"be from 1 to 19 where 19 is the greatest and 1 the smallest."
+msgstr ""
+
+#: lib/admin/form-settings.php:611
+#: lib/admin/form-settings.php:1527
+msgid "Map latitude"
+msgstr ""
+
+#: lib/admin/form-settings.php:612
+#: lib/admin/form-settings.php:1528
+msgid "Google Maps latitude"
+msgstr ""
+
+#: lib/admin/form-settings.php:616
+msgid "Map Longitude"
+msgstr ""
+
+#: lib/admin/form-settings.php:617
+#: lib/admin/form-settings.php:1533
+msgid "Google Maps longitude"
+msgstr ""
+
+#: lib/admin/form-settings.php:621
+#: lib/admin/form-settings.php:1537
+msgid "Map Zoom"
+msgstr ""
+
+#: lib/admin/form-settings.php:626
+msgid "Standard Style"
+msgstr ""
+
+#: lib/admin/form-settings.php:627
+msgid "Custom Style"
+msgstr ""
+
+#: lib/admin/form-settings.php:633
+msgid "Intro Layer Slider"
+msgstr ""
+
+#: lib/admin/form-settings.php:634
+msgid "Choose the desired layer slider slideshow to be shown in intro section"
+msgstr ""
+
+#: lib/admin/form-settings.php:643
+msgid "Intro Master Slider"
+msgstr ""
+
+#: lib/admin/form-settings.php:644
+msgid "Choose the desired Master slider slideshow to be shown in intro section"
+msgstr ""
+
+#: lib/admin/form-settings.php:653
+msgid "Fullscreen Slider"
+msgstr ""
+
+#: lib/admin/form-settings.php:654
+msgid "Upload images to be shown in Intro full screen slider"
+msgstr ""
+
+#: lib/admin/form-settings.php:699
+msgid "Intro Overlay"
+msgstr ""
+
+#: lib/admin/form-settings.php:700
+msgid ""
+"Choose a color for your overlay, set it's opacity and choose a texture to be "
+"shown on top of it."
+msgstr ""
+
+#: lib/admin/form-settings.php:704
+msgid "Intro overlay color"
+msgstr ""
+
+#: lib/admin/form-settings.php:708
+msgid "Intro overlay opacity"
+msgstr ""
+
+#: lib/admin/form-settings.php:718
+msgid "Choose overlay texture : "
+msgstr ""
+
+#: lib/admin/form-settings.php:720
+msgid "texture1"
+msgstr ""
+
+#: lib/admin/form-settings.php:721
+msgid "texture2"
+msgstr ""
+
+#: lib/admin/form-settings.php:722
+msgid "texture3"
+msgstr ""
+
+#: lib/admin/form-settings.php:723
+msgid "texture4"
+msgstr ""
+
+#: lib/admin/form-settings.php:724
+msgid "texture5"
+msgstr ""
+
+#: lib/admin/form-settings.php:725
+msgid "texture6"
+msgstr ""
+
+#: lib/admin/form-settings.php:726
+msgid "texture7"
+msgstr ""
+
+#: lib/admin/form-settings.php:727
+msgid "texture8"
+msgstr ""
+
+#: lib/admin/form-settings.php:738
+#: lib/admin/form-settings.php:1677
+msgid "Text Rotator"
+msgstr ""
+
+#: lib/admin/form-settings.php:742
+msgid "Text Rotator Image / Icon "
+msgstr ""
+
+#: lib/admin/form-settings.php:743
+msgid "Choose to show an icon or an image for Text Rotator"
+msgstr ""
+
+#: lib/admin/form-settings.php:753
+msgid "Intro Icon / Image Animation"
+msgstr ""
+
+#: lib/admin/form-settings.php:754
+msgid ""
+"Enable or Disable the animation functionality for intro image or intro icon"
+msgstr ""
+
+#: lib/admin/form-settings.php:758
+#: lib/admin/form-settings.php:1503
+msgid "Disabled"
+msgstr ""
+
+#: lib/admin/form-settings.php:759
+#: lib/admin/form-settings.php:1504
+msgid "Enabled"
+msgstr ""
+
+#: lib/admin/form-settings.php:766
+msgid "Text Rotator Style"
+msgstr ""
+
+#: lib/admin/form-settings.php:767
+msgid "Choose the text rotator style"
+msgstr ""
+
+#: lib/admin/form-settings.php:779
+#: lib/admin/form-settings.php:822
+#: lib/admin/form-settings.php:863
+#: lib/admin/form-settings.php:904
+#: lib/admin/form-settings.php:945
+#: lib/admin/form-settings.php:986
+#: lib/admin/form-settings.php:1027
+#: lib/admin/form-settings.php:1068
+#: lib/admin/form-settings.php:1109
+#: lib/admin/form-settings.php:1150
+msgid "Text Rotator info"
+msgstr ""
+
+#: lib/admin/form-settings.php:780
+#: lib/admin/form-settings.php:823
+#: lib/admin/form-settings.php:864
+#: lib/admin/form-settings.php:905
+#: lib/admin/form-settings.php:946
+#: lib/admin/form-settings.php:987
+#: lib/admin/form-settings.php:1028
+#: lib/admin/form-settings.php:1069
+#: lib/admin/form-settings.php:1110
+#: lib/admin/form-settings.php:1151
+msgid ""
+"Upload an image ( best size : 50x50 pixel ) or choose an icon for the "
+"slider, enter a title and it's description ( subtitle ) in below fields."
+msgstr ""
+
+#: lib/admin/form-settings.php:786
+#: lib/admin/form-settings.php:827
+#: lib/admin/form-settings.php:868
+#: lib/admin/form-settings.php:909
+#: lib/admin/form-settings.php:950
+#: lib/admin/form-settings.php:991
+#: lib/admin/form-settings.php:1032
+#: lib/admin/form-settings.php:1073
+#: lib/admin/form-settings.php:1114
+#: lib/admin/form-settings.php:1155
+msgid "Intro Image"
+msgstr ""
+
+#: lib/admin/form-settings.php:792
+#: lib/admin/form-settings.php:833
+#: lib/admin/form-settings.php:874
+#: lib/admin/form-settings.php:915
+#: lib/admin/form-settings.php:956
+#: lib/admin/form-settings.php:997
+#: lib/admin/form-settings.php:1038
+#: lib/admin/form-settings.php:1079
+#: lib/admin/form-settings.php:1120
+#: lib/admin/form-settings.php:1161
+msgid "Text Rotator Icon"
+msgstr ""
+
+#: lib/admin/form-settings.php:794
+#: lib/admin/form-settings.php:835
+#: lib/admin/form-settings.php:876
+#: lib/admin/form-settings.php:917
+#: lib/admin/form-settings.php:958
+#: lib/admin/form-settings.php:999
+#: lib/admin/form-settings.php:1040
+#: lib/admin/form-settings.php:1081
+#: lib/admin/form-settings.php:1122
+#: lib/admin/form-settings.php:1163
+#: lib/shortcodes/settings.php:293
+msgid "Select an icon for team member"
+msgstr ""
+
+#: lib/admin/form-settings.php:799
+#: lib/admin/form-settings.php:840
+#: lib/admin/form-settings.php:881
+#: lib/admin/form-settings.php:922
+#: lib/admin/form-settings.php:963
+#: lib/admin/form-settings.php:1004
+#: lib/admin/form-settings.php:1045
+#: lib/admin/form-settings.php:1086
+#: lib/admin/form-settings.php:1127
+#: lib/admin/form-settings.php:1168
+msgid "Add your text here"
+msgstr ""
+
+#: lib/admin/form-settings.php:804
+#: lib/admin/form-settings.php:845
+#: lib/admin/form-settings.php:886
+#: lib/admin/form-settings.php:927
+#: lib/admin/form-settings.php:968
+#: lib/admin/form-settings.php:1009
+#: lib/admin/form-settings.php:1050
+#: lib/admin/form-settings.php:1091
+#: lib/admin/form-settings.php:1132
+#: lib/admin/form-settings.php:1173
+msgid "Add subtitle text here"
+msgstr ""
+
+#: lib/admin/form-settings.php:808
+#: lib/admin/form-settings.php:810
+#: lib/admin/form-settings.php:849
+#: lib/admin/form-settings.php:851
+#: lib/admin/form-settings.php:890
+#: lib/admin/form-settings.php:892
+#: lib/admin/form-settings.php:931
+#: lib/admin/form-settings.php:933
+#: lib/admin/form-settings.php:972
+#: lib/admin/form-settings.php:974
+#: lib/admin/form-settings.php:1013
+#: lib/admin/form-settings.php:1015
+#: lib/admin/form-settings.php:1054
+#: lib/admin/form-settings.php:1056
+#: lib/admin/form-settings.php:1095
+#: lib/admin/form-settings.php:1097
+#: lib/admin/form-settings.php:1136
+#: lib/admin/form-settings.php:1138
+#: lib/admin/form-settings.php:1177
+#: lib/admin/form-settings.php:1179
+msgid "Intro Fixed Text"
+msgstr ""
+
+#: lib/admin/form-settings.php:1194
+#: lib/admin/form-settings.php:1678
+msgid "Start Button"
+msgstr ""
+
+#: lib/admin/form-settings.php:1197
+msgid "Start Button Text"
+msgstr ""
+
+#: lib/admin/form-settings.php:1198
+msgid ""
+"Add the text for start button. Start button is the link which is shown in "
+"intro section"
+msgstr ""
+
+#: lib/admin/form-settings.php:1202
+msgid "Start Here"
+msgstr ""
+
+#: lib/admin/form-settings.php:1207
+msgid "Start Button Style"
+msgstr ""
+
+#: lib/admin/form-settings.php:1208
+msgid "choose the style for start button"
+msgstr ""
+
+#: lib/admin/form-settings.php:1222
+msgid "Blog Detail"
+msgstr ""
+
+#: lib/admin/form-settings.php:1225
+msgid "Blog Detail Sidebar Position"
+msgstr ""
+
+#: lib/admin/form-settings.php:1226
+msgid ""
+"Here you can disable the sidebar or choose the sidebar position in the blog "
+"detail."
+msgstr ""
+
+#: lib/admin/form-settings.php:1241
+msgid "Fonts"
+msgstr ""
+
+#: lib/admin/form-settings.php:1245
+msgid "Theme General Font"
+msgstr ""
+
+#: lib/admin/form-settings.php:1246
+msgid "Select your desired font name for most of theme elements"
+msgstr ""
+
+#: lib/admin/form-settings.php:1256
+msgid "Headings Font"
+msgstr ""
+
+#: lib/admin/form-settings.php:1257
+msgid "Select your desired font name for headings and titles"
+msgstr ""
+
+#: lib/admin/form-settings.php:1267
+msgid "Shortcode Title Font"
+msgstr ""
+
+#: lib/admin/form-settings.php:1268
+msgid "Select your desired font name for shortcode title"
+msgstr ""
+
+#: lib/admin/form-settings.php:1282
+#: lib/admin/form-settings.php:1310
+msgid "Sidebars"
+msgstr ""
+
+#: lib/admin/form-settings.php:1285
+msgid "Custom Sidebar"
+msgstr ""
+
+#: lib/admin/form-settings.php:1286
+msgid ""
+"Add custom sidebar that can be used in pages. You could customize sidebar "
+"widgets in widgets panel"
+msgstr ""
+
+#: lib/admin/form-settings.php:1290
+msgid "Enter a sidebar name"
+msgstr ""
+
+#: lib/admin/form-settings.php:1295
+msgid "Page Sidebar Position"
+msgstr ""
+
+#: lib/admin/form-settings.php:1296
+msgid "Choose default sidebar position for pages that has sidebar"
+msgstr ""
+
+#: lib/admin/form-settings.php:1313
+msgid "Woocomerce Sidebar Position"
+msgstr ""
+
+#: lib/admin/form-settings.php:1314
+msgid "Choose default sidebar position for woocomerce pages"
+msgstr ""
+
+#: lib/admin/form-settings.php:1330
+msgid "Social"
+msgstr ""
+
+#: lib/admin/form-settings.php:1333
+msgid "Social Network URLs"
+msgstr ""
+
+#: lib/admin/form-settings.php:1334
+msgid ""
+"Enter your social network addresses in respective fields. You can clear "
+"fields to hide icons from the website user interface"
+msgstr ""
+
+#: lib/admin/form-settings.php:1338
+msgid "Facebook"
+msgstr ""
+
+#: lib/admin/form-settings.php:1342
+msgid "Twitter"
+msgstr ""
+
+#: lib/admin/form-settings.php:1346
+#: lib/post-types/blog.php:112
+#: lib/post-types/portfolio.php:113
+msgid "Vimeo"
+msgstr ""
+
+#: lib/admin/form-settings.php:1350
+#: lib/post-types/blog.php:113
+#: lib/post-types/portfolio.php:114
+msgid "YouTube"
+msgstr ""
+
+#: lib/admin/form-settings.php:1354
+msgid "Google+"
+msgstr ""
+
+#: lib/admin/form-settings.php:1358
+msgid "Dribbble"
+msgstr ""
+
+#: lib/admin/form-settings.php:1362
+msgid "Tumblr"
+msgstr ""
+
+#: lib/admin/form-settings.php:1366
+msgid "LinkedIn"
+msgstr ""
+
+#: lib/admin/form-settings.php:1370
+msgid "Flickr"
+msgstr ""
+
+#: lib/admin/form-settings.php:1374
+msgid "Forrst"
+msgstr ""
+
+#: lib/admin/form-settings.php:1378
+msgid "GitHub"
+msgstr ""
+
+#: lib/admin/form-settings.php:1382
+msgid "Last.fm"
+msgstr ""
+
+#: lib/admin/form-settings.php:1386
+msgid "PayPal"
+msgstr ""
+
+#: lib/admin/form-settings.php:1390
+#: templates/section-footer.php:21
+msgid "RSS Feed"
+msgstr ""
+
+#: lib/admin/form-settings.php:1395
+msgid "Skype"
+msgstr ""
+
+#: lib/admin/form-settings.php:1399
+msgid "WordPress"
+msgstr ""
+
+#: lib/admin/form-settings.php:1403
+msgid "Yahoo"
+msgstr ""
+
+#: lib/admin/form-settings.php:1407
+msgid "deviantART"
+msgstr ""
+
+#: lib/admin/form-settings.php:1411
+msgid "Steam"
+msgstr ""
+
+#: lib/admin/form-settings.php:1415
+msgid "reddit"
+msgstr ""
+
+#: lib/admin/form-settings.php:1419
+msgid "StumbleUpon"
+msgstr ""
+
+#: lib/admin/form-settings.php:1423
+msgid "Pinterest"
+msgstr ""
+
+#: lib/admin/form-settings.php:1427
+msgid "XING"
+msgstr ""
+
+#: lib/admin/form-settings.php:1431
+msgid "Blogger"
+msgstr ""
+
+#: lib/admin/form-settings.php:1435
+msgid "SoundCloud"
+msgstr ""
+
+#: lib/admin/form-settings.php:1439
+msgid "Delicious"
+msgstr ""
+
+#: lib/admin/form-settings.php:1443
+msgid "Foursquare"
+msgstr ""
+
+#: lib/admin/form-settings.php:1447
+msgid "Instagram"
+msgstr ""
+
+#: lib/admin/form-settings.php:1455
+msgid "Footer Settings"
+msgstr ""
+
+#: lib/admin/form-settings.php:1458
+msgid "Footer Title And Subtitle"
+msgstr ""
+
+#: lib/admin/form-settings.php:1459
+msgid "Enter footer title and subtitle text here. "
+msgstr ""
+
+#: lib/admin/form-settings.php:1463
+#: lib/post-types/page.php:60
+#: lib/shortcodes/settings.php:180
+msgid "Title Text"
+msgstr ""
+
+#: lib/admin/form-settings.php:1468
+#: lib/post-types/page.php:66
+msgid "Subtitle Text"
+msgstr ""
+
+#: lib/admin/form-settings.php:1474
+msgid "Widget Areas"
+msgstr ""
+
+#: lib/admin/form-settings.php:1475
+msgid "Choose the style of widget area in footer"
+msgstr ""
+
+#: lib/admin/form-settings.php:1486
+#: lib/admin/form-settings.php:1491
+msgid "Widget Area Background"
+msgstr ""
+
+#: lib/admin/form-settings.php:1487
+msgid "Upload an image to be shown as Widget Area background"
+msgstr ""
+
+#: lib/admin/form-settings.php:1492
+msgid "Upload Footer banner"
+msgstr ""
+
+#: lib/admin/form-settings.php:1498
+msgid "Map Display"
+msgstr ""
+
+#: lib/admin/form-settings.php:1499
+msgid "Enable or disable footer map"
+msgstr ""
+
+#: lib/admin/form-settings.php:1510
+msgid "Map Style"
+msgstr ""
+
+#: lib/admin/form-settings.php:1511
+msgid ""
+"You can choose between available map types to be shown in cotact section."
+msgstr ""
+
+#: lib/admin/form-settings.php:1515
+msgid "Standard"
+msgstr ""
+
+#: lib/admin/form-settings.php:1516
+msgid "Custom"
+msgstr ""
+
+#: lib/admin/form-settings.php:1522
+msgid "Footer Google Map Properties"
+msgstr ""
+
+#: lib/admin/form-settings.php:1532
+msgid "Map longitude"
+msgstr ""
+
+#: lib/admin/form-settings.php:1545
+msgid "Copyright"
+msgstr ""
+
+#: lib/admin/form-settings.php:1546
+msgid "Enter footer copyright text. "
+msgstr ""
+
+#: lib/admin/form-settings.php:1550
+msgid "Copyright Text"
+msgstr ""
+
+#: lib/admin/form-settings.php:1556
+msgid "Footer logo"
+msgstr ""
+
+#: lib/admin/form-settings.php:1557
+msgid "Upload an image to be shown as footer logo"
+msgstr ""
+
+#: lib/admin/form-settings.php:1561
+msgid "Footer Logo"
+msgstr ""
+
+#: lib/admin/form-settings.php:1562
+msgid "Upload Footer Logo"
+msgstr ""
+
+#: lib/admin/form-settings.php:1571
+msgid "Custom Scripts"
+msgstr ""
+
+#: lib/admin/form-settings.php:1575
+msgid "Additional JavaScript"
+msgstr ""
+
+#: lib/admin/form-settings.php:1576
+msgid ""
+"Enter custom JavaScript code such as Google Analytics code here. Please note "
+"that you should not include &lt;script&gt; tags in your scripts."
+msgstr ""
+
+#: lib/admin/form-settings.php:1584
+msgid "Custom CSS"
+msgstr ""
+
+#: lib/admin/form-settings.php:1585
+msgid ""
+"Enter custom CSS code such as style overrides here. Please note that you "
+"should not include &lt;style&gt; tags in your css code."
+msgstr ""
+
+#: lib/admin/form-settings.php:1597
+msgid "API Keys"
+msgstr ""
+
+#: lib/admin/form-settings.php:1601
+msgid "Google API Key"
+msgstr ""
+
+#: lib/admin/form-settings.php:1602
+msgid ""
+"Google API key for services such as Google Maps. Click <a href=\"https://"
+"developers.google.com/maps/documentation/javascript/tutorial#api_key\" "
+"target=\"_blank\">here</a> for more information on how to obtain Google API "
+"key."
+msgstr ""
+
+#: lib/admin/form-settings.php:1613
+msgid "Import Dummy Data"
+msgstr ""
+
+#: lib/admin/form-settings.php:1617
+msgid "Import Posts, Pages and Categories"
+msgstr ""
+
+#: lib/admin/form-settings.php:1618
+msgid ""
+"If you are new to WordPress or have problems creating posts or pages that "
+"look like the theme preview you can import dummy posts and pages here that "
+"will definitely help to understand how those tasks are done."
+msgstr ""
+
+#: lib/admin/form-settings.php:1621
+msgid "Select demo"
+msgstr ""
+
+#: lib/admin/form-settings.php:1639
+msgid "Don't Import"
+msgstr ""
+
+#: lib/admin/form-settings.php:1640
+msgid "Import"
+msgstr ""
+
+#: lib/admin/form-settings.php:1671
+msgid "- General Settings"
+msgstr ""
+
+#: lib/admin/form-settings.php:1672
+msgid "- PreLoader"
+msgstr ""
+
+#: lib/admin/form-settings.php:1673
+msgid "- Notification"
+msgstr ""
+
+#: lib/admin/form-settings.php:1674
+msgid "- Menu"
+msgstr ""
+
+#: lib/admin/form-settings.php:1675
+msgid "- Appearance"
+msgstr ""
+
+#: lib/admin/form-settings.php:1676
+msgid "- Intro"
+msgstr ""
+
+#: lib/admin/form-settings.php:1679
+msgid "- Blog Detail"
+msgstr ""
+
+#: lib/admin/form-settings.php:1680
+msgid "- Fonts"
+msgstr ""
+
+#: lib/admin/form-settings.php:1681
+msgid "- Footer"
+msgstr ""
+
+#: lib/admin/form-settings.php:1682
+msgid "- Sidebar"
+msgstr ""
+
+#: lib/admin/form-settings.php:1683
+msgid "- Woocomerce"
+msgstr ""
+
+#: lib/admin/form-settings.php:1684
+msgid "- Social"
+msgstr ""
+
+#: lib/admin/form-settings.php:1685
+msgid "Additional Scripts"
+msgstr ""
+
+#: lib/admin/form-settings.php:1687
+msgid "Dummy Data"
+msgstr ""
+
+#: lib/admin/form-settings.php:1691
+msgid "Theme Settings"
+msgstr ""
+
+#: lib/admin/form-settings.php:1692
+msgid "Advanced Options"
+msgstr ""
+
+#: lib/admin/form-settings.php:1693
+msgid "Demo Content"
+msgstr ""
+
+#: lib/admin/form-settings.php:1699
+msgid "Theme Options"
+msgstr ""
+
+#: lib/admin/mediabox-strings.php:6
+#: lib/admin/mediabox-strings.php:7
+#: lib/admin/mediabox-strings.php:11
+msgid "Insert Image"
+msgstr ""
+
+#: lib/admin/mediabox-strings.php:8
+msgid "Insert testimonial Image"
+msgstr ""
+
+#: lib/admin/mediabox-strings.php:9
+msgid "Insert preloader logo"
+msgstr ""
+
+#: lib/admin/mediabox-strings.php:10
+msgid "Insert Header Image"
+msgstr ""
+
+#: lib/admin/mediabox-strings.php:12
+msgid "Insert Home Slider Image"
+msgstr ""
+
+#: lib/admin/mediabox-strings.php:13
+msgid "Insert Home Full Width video"
+msgstr ""
+
+#: lib/admin/mediabox-strings.php:14
+msgid "Insert Logo"
+msgstr ""
+
+#: lib/admin/mediabox-strings.php:15
+msgid "Insert Login Logo"
+msgstr ""
+
+#: lib/admin/mediabox-strings.php:16
+msgid "Insert Favicon"
+msgstr ""
+
+#: lib/admin/mediabox-strings.php:17
+msgid "Insert Footer Logo"
+msgstr ""
+
+#: lib/admin/mediabox-strings.php:18
+msgid "Insert testimonial image"
+msgstr ""
+
+#: lib/admin/mediabox-strings.php:19
+msgid "Insert"
+msgstr ""
+
+#: lib/forms/templates/admin-panels.php:14
+msgid "Save"
+msgstr ""
+
+#: lib/forms/templates/admin-panels.php:19
+msgid "Documentation"
+msgstr ""
+
+#: lib/forms/templates/admin-panels.php:19
+msgid "Support"
+msgstr ""
+
+#: lib/forms/templates/upload-field.php:6
+#: lib/shortcodes/templates/upload-field.php:5
+msgid "Upload Image"
+msgstr ""
+
+#: lib/forms/templates/upload-field.php:16
+#: lib/shortcodes/templates/upload-field.php:15
+msgid "Browse"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:172
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1950
+#: lib/includes/class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1950
+#: lib/includes/class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/includes/class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/includes/multi-post-thumbnails.php:77
+#, php-format
+msgid ""
+"The 'label' and 'id' values of the 'args' parameter of '%s::%s()' are "
+"required"
+msgstr ""
+
+#: lib/includes/multi-post-thumbnails.php:159
+#, php-format
+msgid "Set as %3$s"
+msgstr ""
+
+#: lib/includes/wordpress-importer/parsers.php:42
+#: lib/includes/wordpress-importer/parsers.php:72
+#: lib/includes/wordpress-importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: lib/includes/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: lib/includes/wordpress-importer/parsers.php:84
+#: lib/includes/wordpress-importer/parsers.php:89
+#: lib/includes/wordpress-importer/parsers.php:279
+#: lib/includes/wordpress-importer/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:134
+#: lib/includes/wordpress-importer/wordpress-importer.php:143
+#: lib/includes/wordpress-importer/wordpress-importer.php:194
+#: lib/includes/wordpress-importer/wordpress-importer.php:198
+#: lib/includes/wordpress-importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:511
+#: lib/includes/wordpress-importer/wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:916
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:934
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:1033
+msgid "Import WordPress"
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:1040
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:1055
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:1056
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: lib/includes/wordpress-importer/wordpress-importer.php:1130
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: lib/post-types/blog.php:89
+msgid "Open"
+msgstr ""
+
+#: lib/post-types/blog.php:89
+msgid "Close"
+msgstr ""
+
+#: lib/post-types/blog.php:93
+#: lib/post-types/portfolio.php:141
+msgid "Display post social share icon"
+msgstr ""
+
+#: lib/post-types/blog.php:101
+msgid "None"
+msgstr ""
+
+#: lib/post-types/blog.php:102
+msgid "Slideshow"
+msgstr ""
+
+#: lib/post-types/blog.php:103
+msgid "Video"
+msgstr ""
+
+#: lib/post-types/blog.php:104
+msgid "Video & Slideshow"
+msgstr ""
+
+#: lib/post-types/blog.php:105
+msgid "Audio"
+msgstr ""
+
+#: lib/post-types/blog.php:106
+msgid "Audio & Slideshow"
+msgstr ""
+
+#: lib/post-types/blog.php:118
+#: lib/post-types/portfolio.php:119
+msgid "Video URL"
+msgstr ""
+
+#: lib/post-types/blog.php:122
+#: lib/post-types/portfolio.php:123
+msgid "Audio URL"
+msgstr ""
+
+#: lib/post-types/blog.php:126
+msgid "Gallery Image"
+msgstr ""
+
+#: lib/post-types/blog.php:135
+msgid "Post Toggle Mode : "
+msgstr ""
+
+#: lib/post-types/blog.php:136
+msgid "Choose to set the blog toggle be open or closed."
+msgstr ""
+
+#: lib/post-types/blog.php:142
+msgid "Display social share icons"
+msgstr ""
+
+#: lib/post-types/blog.php:143
+msgid "Choose to Show or Not to show social share icons in blog detail"
+msgstr ""
+
+#: lib/post-types/blog.php:149
+msgid "Display Media Type"
+msgstr ""
+
+#: lib/post-types/blog.php:150
+msgid ""
+"Specify what kind of media (Image(s), Video , Audio , Video and Image(s) or "
+"Audio and Image(s)) you would like to be displayed in  blog detail page. You "
+"can always use shortcodes to add other media types in content"
+msgstr ""
+
+#: lib/post-types/blog.php:156
+msgid "Post Video"
+msgstr ""
+
+#: lib/post-types/blog.php:157
+msgid ""
+"Set Video ID here. Please refer to documentation for learning how to obtain "
+"your video ID."
+msgstr ""
+
+#: lib/post-types/blog.php:164
+#: lib/post-types/portfolio.php:189
+msgid "Post Audio"
+msgstr ""
+
+#: lib/post-types/blog.php:165
+#: lib/post-types/portfolio.php:190
+msgid "You can enter audio url hosted in SoundCloud"
+msgstr ""
+
+#: lib/post-types/blog.php:171
+msgid "Post Gallery"
+msgstr ""
+
+#: lib/post-types/blog.php:172
+msgid "Upload images to be shown in blog detail page slider"
+msgstr ""
+
+#: lib/post-types/blog.php:182
+msgid "Settings"
+msgstr ""
+
+#: lib/post-types/carousel.php:16
+msgid "Carousel"
+msgstr ""
+
+#: lib/post-types/carousel.php:17
+#: lib/post-types/carousel.php:36
+msgid "carousel"
+msgstr ""
+
+#: lib/post-types/carousel.php:18
+#: lib/post-types/portfolio.php:18
+#: lib/post-types/testimonial.php:18
+msgid "Add New"
+msgstr ""
+
+#: lib/post-types/carousel.php:19
+msgid "Add New Carousel"
+msgstr ""
+
+#: lib/post-types/carousel.php:20
+msgid "Edit Carousel"
+msgstr ""
+
+#: lib/post-types/carousel.php:21
+msgid "New Carousel"
+msgstr ""
+
+#: lib/post-types/carousel.php:22
+msgid "View Carousel"
+msgstr ""
+
+#: lib/post-types/carousel.php:23
+msgid "Search Carousel"
+msgstr ""
+
+#: lib/post-types/carousel.php:24
+msgid "No Carousel found"
+msgstr ""
+
+#: lib/post-types/carousel.php:25
+msgid "No Carousel found in Trash"
+msgstr ""
+
+#: lib/post-types/carousel.php:51
+msgid "Carousels Category"
+msgstr ""
+
+#: lib/post-types/carousel.php:93
+msgid "Carousel Image"
+msgstr ""
+
+#: lib/post-types/carousel.php:104
+msgid "Open in same window"
+msgstr ""
+
+#: lib/post-types/carousel.php:104
+msgid "Open in new window"
+msgstr ""
+
+#: lib/post-types/carousel.php:111
+msgid "carousel Image"
+msgstr ""
+
+#: lib/post-types/carousel.php:112
+msgid "Upload your carousel Image here."
+msgstr ""
+
+#: lib/post-types/carousel.php:118
+msgid "carousel Link"
+msgstr ""
+
+#: lib/post-types/carousel.php:119
+msgid "Enter Optional url to another web page"
+msgstr ""
+
+#: lib/post-types/carousel.php:136
+msgid "Carousel Options"
+msgstr ""
+
+#: lib/post-types/page.php:37
+msgid "Default Sidebar"
+msgstr ""
+
+#: lib/post-types/page.php:37
+msgid "Default Page Sidebar"
+msgstr ""
+
+#: lib/post-types/page.php:55
+msgid "Section Title"
+msgstr ""
+
+#: lib/post-types/page.php:56
+msgid "Show post title"
+msgstr ""
+
+#: lib/post-types/page.php:56
+msgid "Show custom title"
+msgstr ""
+
+#: lib/post-types/page.php:56
+msgid "Don't show title"
+msgstr ""
+
+#: lib/post-types/page.php:61
+msgid "Override title text"
+msgstr ""
+
+#: lib/post-types/page.php:67
+msgid "Subtitle text"
+msgstr ""
+
+#: lib/post-types/page.php:71
+#: lib/post-types/page.php:159
+msgid "Section Type"
+msgstr ""
+
+#: lib/post-types/page.php:72
+msgid "Custom section"
+msgstr ""
+
+#: lib/post-types/page.php:72
+msgid "Blog section"
+msgstr ""
+
+#: lib/post-types/page.php:72
+msgid "Portfolio section"
+msgstr ""
+
+#: lib/post-types/page.php:76
+msgid "Choose your section to be shown in:"
+msgstr ""
+
+#: lib/post-types/page.php:77
+msgid "External page"
+msgstr ""
+
+#: lib/post-types/page.php:77
+msgid "Main page"
+msgstr ""
+
+#: lib/post-types/page.php:81
+msgid "Section display in menu:"
+msgstr ""
+
+#: lib/post-types/page.php:82
+msgid "Don't shown this section in menu"
+msgstr ""
+
+#: lib/post-types/page.php:82
+msgid "Shown this section in menu"
+msgstr ""
+
+#: lib/post-types/page.php:86
+#: lib/post-types/page.php:218
+msgid "Blog Type:"
+msgstr ""
+
+#: lib/post-types/page.php:87
+msgid "Classic Blog"
+msgstr ""
+
+#: lib/post-types/page.php:87
+msgid "Toggle Blog"
+msgstr ""
+
+#: lib/post-types/page.php:91
+msgid "Choose Portfolio categories:"
+msgstr ""
+
+#: lib/post-types/page.php:92
+msgid "Selected categories"
+msgstr ""
+
+#: lib/post-types/page.php:92
+msgid "All categories"
+msgstr ""
+
+#: lib/post-types/page.php:96
+#: lib/post-types/page.php:108
+msgid "Add Your Desc here"
+msgstr ""
+
+#: lib/post-types/page.php:101
+msgid "Display Portfolio Filter Navigation"
+msgstr ""
+
+#: lib/post-types/page.php:109
+msgid "In external page"
+msgstr ""
+
+#: lib/post-types/page.php:110
+msgid "As an additional section in main page"
+msgstr ""
+
+#: lib/post-types/page.php:122
+msgid "Choose the sidebar"
+msgstr ""
+
+#: lib/post-types/page.php:127
+msgid "Blog Sidebar Display"
+msgstr ""
+
+#: lib/post-types/page.php:132
+msgid "Choose a layer slider"
+msgstr ""
+
+#: lib/post-types/page.php:137
+msgid "Footer Map Display"
+msgstr ""
+
+#: lib/post-types/page.php:142
+msgid "Widget Area Display"
+msgstr ""
+
+#: lib/post-types/page.php:149
+msgid "Experience"
+msgstr ""
+
+#: lib/post-types/page.php:160
+msgid "Choose a section which will be shown in main page."
+msgstr ""
+
+#: lib/post-types/page.php:167
+msgid "Choose a title to be shown at the beginning of each section"
+msgstr ""
+
+#: lib/post-types/page.php:175
+msgid "Portfolio Category"
+msgstr ""
+
+#: lib/post-types/page.php:176
+msgid "Choose all or selected categories to be shown in portfolio section"
+msgstr ""
+
+#: lib/post-types/page.php:182
+msgid "Portfolios Post Per Section"
+msgstr ""
+
+#: lib/post-types/page.php:183
+msgid ""
+"Choose the initial number of portfolio items to be shown before clicking "
+"load more button."
+msgstr ""
+
+#: lib/post-types/page.php:189
+msgid "Section Display"
+msgstr ""
+
+#: lib/post-types/page.php:190
+msgid ""
+"Choose where you want to show your section. It can be shown in main page or "
+"be shown as an external page."
+msgstr ""
+
+#: lib/post-types/page.php:196
+msgid "Display Portfolio Filters"
+msgstr ""
+
+#: lib/post-types/page.php:197
+msgid "Choose to Show or Not to show Portfolio Filters in portfolio section"
+msgstr ""
+
+#: lib/post-types/page.php:204
+msgid "Portfolio Detail Display"
+msgstr ""
+
+#: lib/post-types/page.php:205
+msgid ""
+"Choose to display the portfolio detail of each portfolio item in an external "
+"page or as an additional section which will be loaded above portfolio "
+"section. Please note that you can't have more than 1 additional section in "
+"main page and you can't have additional section if you choose to show your "
+"portfolio in an external page."
+msgstr ""
+
+#: lib/post-types/page.php:211
+msgid "Display In Menu"
+msgstr ""
+
+#: lib/post-types/page.php:212
+msgid "Enable or Disable the section in menu."
+msgstr ""
+
+#: lib/post-types/page.php:219
+msgid "Choose blog style between toggle Blog Or Classic blog"
+msgstr ""
+
+#: lib/post-types/page.php:226
+msgid ""
+"You can choose a sidebar to be shown in this section which is created in "
+"theme settings "
+msgstr ""
+
+#: lib/post-types/page.php:232
+msgid "Blog Sidebar"
+msgstr ""
+
+#: lib/post-types/page.php:233
+msgid "You can enable or disable log sidebar "
+msgstr ""
+
+#: lib/post-types/page.php:239
+msgid "LayerSlider "
+msgstr ""
+
+#: lib/post-types/page.php:240
+msgid "Choose a layer slider which is created in LayerSlider WP panel here"
+msgstr ""
+
+#: lib/post-types/page.php:246
+msgid "Footer Map"
+msgstr ""
+
+#: lib/post-types/page.php:247
+msgid "Choose to show or not to show the map in footer"
+msgstr ""
+
+#: lib/post-types/page.php:253
+msgid "Footer Widget Area"
+msgstr ""
+
+#: lib/post-types/page.php:254
+msgid "Choose to show or not to show the widget area in footer"
+msgstr ""
+
+#: lib/post-types/page.php:267
+msgid "Page Settings"
+msgstr ""
+
+#: lib/post-types/portfolio.php:16
+#: lib/post-types/portfolio.php:17
+msgid "Portfolio"
+msgstr ""
+
+#: lib/post-types/portfolio.php:19
+msgid "Add New Portfolio"
+msgstr ""
+
+#: lib/post-types/portfolio.php:20
+msgid "Edit Portfolio"
+msgstr ""
+
+#: lib/post-types/portfolio.php:21
+msgid "New Portfolio"
+msgstr ""
+
+#: lib/post-types/portfolio.php:22
+msgid "View Portfolio"
+msgstr ""
+
+#: lib/post-types/portfolio.php:23
+msgid "Search Portfolio"
+msgstr ""
+
+#: lib/post-types/portfolio.php:24
+msgid "No portfolios found"
+msgstr ""
+
+#: lib/post-types/portfolio.php:25
+msgid "No portfolios found in Trash"
+msgstr ""
+
+#: lib/post-types/portfolio.php:36
+msgid "portfolios"
+msgstr ""
+
+#: lib/post-types/portfolio.php:51
+msgid "Skills"
+msgstr ""
+
+#: lib/post-types/portfolio.php:52
+msgid "Skill"
+msgstr ""
+
+#: lib/post-types/portfolio.php:106
+msgid "Portfolio Image"
+msgstr ""
+
+#: lib/post-types/portfolio.php:127
+msgid "URL"
+msgstr ""
+
+#: lib/post-types/portfolio.php:132
+msgid "Portfolio Thumbnail Size"
+msgstr ""
+
+#: lib/post-types/portfolio.php:137
+msgid "Portfolio hover subtitle"
+msgstr ""
+
+#: lib/post-types/portfolio.php:149
+#: lib/post-types/portfolio.php:217
+msgid "Project Details Title"
+msgstr ""
+
+#: lib/post-types/portfolio.php:154
+msgid "Attribute Title"
+msgstr ""
+
+#: lib/post-types/portfolio.php:160
+msgid "Attribute Value"
+msgstr ""
+
+#: lib/post-types/portfolio.php:167
+msgid "Portfolio Tumbnail Size"
+msgstr ""
+
+#: lib/post-types/portfolio.php:168
+msgid "Choose a size for the post in the grid."
+msgstr ""
+
+#: lib/post-types/portfolio.php:174
+msgid "Portfolio Images"
+msgstr ""
+
+#: lib/post-types/portfolio.php:175
+msgid ""
+"Upload your portfolio Image(s) here. If you upload more than one image it "
+"will be shown as slider"
+msgstr ""
+
+#: lib/post-types/portfolio.php:181
+msgid "Portfolio Video"
+msgstr ""
+
+#: lib/post-types/portfolio.php:182
+msgid ""
+"Set Video ID of your portfolio here. Please refer to documentation for "
+"learning how to obtain your video ID. You could upload more info in the "
+"content area"
+msgstr ""
+
+#: lib/post-types/portfolio.php:196
+msgid "Post Link"
+msgstr ""
+
+#: lib/post-types/portfolio.php:197
+msgid "You can enter url that link to another website."
+msgstr ""
+
+#: lib/post-types/portfolio.php:203
+msgid "Portfolio Hover Subtitle"
+msgstr ""
+
+#: lib/post-types/portfolio.php:204
+#: lib/post-types/portfolio.php:211
+msgid "Enter Your portfolio Subtitle here."
+msgstr ""
+
+#: lib/post-types/portfolio.php:210
+msgid "Portfolio Social Share"
+msgstr ""
+
+#: lib/post-types/portfolio.php:218
+msgid "Enter project Details Title here."
+msgstr ""
+
+#: lib/post-types/portfolio.php:224
+msgid "Portfolio Attributes"
+msgstr ""
+
+#: lib/post-types/portfolio.php:225
+msgid ""
+"You can add many attributes to your portfolio item here, for example you can "
+"add the project client, date of that project and etc."
+msgstr ""
+
+#: lib/post-types/portfolio.php:236
+msgid "Portfolio Options"
+msgstr ""
+
+#: lib/post-types/testimonial.php:16
+msgid "Testimonial"
+msgstr ""
+
+#: lib/post-types/testimonial.php:17
+#: lib/post-types/testimonial.php:36
+msgid "testimonial"
+msgstr ""
+
+#: lib/post-types/testimonial.php:19
+msgid "Add New Testimonial"
+msgstr ""
+
+#: lib/post-types/testimonial.php:20
+msgid "Edit Testimonial"
+msgstr ""
+
+#: lib/post-types/testimonial.php:21
+msgid "New Testimonial"
+msgstr ""
+
+#: lib/post-types/testimonial.php:22
+msgid "View Testimonial"
+msgstr ""
+
+#: lib/post-types/testimonial.php:23
+msgid "Search Testimonial"
+msgstr ""
+
+#: lib/post-types/testimonial.php:24
+msgid "No Testimonial found"
+msgstr ""
+
+#: lib/post-types/testimonial.php:25
+msgid "No Testimonial found in Trash"
+msgstr ""
+
+#: lib/post-types/testimonial.php:50
+#: lib/post-types/testimonial.php:51
+msgid "Testimonials Category"
+msgstr ""
+
+#: lib/post-types/testimonial.php:137
+#: lib/post-types/testimonial.php:154
+msgid "testimonial Image"
+msgstr ""
+
+#: lib/post-types/testimonial.php:142
+#: lib/post-types/testimonial.php:143
+#: lib/post-types/testimonial.php:161
+msgid "testimonial text"
+msgstr ""
+
+#: lib/post-types/testimonial.php:147
+#: lib/post-types/testimonial.php:169
+msgid "Name of person who said the opinion"
+msgstr ""
+
+#: lib/post-types/testimonial.php:155
+msgid "Upload your testimonial Image here."
+msgstr ""
+
+#: lib/post-types/testimonial.php:162
+msgid "Enter the opinion here"
+msgstr ""
+
+#: lib/post-types/testimonial.php:179
+msgid "testimonial Options"
+msgstr ""
+
+#: lib/shortcodes/forms.php:8
+msgid "Type parameter must be provided"
+msgstr ""
+
+#: lib/shortcodes/forms.php:16
+#, php-format
+msgid "No shortcode is defined with type \"%s\""
+msgstr ""
+
+#: lib/shortcodes/settings.php:8
+#: lib/shortcodes/settings.php:27
+#: lib/shortcodes/settings.php:46
+#: lib/shortcodes/settings.php:65
+#: lib/shortcodes/settings.php:84
+#: lib/shortcodes/settings.php:104
+msgid "Top Margin"
+msgstr ""
+
+#: lib/shortcodes/settings.php:9
+#: lib/shortcodes/settings.php:28
+#: lib/shortcodes/settings.php:47
+#: lib/shortcodes/settings.php:66
+#: lib/shortcodes/settings.php:85
+#: lib/shortcodes/settings.php:105
+msgid "Enter the row top margin (e.g 100)"
+msgstr ""
+
+#: lib/shortcodes/settings.php:14
+#: lib/shortcodes/settings.php:33
+#: lib/shortcodes/settings.php:52
+#: lib/shortcodes/settings.php:71
+#: lib/shortcodes/settings.php:90
+#: lib/shortcodes/settings.php:110
+msgid "Bottom Margin"
+msgstr ""
+
+#: lib/shortcodes/settings.php:15
+#: lib/shortcodes/settings.php:34
+#: lib/shortcodes/settings.php:53
+#: lib/shortcodes/settings.php:72
+#: lib/shortcodes/settings.php:91
+#: lib/shortcodes/settings.php:111
+msgid "Enter the row bottom margin (e.g 100)"
+msgstr ""
+
+#: lib/shortcodes/settings.php:124
+msgid "Background's Color"
+msgstr ""
+
+#: lib/shortcodes/settings.php:125
+#: lib/shortcodes/settings.php:165
+#: lib/shortcodes/settings.php:372
+#: lib/shortcodes/settings.php:508
+#: lib/shortcodes/settings.php:595
+#: lib/shortcodes/settings.php:682
+msgid "Enter optional title's color (e.g #CCCCCC or gray)"
+msgstr ""
+
+#: lib/shortcodes/settings.php:156
+msgid "Thickness"
+msgstr ""
+
+#: lib/shortcodes/settings.php:181
+msgid "add a title for your separator"
+msgstr ""
+
+#: lib/shortcodes/settings.php:186
+msgid "Separator style"
+msgstr ""
+
+#: lib/shortcodes/settings.php:187
+msgid "Select separator title position"
+msgstr ""
+
+#: lib/shortcodes/settings.php:238
+#: lib/shortcodes/settings.php:496
+#: lib/shortcodes/settings.php:609
+#: lib/shortcodes/settings.php:726
+#: lib/shortcodes/settings.php:831
+msgid "Enter animation delay (in milliseconds)"
+msgstr ""
+
+#: lib/shortcodes/settings.php:250
+#: lib/shortcodes/settings.php:285
+#: lib/shortcodes/settings.php:955
+msgid "Open the link in the same page or a blank browser window"
+msgstr ""
+
+#: lib/shortcodes/settings.php:273
+msgid "Icon title text"
+msgstr ""
+
+#: lib/shortcodes/settings.php:308
+msgid "Tab title text"
+msgstr ""
+
+#: lib/shortcodes/settings.php:313
+msgid "Keep Open"
+msgstr ""
+
+#: lib/shortcodes/settings.php:314
+msgid "Keep the tab content open"
+msgstr ""
+
+#: lib/shortcodes/settings.php:321
+#: lib/shortcodes/settings.php:415
+#: lib/shortcodes/settings.php:642
+msgid "Content"
+msgstr ""
+
+#: lib/shortcodes/settings.php:322
+msgid "Enter some description for your tab"
+msgstr ""
+
+#: lib/shortcodes/settings.php:341
+msgid "Choose between Fade and Slide Mode"
+msgstr ""
+
+#: lib/shortcodes/settings.php:348
+msgid "Skin"
+msgstr ""
+
+#: lib/shortcodes/settings.php:349
+msgid "Choose between dark and light skins"
+msgstr ""
+
+#: lib/shortcodes/settings.php:377
+msgid "Tilte Font Size"
+msgstr ""
+
+#: lib/shortcodes/settings.php:401
+msgid "Tile's Border/Underline Color"
+msgstr ""
+
+#: lib/shortcodes/settings.php:402
+msgid "Enter optional border or underline's color (e.g #CCCCCC or gray)"
+msgstr ""
+
+#: lib/shortcodes/settings.php:408
+msgid "Select text Underline's  align"
+msgstr ""
+
+#: lib/shortcodes/settings.php:416
+msgid "Enter Content Here"
+msgstr ""
+
+#: lib/shortcodes/settings.php:421
+msgid "Content's Font Size"
+msgstr ""
+
+#: lib/shortcodes/settings.php:430
+msgid "Enter optional Content's color (e.g #CCCCCC or gray)"
+msgstr ""
+
+#: lib/shortcodes/settings.php:436
+msgid "Select text animation"
+msgstr ""
+
+#: lib/shortcodes/settings.php:443
+msgid "Animation Delay  (in milliseconds)"
+msgstr ""
+
+#: lib/shortcodes/settings.php:444
+msgid "Enter animation delay"
+msgstr ""
+
+#: lib/shortcodes/settings.php:474
+msgid "Optional URL of the image"
+msgstr ""
+
+#: lib/shortcodes/settings.php:479
+msgid "Image Box hover"
+msgstr ""
+
+#: lib/shortcodes/settings.php:480
+msgid "Enable or Disbale Image Box Hover"
+msgstr ""
+
+#: lib/shortcodes/settings.php:488
+msgid "Select image's animation"
+msgstr ""
+
+#: lib/shortcodes/settings.php:513
+msgid "Subtitle"
+msgstr ""
+
+#: lib/shortcodes/settings.php:514
+msgid "Enter subtitle text"
+msgstr ""
+
+#: lib/shortcodes/settings.php:520
+#: lib/shortcodes/settings.php:694
+msgid "Enter optional subtitle's color (e.g #CCCCCC or gray)"
+msgstr ""
+
+#: lib/shortcodes/settings.php:531
+msgid "Text's Color"
+msgstr ""
+
+#: lib/shortcodes/settings.php:532
+msgid "Enter optional text's color (e.g #CCCCCC or gray)"
+msgstr ""
+
+#: lib/shortcodes/settings.php:546
+msgid "Enter optional text's  background color (e.g #CCCCCC or gray)"
+msgstr ""
+
+#: lib/shortcodes/settings.php:560
+msgid "Enter optional border's color (e.g #CCCCCC or gray)"
+msgstr ""
+
+#: lib/shortcodes/settings.php:601
+msgid "Select iconBox's animation"
+msgstr ""
+
+#: lib/shortcodes/settings.php:661
+msgid "Enter optional icon's color (e.g #CCCCCC or gray)"
+msgstr ""
+
+#: lib/shortcodes/settings.php:706
+msgid "Enter optional Pie Chart's color (e.g #CCCCCC or gray)"
+msgstr ""
+
+#: lib/shortcodes/settings.php:746
+msgid "Select socail link type)"
+msgstr ""
+
+#: lib/shortcodes/settings.php:782
+msgid "social link style"
+msgstr ""
+
+#: lib/shortcodes/settings.php:783
+msgid "Choose between Dark and Light"
+msgstr ""
+
+#: lib/shortcodes/settings.php:805
+msgid "Enter optional counter's number color (e.g #CCCCCC or gray)"
+msgstr ""
+
+#: lib/shortcodes/settings.php:817
+msgid "Enter optional counter's text color (e.g #CCCCCC or gray)"
+msgstr ""
+
+#: lib/shortcodes/settings.php:844
+msgid "vimeo ID"
+msgstr ""
+
+#: lib/shortcodes/settings.php:845
+msgid "Enter vimeo ID"
+msgstr ""
+
+#: lib/shortcodes/settings.php:870
+msgid "YouTube ID"
+msgstr ""
+
+#: lib/shortcodes/settings.php:871
+msgid "Enter YouTube ID"
+msgstr ""
+
+#: lib/shortcodes/settings.php:896
+msgid "SoundCloud ID"
+msgstr ""
+
+#: lib/shortcodes/settings.php:897
+msgid "Enter SoundCloud ID"
+msgstr ""
+
+#: lib/shortcodes/settings.php:902
+msgid "SoundCloud height"
+msgstr ""
+
+#: lib/shortcodes/settings.php:903
+msgid "Enter SoundCloud height"
+msgstr ""
+
+#: lib/shortcodes/settings.php:908
+msgid "SoundCloud width"
+msgstr ""
+
+#: lib/shortcodes/settings.php:909
+msgid "Enter SoundCloud width"
+msgstr ""
+
+#: lib/shortcodes/settings.php:936
+msgid "button text Color"
+msgstr ""
+
+#: lib/shortcodes/settings.php:937
+msgid "Enter optional button's text color"
+msgstr ""
+
+#: lib/shortcodes/settings.php:962
+msgid "Size"
+msgstr ""
+
+#: lib/shortcodes/settings.php:979
+msgid "Slider"
+msgstr ""
+
+#: lib/shortcodes/settings.php:980
+msgid "Select a slider that is created in LayerSlider WP panel"
+msgstr ""
+
+#: lib/shortcodes/settings.php:996
+msgid "Form"
+msgstr ""
+
+#: lib/shortcodes/settings.php:997
+msgid "Select a form that is created in \"Contact\" panel"
+msgstr ""
+
+#: lib/shortcodes/settings.php:1019
+#: lib/shortcodes/settings.php:1067
+msgid "Address"
+msgstr ""
+
+#: lib/shortcodes/settings.php:1020
+#: lib/shortcodes/settings.php:1068
+msgid ""
+"Specify an address on the map or use latitude and longitude fields below"
+msgstr ""
+
+#: lib/shortcodes/settings.php:1025
+#: lib/shortcodes/settings.php:1073
+msgid "Latitude"
+msgstr ""
+
+#: lib/shortcodes/settings.php:1026
+#: lib/shortcodes/settings.php:1074
+msgid ""
+"Enter Latitude here, if you enter this value you must enter longitude as well"
+msgstr ""
+
+#: lib/shortcodes/settings.php:1031
+#: lib/shortcodes/settings.php:1079
+msgid "Longitude"
+msgstr ""
+
+#: lib/shortcodes/settings.php:1032
+#: lib/shortcodes/settings.php:1080
+msgid ""
+"Enter Longitude here, if you enter this value you must enter latitude as well"
+msgstr ""
+
+#: lib/shortcodes/settings.php:1037
+msgid "Zoom"
+msgstr ""
+
+#: lib/shortcodes/settings.php:1038
+msgid "Select a zoom level"
+msgstr ""
+
+#: lib/shortcodes/settings.php:1044
+msgid "Map Controls"
+msgstr ""
+
+#: lib/shortcodes/settings.php:1045
+msgid "Should map controls be visible or hidden"
+msgstr ""
+
+#: lib/shortcodes/settings.php:1052
+msgid "Map Height"
+msgstr ""
+
+#: lib/shortcodes/settings.php:1053
+msgid "Optional map height in pixels. Default value is 300"
+msgstr ""
+
+#: lib/shortcodes/settings.php:1085
+msgid "Icon"
+msgstr ""
+
+#: lib/shortcodes/settings.php:1086
+msgid "Optional marker icon url"
+msgstr ""
+
+#: lib/shortcodes/shortcodes.php:892
+#: lib/shortcodes/shortcodes.php:929
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: lib/shortcodes/shortcodes.php:1785
+#: lib/shortcodes/shortcodes.php:1918
+#: lib/shortcodes/shortcodes.php:2052
+#: lib/shortcodes/shortcodes.php:2185
+msgid "Learn More"
+msgstr ""
+
+#: lib/shortcodes/shortcodes.php:2515
+msgid "View Page"
+msgstr ""
+
+#: lib/widgets/widget-facebook.php:10
+msgid "Widget that displays Facebook Like Box"
+msgstr ""
+
+#: lib/widgets/widget-facebook.php:79
+#: lib/widgets/widget-flickr.php:81
+#: lib/widgets/widget-progress.php:86
+#: lib/widgets/widget-video.php:90
+msgid "Title:"
+msgstr ""
+
+#: lib/widgets/widget-facebook.php:85
+msgid "Facebook Page URL :"
+msgstr ""
+
+#: lib/widgets/widget-facebook.php:91
+msgid "Show Faces:"
+msgstr ""
+
+#: lib/widgets/widget-facebook.php:97
+msgid "Show Stream:"
+msgstr ""
+
+#: lib/widgets/widget-facebook.php:103
+msgid "like box width:"
+msgstr ""
+
+#: lib/widgets/widget-facebook.php:109
+msgid "Like box height :"
+msgstr ""
+
+#: lib/widgets/widget-flickr.php:10
+msgid "Displays your flickr photo stream"
+msgstr ""
+
+#: lib/widgets/widget-flickr.php:87
+msgid "Flickr ID:"
+msgstr ""
+
+#: lib/widgets/widget-flickr.php:93
+msgid "Number of Photos:"
+msgstr ""
+
+#: lib/widgets/widget-flickr.php:103
+msgid "Type (user or group):"
+msgstr ""
+
+#: lib/widgets/widget-flickr.php:112
+msgid "Display (random or latest):"
+msgstr ""
+
+#: lib/widgets/widget-progress.php:10
+msgid "Displays 5 progress bars with a title"
+msgstr ""
+
+#: lib/widgets/widget-progress.php:94
+#, php-format
+msgid "Progress %d Title:"
+msgstr ""
+
+#: lib/widgets/widget-progress.php:101
+#, php-format
+msgid "Progress %d:"
+msgstr ""
+
+#: lib/widgets/widget-video.php:10
+msgid "A widget that displays your YouTube or Vimeo Video."
+msgstr ""
+
+#: lib/widgets/widget-video.php:97
+msgid "Video URL:"
+msgstr ""
+
+#: lib/widgets/widget-video.php:103
+msgid "Video Description:"
+msgstr ""
+
+#: lib/widgets/widget-woocommerce-dropdown-cart.php:10
+msgid "Woocommerce Dropdown Cart."
+msgstr ""
+
+#: lib/widgets/widget-woocommerce-dropdown-cart.php:87
+msgid "No products in the cart."
+msgstr ""
+
+#: lib/widgets/widget-woocommerce-dropdown-cart.php:95
+msgid "SUBTOTAL "
+msgstr ""
+
+#: lib/widgets/widget-woocommerce-dropdown-cart.php:98
+msgid "VIEW CART"
+msgstr ""
+
+#: lib/widgets/widget-woocommerce-dropdown-cart.php:102
+msgid "CHECKOUT"
+msgstr ""
+
+#: templates/loop-blog-meta.php:9
+msgid "in "
+msgstr ""
+
+#: templates/loop-blog-meta.php:11
+msgid "by "
+msgstr ""
+
+#: templates/loop-blog.php:67
+msgid "More Details"
+msgstr ""
+
+#: templates/loop-blog.php:77
+msgid "Share on Facebook!"
+msgstr ""
+
+#: templates/loop-blog.php:84
+msgid "Share on Google+!"
+msgstr ""
+
+#: templates/loop-blog.php:92
+msgid "Share on Twitter!"
+msgstr ""
+
+#: templates/loop-page-portfolio.php:43
+#: templates/loop-page-portfolio.php:128
+#: templates/section-portfolio-ajax.php:42
+#: templates/section-portfolio-ajax.php:189
+#: templates/section-portfolio.php:42
+#: templates/section-portfolio.php:155
+msgid "All"
+msgstr ""
+
+#: templates/loop-page-portfolio.php:92
+#: templates/section-portfolio-ajax.php:88
+#: templates/section-portfolio.php:88
+msgid "Load More"
+msgstr ""
+
+#: templates/project-detail.php:34
+msgid "tags :"
+msgstr ""
+
+#: templates/section-footer.php:8
+msgid "Facebook Profile"
+msgstr ""
+
+#: templates/section-footer.php:9
+msgid "Twitter Profile"
+msgstr ""
+
+#: templates/section-footer.php:10
+msgid "Vimeo Profile"
+msgstr ""
+
+#: templates/section-footer.php:11
+msgid "YouTube Profile"
+msgstr ""
+
+#: templates/section-footer.php:12
+msgid "Google+ Profile"
+msgstr ""
+
+#: templates/section-footer.php:13
+msgid "Dribbble Profile"
+msgstr ""
+
+#: templates/section-footer.php:14
+msgid "Tumblr Profile"
+msgstr ""
+
+#: templates/section-footer.php:15
+msgid "Linkedin Profile"
+msgstr ""
+
+#: templates/section-footer.php:16
+msgid "Flickr Profile"
+msgstr ""
+
+#: templates/section-footer.php:17
+msgid "forrst Profile"
+msgstr ""
+
+#: templates/section-footer.php:18
+msgid "github Profile"
+msgstr ""
+
+#: templates/section-footer.php:19
+msgid "lastfm Profile"
+msgstr ""
+
+#: templates/section-footer.php:20
+msgid "paypal Profile"
+msgstr ""
+
+#: templates/section-footer.php:22
+msgid "skype  Profile"
+msgstr ""
+
+#: templates/section-footer.php:23
+msgid "wordpres Profile"
+msgstr ""
+
+#: templates/section-footer.php:24
+msgid "yahoo Profile"
+msgstr ""
+
+#: templates/section-footer.php:25
+msgid "deviantart"
+msgstr ""
+
+#: templates/section-footer.php:26
+msgid "steam Profile"
+msgstr ""
+
+#: templates/section-footer.php:27
+msgid "reddit Profile"
+msgstr ""
+
+#: templates/section-footer.php:28
+msgid "stumbleupon Profile"
+msgstr ""
+
+#: templates/section-footer.php:29
+msgid "pinterest Profile"
+msgstr ""
+
+#: templates/section-footer.php:30
+msgid "xing Profile"
+msgstr ""
+
+#: templates/section-footer.php:31
+msgid "blogger Profile"
+msgstr ""
+
+#: templates/section-footer.php:32
+msgid "soundcloud Profile"
+msgstr ""
+
+#: templates/section-footer.php:33
+msgid "delicious Profile"
+msgstr ""
+
+#: templates/section-footer.php:34
+msgid "foursquare Profile"
+msgstr ""
+
+#: templates/section-footer.php:35
+msgid "instagram Profile"
+msgstr ""
+
+#: templates/section-portfolio-ajax.php:110
+msgid ""
+"Sorry, we ran into a technical problem (unknown error). Please try again..."
+msgstr ""
+
+#: templates/single-post-audio-gallery.php:85
+#: templates/single-post-audio.php:55
+#: templates/single-post-gallery.php:64
+#: templates/single-post-standard.php:46
+#: templates/single-post-video-gallery.php:100
+#: templates/single-post-video.php:68
+msgid "Comments"
+msgstr ""
+
+#: templates/single-post-audio-gallery.php:87
+#: templates/single-post-audio.php:57
+#: templates/single-post-gallery.php:66
+#: templates/single-post-standard.php:48
+#: templates/single-post-video-gallery.php:102
+#: templates/single-post-video.php:70
+msgid "0"
+msgstr ""
+
+#: templates/single-post-audio-gallery.php:87
+#: templates/single-post-audio.php:57
+#: templates/single-post-gallery.php:66
+#: templates/single-post-standard.php:48
+#: templates/single-post-video-gallery.php:102
+#: templates/single-post-video.php:70
+msgid "1"
+msgstr ""
+
+#: templates/single-post-meta.php:6
+msgid "author:"
+msgstr ""
+
+#: templates/single-post-meta.php:8
+msgid "Category:"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:38
+msgid "Placeholder"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:23
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:25
+msgid "out of 5"
+msgstr ""
