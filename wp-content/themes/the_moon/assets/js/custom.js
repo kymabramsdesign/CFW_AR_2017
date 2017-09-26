@@ -9,12 +9,12 @@
 		$wpAdminBarHeight = $('#wpadminbar').height(),
         ua = window.navigator.userAgent,
         msie = ua.indexOf("MSIE "),
-		num, // blog page number 
+		num, // blog page number
 		mainHeight = $('body').height(),
 	    $checkFixed = $("#pxHeader").attr("data-fixed"), // Check menu fixed option is enable (1) or disable (0)
 		scroll, scrollto,
 
-		//portfolio Options 
+		//portfolio Options
 		pageRefresh = true,
 		content = false,
 		ajaxLoading = false,
@@ -56,7 +56,7 @@
         $initialPath = this.$path.attr('d'),
         $pathOpen = $morphEl.attr('data-morph-open'),
         $isAnimating = false;
-  
+
     }
 
     function wave_menu() {
@@ -87,7 +87,7 @@
 
             $openbtn.removeClass('wavemenu_active');
             $wave_logo.removeClass('show_wave_menu_logo');
-            
+
 
             $bodyEl.removeClass("show-wave-menu");
             // animate path
@@ -123,7 +123,7 @@
             function initHeader() {
                 width = window.innerWidth;// Window width
                 height = window.innerHeight; // Windows Height
-                target = { x: 0, y: height }; // 
+                target = { x: 0, y: height }; //
 
                 largeHeader = document.getElementById('particle');
                 largeHeader.style.height = height + 'px';
@@ -135,7 +135,7 @@
 
                 // create particles
                 circles = [];
-                for (var x = 0; x < width * .5; x++) {  //amount Of Circles  
+                for (var x = 0; x < width * .5; x++) {  //amount Of Circles
                     var c = new Circle();
                     circles.push(c); // Push All Circle in circles  Array
                 }
@@ -210,7 +210,7 @@
     }
 
     /*-----------------------------------------------------------------------------------*/
-    /*	select2 For Restyle SELECT OPTION 
+    /*	select2 For Restyle SELECT OPTION
     /*-----------------------------------------------------------------------------------*/
 
     function initSelect2() {
@@ -223,7 +223,7 @@
     }
 
     /*-----------------------------------------------------------------------------------*/
-    /*	product  detail - magnific Popup 
+    /*	product  detail - magnific Popup
     /*-----------------------------------------------------------------------------------*/
 
     function magnificPopup() {
@@ -320,7 +320,7 @@
 
 
                 $height = $(this).find('li.item').outerHeight() + 'px';
-              
+
                 $(this).find('.caroufredsel_wrapper').css({
                     'height': $height
                 });
@@ -336,7 +336,7 @@
     }
 
     /*-----------------------------------------------------------------------------------*/
-    /*	Hover :::::: Btn's &  socialBtn's And ImageBox hover  
+    /*	Hover :::::: Btn's &  socialBtn's And ImageBox hover
     /*-----------------------------------------------------------------------------------*/
 
     function button_hover() {
@@ -561,10 +561,10 @@
         var $counterBoxContainers = $('.counterBox');
 
         if (!$counterBoxContainers.length) return;
-		
+
         $counterBoxContainers.each(function () {
 			var dec= $(this).attr('data-dec');
-			
+
 			if(dec!=0)
 			{
 				var cto = parseFloat($(this).attr('data-to'));
@@ -575,8 +575,8 @@
 				var cto = Math.abs(parseInt($(this).attr('data-to')));
 				var cfrom=Math.abs(parseInt( $(this).attr('data-from')));
 			}
-            
-			
+
+
 				$(this).find('.counterBoxNumber').countTo({
                 from:cfrom,
 				to: cto,
@@ -584,17 +584,17 @@
                 refreshInterval: 100,
 				decimals:dec,
 				onComplete:function(){
-				
+
 				if($(".counterBoxNumber").html()=="-0")
 					$(".counterBoxNumber").html("0");
-			
-					
+
+
 				}
-				
-				
+
+
             });
-			
-            
+
+
         });
     }
 
@@ -607,12 +607,12 @@
 
         if (!$counterBoxContainers.length) return;
 
-		
+
         $counterBoxContainers.each(function () {
-			
-			
+
+
 			var dec= $(this).attr('data-dec');
-			
+
 			if(dec!=0)
 			{
 				var cto = parseFloat($(this).attr('data-to'));
@@ -623,7 +623,7 @@
 				var cto = Math.abs(parseInt($(this).attr('data-to')));
 				var cfrom=Math.abs(parseInt( $(this).attr('data-from')));
 			}
-			
+
             var countNmber = $(this).attr('data-countNmber');
             $(this).find('.counterBoxNumber').countTo({
                 from:cfrom,
@@ -633,9 +633,9 @@
 				decimals:dec,
 				onComplete:function(){
 				if($(".counterBoxNumber").html()=="-0")
-					$(".counterBoxNumber").html("0");	
+					$(".counterBoxNumber").html("0");
 				}
-				
+
             });
         });
     }
@@ -690,11 +690,11 @@
                         if ($(item).hasClass("counterBox")) {
                             counterBoxAnimate();
                         }
-                        //Run Pie Chart  Animation 
+                        //Run Pie Chart  Animation
                         if ($(item).hasClass("pieChartBox")) {
                             piechartAnimate();
                         }
-                        //Run Progress bar  Animation 
+                        //Run Progress bar  Animation
                         if ($(this).hasClass("progress_bar")) {
                             progressbarAnimate();
                         }
@@ -721,11 +721,11 @@
                         if ($(item).hasClass("counterBox")) {
                             counterBoxAnimate();
                         }
-                        //Run Pie Chart  Animation 
+                        //Run Pie Chart  Animation
                         if ($(item).hasClass("pieChartBox")) {
                             piechartAnimate();
                         }
-                        //Run Progress bar  Animation 
+                        //Run Progress bar  Animation
                         if ($(this).hasClass("progress_bar")) {
                             progressbarAnimate();
                         }
@@ -760,11 +760,11 @@
                         if ($(this).hasClass("counterBox")) {
                             counterBoxAnimate();
                         }
-                        //Run Pie Chart  Animation 
+                        //Run Pie Chart  Animation
                         if ($(this).hasClass("pieChartBox")) {
                             piechartAnimate();
                         }
-                        //Run Progress bar  Animation 
+                        //Run Progress bar  Animation
                         if ($(this).hasClass("progress_bar")) {
                             progressbarAnimate();
                         }
@@ -783,11 +783,11 @@
                             if ($(item).hasClass("counterBox")) {
                                 counterBoxAnimate();
                             }
-                            //Run Pie Chart  Animation 
+                            //Run Pie Chart  Animation
                             if ($(item).hasClass("pieChartBox")) {
                                 piechartAnimate();
                             }
-                            //Run Progress bar  Animation 
+                            //Run Progress bar  Animation
                             if ($(this).hasClass("progress_bar")) {
                                 progressbarAnimate();
                             }
@@ -809,11 +809,11 @@
                         if ($(item).hasClass("counterBox")) {
                             counterBoxAnimate();
                         }
-                        //Run Pie Chart  Animation 
+                        //Run Pie Chart  Animation
                         if ($(item).hasClass("pieChartBox")) {
                             piechartAnimate();
                         }
-                        //Run Progress bar  Animation 
+                        //Run Progress bar  Animation
                         if ($(this).hasClass("progress_bar")) {
                             progressbarAnimate();
                         }
@@ -830,7 +830,7 @@
                         if ($(this).hasClass("counterBox")) {
                             counterBoxAnimate();
                         }
-                        //Run Progress bar  Animation 
+                        //Run Progress bar  Animation
                         if ($(this).hasClass("progress_bar")) {
                             progressbarAnimate();
                         }
@@ -857,15 +857,15 @@
                             if ($(item).hasClass("counterBox")) {
                                 counterBoxAnimate();
                             }
-                            //Run Pie Chart  Animation 
+                            //Run Pie Chart  Animation
                             if ($(item).hasClass("pieChartBox")) {
                                 piechartAnimate();
                             }
-                            //Run Pie Chart  Animation 
+                            //Run Pie Chart  Animation
                             if ($(item).hasClass("pieChartBox")) {
                                 progressbarAnimate();
                             }
-                            //Run Progress bar  Animation 
+                            //Run Progress bar  Animation
                             if ($(this).hasClass("progress_bar")) {
                                 progressbarAnimate();
                             }
@@ -882,7 +882,7 @@
     }
 
     /*----------------------------------------------------*/
-    /* full Width colorize section 
+    /* full Width colorize section
     /*----------------------------------------------------*/
 
     function fullWidthSection() {
@@ -1036,7 +1036,7 @@
 
     //Footer Google Map
     function googleMap() {
-		
+
 		var latarray=pixflowJsMap.cityMapCenterLat.split(',');
 		var lngarray=pixflowJsMap.cityMapCenterLng.split(',');
 		var len=latarray.length;
@@ -1046,24 +1046,24 @@
 				latLng: [latarray[i],lngarray[i]]
 			});
 		}
-		
+
 		var address=(JSON.stringify(arr, null, 4));
-		
-		
+
+
 
         "use strict";
 
         if ($("#googleMap").length) {
 
-			
+
             $("#googleMap").gmap3({
                 map: {
                     options: {
                         zoom: parseInt(pixflowJsMap.zoomLevel),
                         disableDefaultUI: true, //  disabling zoom in touch devices
-                        disableDoubleClickZoom: true, //  disabling zoom by double click on map 
+                        disableDoubleClickZoom: true, //  disabling zoom by double click on map
                         center: arr[0],
-                        draggable: false, //  disable map dragging 
+                        draggable: false, //  disable map dragging
                         mapTypeControl: true,
                         navigationControl: true,
                         scrollwheel: false,
@@ -1178,7 +1178,7 @@
         }
     }
 
-    //home Google Map	
+    //home Google Map
     function homegoogleMap() {
 
         "use strict";
@@ -1189,10 +1189,10 @@
                 map: {
                     options: {
                         zoom: parseInt(pixflowJsMap.homeZoomLevel),
-                        disableDefaultUI: true, //  disabling zoom in touch devices 
-                        disableDoubleClickZoom: true, //  disabling zoom by double click on map  
+                        disableDefaultUI: true, //  disabling zoom in touch devices
+                        disableDoubleClickZoom: true, //  disabling zoom by double click on map
                         center: arr[0],
-                        draggable: false, //  disable map dragging 
+                        draggable: false, //  disable map dragging
                         mapTypeControl: true,
                         navigationControl: false,
                         scrollwheel: false,
@@ -1317,8 +1317,8 @@
     function nav() {
 
         "use strict";
-		
-		
+
+
 
         //Superfish Effect
         $('.navigation > ul').superfish({
@@ -1361,7 +1361,7 @@
 
         } else if ( $documentHeight > 500 && $checkFixed === 'scooter-menu' && $(window).width() > 1024) {
             $window_y = $(window).scrollTop();
-						
+
 
 
             if ($window_y > 500) {
@@ -1433,7 +1433,7 @@
                 display: 'block',
             });
 
-            //calculate text rotator height 
+            //calculate text rotator height
             var $textSliderHomeHeight = parseInt($(".textSliderHome").height());
 
             $textSliderHomeHeight = (-($textSliderHomeHeight / 2));
@@ -1451,19 +1451,19 @@
 
             // }, 500, 'easeInOutQuart');
 
-            // hide text Rotator  
+            // hide text Rotator
             setTimeout((function () {
                 $quoteItem.fadeOut(1000, function () {
                     showNextQuote();
                     $(this).css({
-                        marginTop: '0',// rest text rotator top margin 
+                        marginTop: '0',// rest text rotator top margin
                     })
                 });
             }), 3100); // text rotator delay
 
         } else {
 
-            //calculate text rotator height 
+            //calculate text rotator height
             var $textSliderHomeHeight = parseInt($(".textSliderHome").height());
 
             $textSliderHomeHeight = (-($textSliderHomeHeight / 2));
@@ -1479,10 +1479,10 @@
     }
 
     /*-----------------------------------------------------------------------------------*/
-    /*	blog toggle & blog toggle load more 
+    /*	blog toggle & blog toggle load more
     /*-----------------------------------------------------------------------------------*/
 
-    // blog toggle click 
+    // blog toggle click
     function blogToggleClick(postVar) {
 
         "use strict";
@@ -1491,7 +1491,7 @@
 
         if ($toggleMode === 0) {
 
-            // toggle Close Mode To Open Mode 
+            // toggle Close Mode To Open Mode
             postVar.$accordion.css({
                 height: "520px",
             });
@@ -1553,12 +1553,12 @@
 			postVar.$minus.css("display", 'block'),
 			postVar.$plus.css("display", 'none');
 
-            // change data Value 
+            // change data Value
             postVar.$accordion.attr("data-value", "1");
 
         } else if ($toggleMode === 1 || isNaN($toggleMode)) {
 
-            // toggle Open Mode To Close Mode   
+            // toggle Open Mode To Close Mode
             postVar.$accordion.add(postVar.$accordionBox).animate(
 				{ height: "160px" },
 				{
@@ -1623,19 +1623,19 @@
 			postVar.$minus.css("display", 'none');
             postVar.$plus.css("display", 'block'),
 
-            // change data Value 	
+            // change data Value
 			postVar.$accordion.attr("data-value", "0");
         }
 
     };
 
-    // blog toggle default set 
+    // blog toggle default set
     function blogToggleSet(postVar) {
 
         "use strict";
 
         if (postVar.$flag === 0) {
-            // Set Close Mode 
+            // Set Close Mode
             postVar.$content.slideUp(function () {
                 parallaxImg();
             });
@@ -1769,7 +1769,7 @@
             blogToggleSet(postVar);
 
             $minus.add($plus).add($blogClose).click(function () {
-                // toggle Post When Click Event Occur 
+                // toggle Post When Click Event Occur
                 blogToggleClick(postVar);
             });
 
@@ -1821,7 +1821,7 @@
             blogToggleSet(postLoadVar);
 
             $minus.add($plus).add($blogClose).click(function () {
-                // toggle Post When Click Event Occur 
+                // toggle Post When Click Event Occur
                 blogToggleClick(postLoadVar);
             });
 
@@ -1829,7 +1829,7 @@
     }
 
     /*-----------------------------------------------------------------------------------*/
-    /*  Blog Load More Function 
+    /*  Blog Load More Function
     /*-----------------------------------------------------------------------------------*/
 
     function blogLoadMore() {
@@ -1915,7 +1915,7 @@
     }
 
     /*-----------------------------------------------------------------------------------*/
-    /*	Home Height 
+    /*	Home Height
     /*-----------------------------------------------------------------------------------*/
 
     function homeHeight(callback) {
@@ -1934,7 +1934,7 @@
         var $HSlMVal = checkWpBar();
 
         var i = setInterval(function () {
-            // Image Fullscreen 
+            // Image Fullscreen
             if ($('.fullScreenImage').length !== 0) {
                 clearInterval(i);
                 $("#fullScreenImage").css({ height: $HSlMVal + 'px' });
@@ -1947,7 +1947,7 @@
             }
 
             if ($(window).width() > 1024) {
-                // Layer Slider & master Slider 
+                // Layer Slider & master Slider
                 if ($('#homeHeight').height() > 0) {
                     clearInterval(i);
 
@@ -1967,7 +1967,7 @@
                     }
 
                     $LHeight = 0;
-                    // FullScreen Slider -- FullScreen Video  -- FullScreen GoolgeMap 
+                    // FullScreen Slider -- FullScreen Video  -- FullScreen GoolgeMap
                 } else if ($('#fullScreenSlider').length !== 0 || $('#fullScreenImage').length !== 0 || $('#homeGoogleMap').length !== 0 || $('#homeVideoHeight').length !== 0) {
                     clearInterval(i);
 
@@ -1982,24 +1982,24 @@
                     if ($('#fullScreenImage').length !== 0) {
 
                         if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) { // If Internet Explorer, Margin-top 0
-                          
+
                             $('#home .homeWrap .fullScreenImage').css({ position:'static'})
                         }
                     }
-                  
+
                     //parallaxImg();
                     $HSlMVal = 0;
                 }
 
             } else {
                 $('#main').css({ marginTop: 0 });
-                // FullScreen GoolgeMap 
+                // FullScreen GoolgeMap
                 if ($('#homeGoogleMap').length !== 0) {
                     clearInterval(i);
                     $("#home").css({ height: $HSlMVal + 'px' });
                     $("#homeGoogleMap").css({ height: $HSlMVal + 'px' });
                     $HSlMVal = 0;
-                    // FullScreen Video 
+                    // FullScreen Video
                 } else if ($('#homeVideoHeight').length !== 0) {
                     clearInterval(i);
                     $("#home").css({ height: $HSlMVal + 'px' });
@@ -2016,7 +2016,7 @@
     }
 
     /*------------------------------------------------------------------------------*/
-    /*  phone Navigation 
+    /*  phone Navigation
     /*------------------------------------------------------------------------------*/
 
     function phoneNav() {
@@ -2047,8 +2047,8 @@
 
             e.preventDefault();
         });
-        
-    
+
+
         phoneNavContainerHeight();
 
     }
@@ -2065,7 +2065,7 @@
     }
 
     /*-----------------------------------------------------------------------------------*/
-    /*	parallax  
+    /*	parallax
     /*-----------------------------------------------------------------------------------*/
 
     function parallaxImg() {
@@ -2080,7 +2080,7 @@
                 $parallax.addClass('noparallaxie');
             });
 
-        } else { // If another browser , run Parallax 
+        } else { // If another browser , run Parallax
 
             if ($windowWidth > 1024 && !isTouchDevice) {
                 var $parallaxContainers = $('.parallax');
@@ -2102,7 +2102,7 @@
 
             $('.homeParallax').addClass('noparallaxie');
 
-        } else { // If another browser , run Parallax 
+        } else { // If another browser , run Parallax
 
             if ($windowWidth > 1024 && !isTouchDevice) {
 
@@ -2113,7 +2113,7 @@
     }
 
     /*-----------------------------------------------------------------------------------*/
-    /* 	Flex Slider 
+    /* 	Flex Slider
     /*-----------------------------------------------------------------------------------*/
 
     function flexslider() {
@@ -2173,7 +2173,7 @@
     }
 
     /*-----------------------------------------------------------------------------------*/
-    /* 	portfolio feature Images flex Slider 
+    /* 	portfolio feature Images flex Slider
     /*-----------------------------------------------------------------------------------*/
 
     function pfflexslider() {
@@ -2357,7 +2357,7 @@
     }//End commentRespond
 
     /*-----------------------------------------------------------------------------------*/
-    /*	Forms 
+    /*	Forms
     /*-----------------------------------------------------------------------------------*/
 
     function Forms() {
@@ -2396,7 +2396,7 @@
     }//End Forms()
 
     /*-----------------------------------------------------------------------------------*/
-    /*	Scrolling function 
+    /*	Scrolling function
     /*-----------------------------------------------------------------------------------*/
 
     function scroll_to(location, introCheck) {
@@ -2415,8 +2415,8 @@
 
                         var $layersliderHeight = $("#homeHeight").height();
 
-                        if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) { // if ie - in ie Home Is not Parallax 
-                            
+                        if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) { // if ie - in ie Home Is not Parallax
+
                             scrollto = offsetTop - 82; // 83 is Menu Height
 
                         } else {
@@ -2431,12 +2431,12 @@
 
                    } else {
 
-                       if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) { // if ie - in ie Home Is not Parallax 
+                       if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) { // if ie - in ie Home Is not Parallax
                            scrollto =  offsetTop - 82; // 82 is Menu Height ;
-                       } else { // not ie 
+                       } else { // not ie
                            scrollto = ($windowHeight + offsetTop) - 82; // 83 is Menu Height ;
                        }
-                        
+
                     }
 
                 } else {
@@ -2446,7 +2446,7 @@
 
 
             if (introCheck === 1) {
-                //scroll to inside id 
+                //scroll to inside id
                 scrollpals.animate(
                     {
                         scrollTop: scrollto
@@ -2458,7 +2458,7 @@
                 );
 
             } else if (introCheck === 2 || introCheck === 3) {
-                //scroll to top of page	
+                //scroll to top of page
                 scrollpals.animate(
                     {
                         scrollTop: 0
@@ -2473,7 +2473,7 @@
     }
 
     /*-----------------------------------------------------------------------------------*/
-    /*	fitvid 
+    /*	fitvid
     /*-----------------------------------------------------------------------------------*/
 
     function fitVideo() {
@@ -2489,7 +2489,7 @@
         "use strict";
 
         if ($pIsotopeContainer === 0) {
-            // first load 
+            // first load
             $pIsotopeContainer = $('.isotope');
 
         } else if ($pIsotopeContainer === 1) { // id 1 for Resizing
@@ -2500,7 +2500,7 @@
 
         } else {
 
-            // when click load more button 
+            // when click load more button
             $pIsotopeContainer = $($pIsotopeContainer);
         }
 
@@ -2517,7 +2517,7 @@
                 'margin-right': 0
             });
 
-            // Sets column number depending on window width  
+            // Sets column number depending on window width
             function setColNum() {
                 var w = $(window).width(),
 					columnNum = 1;
@@ -2533,7 +2533,7 @@
                 return columnNum;
             }
 
-            // Gets column number and divides to get column width 
+            // Gets column number and divides to get column width
             function getColWidth() {
 
                 var $device_width = $(window).width();
@@ -2576,7 +2576,7 @@
                 });
             }
 
-            // Sets dynamic size of isotope brick 
+            // Sets dynamic size of isotope brick
             function setBrickSize($isotopeItem) {
                 var colWidth = getColWidth();
                 var w = $(window).width();
@@ -2660,7 +2660,7 @@
 
             var $pThis = $portfolioId.concat(' .isotope');
             $($pFilter).click(function () {
-                
+
                 if ($window.width() > 979) { // if Desktop
                     var $pFilter = $portfolioId.concat(' #filters a');
                 } else {
@@ -2762,14 +2762,14 @@
             }
 
 
-            // ADD ACTIVE CLASS TO CURRENTLY CLICKED PROJECT 
+            // ADD ACTIVE CLASS TO CURRENTLY CLICKED PROJECT
             portfolioGrid.find('.ajaxPDetail .isotope-item a[href$="' + hash + '"]').parents('.isotope-item').addClass('current');
 
         }
 
     }
 
-    // load portfolio detail 
+    // load portfolio detail
     function loadPortfolioDetail(url, href) {
         if ($('#portfolioDetailAjax').height() < 500) {
 
@@ -2799,7 +2799,7 @@
                     pDError.hide();
 
                     $('#ajaxPDetail').waitForImages(function () {
-                        pDFlexslider();// Call Flex Slider 
+                        pDFlexslider();// Call Flex Slider
                         hideLoader();
                     });
 
@@ -2848,7 +2848,7 @@
             });
 
         } else {
-            //load next and prev portfolio detail by Click navigation 
+            //load next and prev portfolio detail by Click navigation
             wrapperHeight = projectContainer.children('#ajaxPDetail').outerHeight() + 'px';
             projectContainer.animate({ opacity: 1, height: wrapperHeight }, function () {
 
@@ -2908,12 +2908,12 @@
         pDetailNav.fadeOut(600);
         parallaxImg();
 
-        location = '#_'; // remove URL hash 
+        location = '#_'; // remove URL hash
         portfolioGrid.find('.ajaxPDetail .isotope-item.current').removeClass('current');
 
     }
 
-    // linking to Next Portfolio Detail 
+    // linking to Next Portfolio Detail
     function pDNavigationNext() {
 
         $('.pDNavigation .next a').click(function (e) {
@@ -2937,7 +2937,7 @@
 
     }
 
-    // linking to previous Portfolio Detail 
+    // linking to previous Portfolio Detail
     function pDNavigationPrevious() {
 
         $('.pDNavigation .previous a').click(function (e) {
@@ -2962,7 +2962,7 @@
 
     }
 
-    // Closing the Portfolio detail 
+    // Closing the Portfolio detail
     function pDCloseProject() {
 
         $('#pDClose a').click(function (e) {
@@ -2974,7 +2974,7 @@
     }
 
     /*-----------------------------------------------------------------------------------*/
-    /*	Portfolio Load More Function 
+    /*	Portfolio Load More Function
     /*-----------------------------------------------------------------------------------*/
 
     function portfolioLoadMore() {
@@ -3052,7 +3052,7 @@
 
                 $pageContainer.load($portfolioIdOb.nextLink + ' ' + $portfolioLoop + ' .isotope-item', function () {
 
-                    // remove loadItemsWrap div From Loaded items 
+                    // remove loadItemsWrap div From Loaded items
                     $pageContainer = $pageContainer.find('.isotope-item').unwrap();
 
                     //Insert the posts container before the load more button
@@ -3093,7 +3093,7 @@
                     portfolioIsotope($pIsotopeContainer);
                     parallaxImg(); // reset parallax image positions
                     pfflexslider();//feature image flex slider
-                    pxShortcode();// call shorcode functions 
+                    pxShortcode();// call shorcode functions
                     shortcodeAnimation();
                     social_share_pop_up();
 
@@ -3234,7 +3234,7 @@
     }
 
     /*----------------------------------------------------------------------------------*/
-    /*	set min-height For Blog and blog Detail 
+    /*	set min-height For Blog and blog Detail
     /*-----------------------------------------------------------------------------------*/
 
     function minPageHeightSet() {
@@ -3311,7 +3311,7 @@
     }
 
     /*-----------------------------------------------------------------------------------*/
-    /*	social share's pop up 
+    /*	social share's pop up
     /*-----------------------------------------------------------------------------------*/
 
     function social_share_pop_up() {
@@ -3375,18 +3375,18 @@
         portfolioIsotope($pIsotopeContainer);
         portfolioDHashChange();//Portfolio Detail Run When Hash Change functions
         portfolioLoadMore();//portfolio Load more Function
-        pDNavigationNext();// linking to Next Portfolio Detail 
-        pDNavigationPrevious();	// linking to Previous Portfolio Detail 
+        pDNavigationNext();// linking to Next Portfolio Detail
+        pDNavigationPrevious();	// linking to Previous Portfolio Detail
         pDCloseProject(); // close Portfolio Detail
         pfilter();
 
-        if (hash.substr(0, rootLength) == root) { // if URl Call portfolio Detail Run pDInitialize Function 
+        if (hash.substr(0, rootLength) == root) { // if URl Call portfolio Detail Run pDInitialize Function
             pDInitialize();
         }
 
         minPageHeightSet();
 
-        //blog Functions 
+        //blog Functions
         blogLoadMore();//Blog Load More Function
         blogToggle();//Blog Toggle
 
@@ -3408,9 +3408,9 @@
 
         // wave menu
         wave_menu();
-		
-		
-		
+
+
+
 
         image_carousel();
         remove_container_image_slider();
@@ -3446,14 +3446,14 @@
 
             if ($("#notification").size() != 0 && $(".page-template-main-page-php").size() != 0) {
 
-                // notification bar Enable With wpadminbar 
+                // notification bar Enable With wpadminbar
 
                 $("#pxHeader").add(".navigation-mobile").add("#homeHeight").addClass('menuSpaceWpNoti');
                 $("#notification").addClass('notificationSpaceWp');
 
             } else {
 
-                // notification bar disable With wpadminbar 
+                // notification bar disable With wpadminbar
                 $("#pxHeader").add("#homeHeight").addClass('menuSpaceWp');
             }
         } else if ($("#notification").size() != 0 && $(".page-template-main-page-php").size() != 0) {
@@ -3471,7 +3471,7 @@
             // wpadminbar And Notification
             if ($("#wpadminbar").size() != 0 && $windowWidth > 1024) {
 
-                // notification bar Enable With wpadminbar 
+                // notification bar Enable With wpadminbar
                 $("#pxHeader").add("#homeHeight").removeClass('menuSpaceWpNoti').addClass('menuSpaceWp');
 
             } else if ($("#notification").size() != 0) {
@@ -3487,27 +3487,27 @@
         if ('' != pixflowAdditionalJs.additionaljs)
             eval(pixflowAdditionalJs.additionaljs);
 
-        //scrolling function 
+        //scrolling function
         $(".navigation li a ,.scrollDown a , #phoneNavItems li a ").click(function (e) {
             $(".navigation li ,.scrollDown, #phoneNavItems li").removeClass('active');
             $(this).parent().addClass('active');
             scroll = $(this).attr("href");
             scroll = scroll.substring(scroll.indexOf("#"), scroll.length);
-            scroll_to(scroll, 1); //scroll to inside id 
+            scroll_to(scroll, 1); //scroll to inside id
             e.preventDefault();
         });
-		
+
 		$(".button,.readmorebtn,.image_carousel a").click(function (e) {
             $(this).parent().addClass('active');
             scroll = $(this).attr("href");
             scroll = scroll.substring(scroll.indexOf("#"), scroll.length);
-            scroll_to(scroll, 1); //scroll to inside id 
+            scroll_to(scroll, 1); //scroll to inside id
             e.preventDefault();
         });
-		
-		
-		
-		
+
+
+
+
 
         $("header .logo").click(function (e) {
             scroll = $(this).attr("href");
@@ -3532,7 +3532,7 @@
         }
         //scrolling function End
 
-        // Disable parallax In Touch Device 
+        // Disable parallax In Touch Device
         if (isTouchDevice) {
 
             $('#home, .footer-bottom').css('cssText', 'position: static !important');
@@ -3540,7 +3540,7 @@
 
         }
 
-        // social share's pop up 
+        // social share's pop up
         social_share_pop_up();
 
     });
@@ -3551,11 +3551,11 @@
         //Hide Website PreLoader
         $("#preloader").addClass('preloader_animation');
 
-        //remove Preloader div 
+        //remove Preloader div
         setTimeout(function(){
             $('#preloader').remove();
         }, 2000);
-       
+
         $("#spinner").fadeOut(250);
 
         // crousel items Height
@@ -3594,7 +3594,7 @@
 
                 var menusize = 87;
 
-                if ($("#wpadminbar").size() != 0) { // wpadminbar 
+                if ($("#wpadminbar").size() != 0) { // wpadminbar
                     menusize = 123;
                 }
 
@@ -3642,9 +3642,9 @@
             var $textSliderHomeHeight = parseInt($(".textSliderHome").height());
             $textSliderHomeHeight = (-($textSliderHomeHeight));
 
-            // home text slider parallax 
+            // home text slider parallax
             $('.textSliderHome').css({
-                'margin-top': (($window_y * -0.4) + (($textSliderHomeHeight / 2) + 60)) + "px",
+                'margin-top': 0,
                 'opacity': (1 - ($window_y / 550))
             });
 
@@ -3751,7 +3751,7 @@
 
         nav();
 
-        var $pIsotopeContainer = 1; // id 1 Portfolio Resize 
+        var $pIsotopeContainer = 1; // id 1 Portfolio Resize
         portfolioIsotope($pIsotopeContainer);
 
         videoBackgroundSize();
@@ -3768,7 +3768,7 @@
     $('#counter-2').find('.counterBoxNumber').eq(2).wrap('<span class="counter-million"></span>');
     $('.counter-million').append(" M");
 
-    
+
 
     var centerPanel = $('#center-panel');
 
@@ -3777,17 +3777,17 @@
      $( window ).resize(function() {
         console.log($(window).width());
         removeCenterPanel();
-     })   
+     })
 
      function removeCenterPanel(){
 
        if($(window).width() < 1200){
             //Remove the center panel if it exists
             if(centerPanel.length){
-                centerPanel.detach();    
+                centerPanel.detach();
             }
         }else if($(window).width() > 1200){
-            //Restore the center panel if it doesn't already exist 
+            //Restore the center panel if it doesn't already exist
             if($('#center-panel').length == 0){
                 $('.isotope-item').eq(6).after(centerPanel);
             }
