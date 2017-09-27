@@ -9015,10 +9015,10 @@ Kym Abrams Custom Styles
 .page-id-963 {
     background-size: 1px 100%;
     background: #5c2e90; /* Old browsers */
-    background: -moz-linear-gradient(top,  #5c2e90 0%, #82469c 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #5c2e90 0%,#82469c 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #5c2e90 0%,#82469c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c2e90', endColorstr='#82469c',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient(top,  #ef483f 0%, #eb907c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ef483f 0%,#eb907c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ef483f 0%,#eb907c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef483f', endColorstr='#eb907c',GradientType=0 ); /* IE6-9 */
 }
 
 .page-id-963 h1{
@@ -9059,7 +9059,7 @@ Kym Abrams Custom Styles
 
 .financials-item-list h3,
 .financials-item-list ul li{
-  color: #e6f6f9;
+  color: #000;
 }
 
 .financials-item-list h3:nth-of-type(2){
@@ -9072,7 +9072,7 @@ Kym Abrams Custom Styles
 }
 
 .financials-item-list h4{
-  color: #87aabc;
+  color: #fff;
   font-size: 13px;
   margin-top: 50px;
   margin-bottom: 5px;
@@ -9099,7 +9099,7 @@ Kym Abrams Custom Styles
 }
 
 .financials-item-list ul li span:nth-of-type(2){
-  border-bottom: 1px dotted #fff;
+  border-bottom: 1px dotted #000;
   width: 100%;
   margin-top: -21px;
   text-align: right;
@@ -9231,6 +9231,60 @@ Kym Abrams Custom Styles
     letter-spacing: 1px;
     margin: 112px 0 96px;
     text-align: center;
+}
+
+/* Donor Page */
+
+.donors {
+  color: #000;
+  font-size: 20px;
+  line-height: 150%;
+  margin: 0 auto;
+  width: 776px;
+}
+
+.donors h1 {
+  font-weight: 700;
+  margin-bottom: 30px !important;
+  margin-top: 100px;
+  text-transform: uppercase;
+}
+
+.donor-title {
+  color: #d19d29;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.donor-title-type {
+  color: #30849f;
+  font-size: 14px;
+  letter-spacing: .75px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.donor-list-row {
+  margin-bottom: 14px;
+}
+
+.donor-list-row:last-of-type {
+  margin-bottom: 75px;
+}
+
+.money {
+  margin-bottom: 0;
+}
+
+.donor-list-row p {
+  font-size: 14px;
+}
+
+.donor-list-row p strong {
+  letter-spacing: .5px;
 }
 
 /* BLOG PAGES */
