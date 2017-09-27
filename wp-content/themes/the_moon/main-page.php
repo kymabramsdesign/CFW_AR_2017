@@ -78,9 +78,9 @@ $current_page_id = get_option('page_on_front');
                             get_template_part( 'templates/section', 'custom' );
 
                             if($post_name == 'welcome-section'){
-                                //After "President's Letter" post, do the portfolio section
+                                //After "we're all in" post, do the portfolio section
 
-                                $portfolio = get_page_by_title('taking-action-together');
+                                $portfolio = get_page_by_title('portfolio');
 
                                 $pDAjaxCheck  = get_post_meta($portfolio->ID, "portfolio-detail-ajax", true);
 

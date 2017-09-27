@@ -18,6 +18,7 @@
     $pagedNum = 'paged_'.$uniqueId;
 
 
+
     /* get Portfolio Skills */
     $portfolioTerms = get_terms('skills');
     $selectSkill  = '';
@@ -101,7 +102,7 @@
         )
     );
 
-    // headr title And Subtitle
+    // header title And Subtitle
     $checkTitle = get_post_meta( $portfolio->ID, "title-bar", true );
     $title = get_post_meta( $portfolio->ID, "title-text", true );
     $subTitle = get_post_meta( $portfolio->ID , "subtitle-text", true );
