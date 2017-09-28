@@ -5,7 +5,7 @@
 	$uniqueId = $portfolio->ID;
 	$options=get_post_meta($uniqueId);
 
-    $pPostPerPage  = $options["portfolio-posts-page"][0];
+    $pPostPerPage  = 32;
     $pfilterNav  = $options["portfolio-filter-nav"][0];
     $pfilter  = $options["portfolio-filter"][0];
 	$porder  = $options["order"][0];
