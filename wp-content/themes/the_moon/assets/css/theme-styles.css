@@ -21,12 +21,12 @@ display:block;
 /*-----------------------------------------------------------------------------------*/
 
 body {
-    color: #888;
-    font-family: Roboto, sans-serif;
-    font-size: 13px;
-    font-weight: 300;
-    line-height: 20px;
-    overflow-x: hidden;
+  color: #888;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  overflow-x: hidden;
 }
 
 img {
@@ -1399,10 +1399,10 @@ header .navigation-button span{
 }
 
 .homeWrap {
-  height:100%;
+/*  height:100%;
   position:relative;
   width:100%;
-  background-color: #853eab !important;
+  background-color: #853eab !important;*/
 }
 
 .wrap.headerWrap , .wrap.portfoliowrap {
@@ -5274,13 +5274,12 @@ blockquote .name
 /*-----------------------------------------------------------------------------------*/
 
 .singlePost {
-	padding-top:100px;
-	padding-bottom:50px;
+	padding-top: 60px;
 }
 
-.pageSpace{
-	padding-top:70px;
-	padding-bottom:50px;
+.pageSpace {
+	padding-top: 70px;
+	padding-bottom: 50px;
 }
 
 .pageBottomSpace {
@@ -5599,37 +5598,6 @@ blockquote .name
 	display: block;
 }
 
-/* social Share Btns */
-.social_links {
-    position:absolute;
-    bottom:-90px;
-    left:0;
-    padding:25px 0;
-    cursor:default;
-    z-index:5;
-}
-
-
-
-.social_links a {
-    background-color:transparent;
-    position:relative;
-    text-decoration:none;
-    color:#fff;
-}
-
-.social_links a:hover {
-    opacity:.8;
-    color:#fff;
-}
-
-.social_links .social_links_list li {
-    display:block;
-    float:left;
-    margin-right:27px;
-    font-size:19px;
-}
-
 /* portfolio Detail Ajax Social Share Btns */
 .portfolio_social_share .social_links , .post_social_share .social_links {
     position:static;
@@ -5904,12 +5872,12 @@ blockquote .name
 }
 
 .videoWrap {
-	top: 0px;
-	left: 0px;
-	overflow: hidden;
-	position: absolute;
-	width: 100%;
-    min-height:100%;
+  left: 0;
+  min-height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100vw !important;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -6247,7 +6215,6 @@ a.postlink {
   position: relative;
   top: 50%;
   width: 0;
-
   -moz-transition:width 150ms ease-in-out, opacity 150ms ease-in-out;
   -o-transition:width 150ms ease-in-out, opacity 150ms ease-in-out;
   -webkit-transition:width 150ms ease-in-out, opacity 150ms ease-in-out;
@@ -6257,7 +6224,6 @@ a.postlink {
 .postphoto .overlay:hover .center-line {
   opacity: 1;
   width: 50%;
-
   -moz-transition:width 250ms ease-in-out, opacity 250ms ease-in-out;
   -o-transition:width 250ms ease-in-out, opacity 250ms ease-in-out;
   -webkit-transition:width 250ms ease-in-out, opacity 250ms ease-in-out;
@@ -6267,16 +6233,16 @@ a.postlink {
 .postphoto .overlay .hover-title {
   bottom: 45%;
   color: #fff;
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 700;
-  letter-spacing: 0;
-  line-height: 42px;
+  letter-spacing: .75px;
+  line-height: 40px;
   margin: 0 auto;
   opacity: 0;
-  padding: 0 5%;
+  padding: 0 8%;
   position: absolute;
   text-align: center;
-  width: 90%;
+  width: 84%;
   -moz-transition: bottom 200ms ease-out, opacity 300ms ease-in;
   -o-transition: bottom 200ms ease-out, opacity 300ms ease-in;
   -webkit-transition: bottom 200ms ease-out, opacity 300ms ease-in;
@@ -6454,127 +6420,101 @@ a.postlink {
   margin-left: 0 !important;
 }
 
-/*.hassubtitle .subnavigation {
-    top:-83px;
-}*/
-
-.subnavigation li
-{
-
-    display:block;
-    height:34px;
-    line-height:33px;
-	float:left;
-	margin:0px 4px 18px;
-    font-size:12px;
-    text-transform:uppercase;
-	cursor: pointer;
-	font-weight:700;
-
+.subnavigation li {
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-size: 12px;
+  font-weight: 700;
+  height: 34px;
+  line-height: 33px;
+  margin: 0 4px 18px;
+  text-transform: uppercase;
 }
 
-.subnavigation a
-{
-    position:relative;
-    text-decoration:none;
-    color:#000;
-    display:block;
-    padding:0 21px;
-    text-transform:capitalize;
-    font-size:15px;
-    line-height:40px;
-
-    font-family: Roboto, sans-serif;
-	font-weight:400;
-
-    -moz-transition:opacity 400ms;
-    -o-transition:opacity 400ms;
-    -webkit-transition:opacity 400ms;
-    transition:opacity 400ms;
-
+.subnavigation a {
+  color: #303230;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  padding: 0 21px;
+  position: relative;
+  text-decoration: none;
+  text-transform: capitalize;
+  -moz-transition: color .2s ease-in-out;
+  -o-transition: color .2s ease-in-out;
+  -webkit-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
 }
 
-.subnavigation a:focus
-{
-    -moz-outline: 0;
-     outline:0;
+.subnavigation a:focus {
+  -moz-outline: 0;
+  outline: 0;
 }
 
-.subnavigation a.active
-{
-    color:#101010;
-    display:block;
-
-    -moz-transition:opacity 400ms , color 400ms;
-    -o-transition:opacity 400ms , color 400ms;
-    -webkit-transition:opacity 400ms , color 400ms;
-    transition:opacity 400ms , color 400ms;
+.subnavigation a.active {
+  color: #EF483F;
+  display: block;
 }
 
-.subnavigation li:hover a
-{
-     color:#101010;
-     opacity:.6;
-
-    -moz-transition:opacity 400ms;
-    -o-transition:opacity 400ms;
-    -webkit-transition:opacity 400ms;
-    transition:opacity 400ms;
+.subnavigation li:hover a {
+  color: #EF483F;
+  -moz-transition: color .3s ease-in-out;
+  -o-transition: color .3s ease-in-out;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
 }
 
-
-.subnavigation .filterlinebottom , .subnavigation .filterlinetop {
-    /*display: block;*/
-    height: 9px;
-    width: 2px;
-    background-color: #df3030;
-    position: absolute;
-    left: 50%;
-    display:none;
+.subnavigation .filterlinebottom,
+.subnavigation .filterlinetop {
+  background-color: #EF483F;
+  display: none;
+  height: 8px;
+  left: 50%;
+  position: absolute;
+  width: 2px;
 }
 
 .subnavigation .filterlinetop {
-    top: 0;
+  top: 0;
 }
 
 .subnavigation .filterlinebottom {
-    bottom: 0;
+  bottom: 0;
 }
 
-.subnavigation li:first-child .filterlinebottom , .subnavigation li:first-child .filterlinetop  {
-    display:block;
-    opacity:1;
+.subnavigation li:first-child .filterlinebottom,
+.subnavigation li:first-child .filterlinetop {
+  display: block;
+  opacity: 1;
 }
 
 /* Portfolio Detial*/
 
 #ajaxPDetail .pDHeader {
-    padding-bottom:18px;
-    margin-bottom:15px;
+    padding-bottom: 18px;
+    margin-bottom: 15px;
 }
 
 #ajaxPDetail .pDHeader .title {
-
-    font-family: Roboto, sans-serif;
-	font-weight:700;
-    font-size:32px;
-    color:#000;
-    letter-spacing:-2px;
-
-    border-left:8px solid #2c2c2c;
-    padding-left:16px;
-    line-height:31px;
-    float:left;
-
+  border-left: 8px solid #2c2c2c;
+  color: #000;
+  float: left;
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  line-height: 31px;
+  padding-left: 16px;
 }
 
 #portfolioDetailAjax .pDENav {
-    display:none;
-
+  display:none;
 }
 
 .pDENav a {
-    float:left;
+  float:left;
 }
 
 .pDENav a[rel~="prev"]  {
@@ -7006,6 +6946,49 @@ ul.portfolio-filter li ul li a:hover {
     border-top:none!important;
     font-size:22px;
 }
+
+/* Single Portfolio Detail Page Styling */
+
+.social_links {
+  padding: 20px 0 60px;
+}
+
+.social_links a {
+  background-color: transparent;
+  color: #30849F;
+  text-decoration: none;
+  -moz-transition: color .4s ease-in-out;
+  -o-transition: color .4s ease-in-out;
+  -webkit-transition: color .4s ease-in-out;
+  transition: color .4s ease-in-out;
+}
+
+.social_links a:hover {
+  color: #303230;
+  -moz-transition: color .3s ease-in-out;
+  -o-transition: color .3s ease-in-out;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+
+.social_links .social_links_list li {
+  display: inline-block;
+  font-size: 19px;
+  margin-right: 27px;
+}
+
+.social_links h5 {
+  color: #30849F;
+  float: left;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 4px 0;
+  padding-right: 24px;
+  text-transform: uppercase;
+}
+
+/* END Single Portfolio Detail Page Styling */
 
 /*-----------------------------------------------------------------------------------*/
 /* WP Classes
@@ -8756,7 +8739,7 @@ End of Retina displays styles
 ***************************/
 
 /***************************
-Kym Abrams Custom Styles
+Kym Abrams Design Custom Styles
 ***************************/
 
 /* NAVIGATION */
@@ -8813,12 +8796,12 @@ Kym Abrams Custom Styles
   color: #fff;
 }
 
-#welcome-section .president-portrait{
+#welcome-section .president-portrait {
     height: 104px;
     width: 104px;
 }
 
-#welcome-section .presidents-letter > .container{
+#welcome-section .presidents-letter > .container {
     color: #000;
     font-size: 20px;
     line-height: 150%;
@@ -8828,7 +8811,7 @@ Kym Abrams Custom Styles
     width: 910px;
 }
 
-.image-sliders .pixflow-super-title{
+.image-sliders .pixflow-super-title {
     color: #fff;
     font-size: 16px;
     position: absolute;
@@ -8978,43 +8961,12 @@ Kym Abrams Custom Styles
     width: 593px;
 }
 
-#are-you-in .wpb_wrapper p {
-    color: #000;
-    font-size: 20px;
-    line-height: 150%;
-    margin: 0 auto;
-    width: 776px;
-}
-
 #are-you-in .wpb_wrapper p:last-of-type{
     width: 100%;
 }
 
-/*#are-you-in .are-you-in-link{
-    color: #000;
-    border: 2px solid #000;
-    border-radius: 6px;
-    display: block;
-    margin: 98px auto 119px;
-    text-align: center;
-    width: 226px;
-}*/
-
 #are-you-in .are-you-in-link:hover{
     text-decoration: none;
-}
-
-#are-you-in .are-you-in--donors h2,
-#are-you-in .are-you-in--grants h2{
-    color: #26b8ce;
-    font-size: 49px;
-    font-weight: bold;
-    margin: 133px 0 50px;
-    text-transform: uppercase;
-}
-
-#are-you-in .are-you-in--donors h2{
-    color: #7ea4b7;
 }
 
 .page-id-963 {
@@ -9024,15 +8976,6 @@ Kym Abrams Custom Styles
     background: -webkit-linear-gradient(top,  #ef483f 0%,#eb907c 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  #ef483f 0%,#eb907c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef483f', endColorstr='#eb907c',GradientType=0 ); /* IE6-9 */
-}
-
-.page-id-963 h1{
-  color: #ad87be;
-  font-size: 49px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  margin: 133px 0 104px;
-  text-transform: uppercase;
 }
 
 .pie-chart h3{
@@ -9111,24 +9054,76 @@ Kym Abrams Custom Styles
   display: inline-block;
 }
 
+/* Heading Styles for Pages and Sections */
+
+#post-1924 h1,
+#post-963 h1 {
+  font-weight: 700;
+  margin-bottom: 30px !important;
+  margin-top: 100px;
+  text-transform: uppercase;
+}
+
+#post-1924 h1 {
+  color: #EF483F;
+}
+
+#post-963 h1 {
+  color: #fff;
+}
+
+#welcome-section h2,
+#the-activists h2,
+#the-grants h2,
+#donors-financials h2,
+#leadership h2,
+#stay-in-touch h2 {
+  font-size: 49px;
+  font-weight: bold;
+  margin: 133px 0 50px;
+  text-transform: uppercase;
+}
+
+#welcome-section h2,
+#stay-in-touch h2 {
+  color: #D09C2A;
+}
+
+#the-activists h2 {
+  color: #EF483F;
+  margin-bottom: -13px;
+}
+
+#the-grants h2 {
+  color: #26b8ce;
+}
+
+#donors-financials h2 {
+  color: #26b8ce;
+}
 
 #leadership h2 {
-    color: #5ac7d8;
-    font-size: 49px;
-    font-weight: bold;
-    margin: 133px 0 50px;
-    text-transform: uppercase;
+  color: #26b8ce;
 }
 
-#leadership p{
-    color: #000;
-    font-size: 20px;
-    line-height: 150%;
-    margin: 0 auto;
-    width: 776px;
+/* END Heading Styles for Pages and Sections */
+
+/* Copy Styles for Pages and Sections */
+
+#are-you-in .wpb_wrapper p,
+#the-grants .wpb_wrapper p,
+#donors-financials .wpb_wrapper p,
+#leadership .wpb_wrapper p {
+  color: #303230;
+  font-size: 20px;
+  line-height: 150%;
+  margin: 0 auto;
+  width: 776px;
 }
 
-#leadership p strong{
+/* END Copy Styles for Pages and Sections */
+
+#leadership p strong {
     display: block;
     margin-bottom: 5px;
 }
@@ -9257,13 +9252,6 @@ Kym Abrams Custom Styles
 
 .donors p {
   line-height: 150%;
-}
-
-.donors h1 {
-  font-weight: 700;
-  margin-bottom: 30px !important;
-  margin-top: 100px;
-  text-transform: uppercase;
 }
 
 .donor-title {
@@ -9649,8 +9637,6 @@ color: #575757;
   }
 
   .presidents-letter strong span,
-  #are-you-in .are-you-in--donors h2,
-  #are-you-in .are-you-in--grants h2,
   #financials h1,
   #leadership h2,
   #stay-in-touch h1 {
