@@ -5286,6 +5286,21 @@ blockquote .name
 	margin-bottom: 0;
 }
 
+.singlePost ul li {
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.singlePost ul.slides li {
+  margin: 0;
+}
+
+sup {
+  color: #EF483F;
+  font-size: 12px;
+  margin-right: 1px;
+}
+
 .related {
   margin-bottom: 50px;
 }
@@ -5318,6 +5333,12 @@ blockquote .name
 
   .related p {
     margin: 14px 0;
+  }
+
+  .singlePost ul li {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
@@ -8795,7 +8816,7 @@ Kym Abrams Design Custom Styles
 
 .single #logoHeader .navigation li:hover,
 .single #pxHeader.scooter-menu #logoMenuHeader .container .navigation li:hover{
-  background-color: #000;
+  background-color: #EB907C;
 }
 
 .single #logoHeader .navigation li:hover a,
@@ -9408,7 +9429,7 @@ Kym Abrams Design Custom Styles
 
 .single #logoMenuHeader .navigation li a,
 .single #logoHeader .navigation li a{
-    color: #000;
+    color: #EB907C;
 }
 
 .single .bctt-ctt-btn{
