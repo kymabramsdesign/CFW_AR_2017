@@ -1230,81 +1230,68 @@ div.wpcf7-mail-sent-ng {
 }
 
 /* Navigation Button inside header */
-header .navigation-button{
-	display: block;
-	width: 32px;
-	height:34px;
-	/*color: #3f3f3f;*/
-    color: #fff;
-	text-align: center;
-	text-decoration: none;
-	position: relative;
-	top:50%;
-	margin-top: 22px;
-	float:right;
+header .navigation-button {
+  color: #fff;
+  display: block;
+  float: right;
+  height: 34px;
+  margin-top: 22px;
+  position: absolute;
+  right: 7px;
+  text-align: center;
+  text-decoration: none;
+  top: 3px;
+  width: 32px;
 }
 
 header .navigation-button:hover{
-	/*color: #df3030;*/
-    color: #80D6E3 !important;
+  color: #EB907C !important;
 }
 
 header .navigation-button span{
-    font-size: 32px;
-    line-height: 32px;
-    position: absolute;
-    right: 0;
-    top: -50px;
+  font-size: 32px;
+  line-height: 32px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 /* Mobile Navigation */
 #phoneNavItems {
-    display:none;
+  display: none;
 }
-
-@media (min-width: 464px){
-    header .navigation-button span{
-        top: 12px;
-    }
-}
-
-
 
 .navigation-mobile {
-	/*background-color: #1e1e20 !important;*/
-    background-color: #853EAB !important;
-    position:relative;
-    top:58px;
-    width:100%;
-	overflow: hidden;
-	padding: 0 40px;
-	z-index: 10;
+  background-color: #EB907C !important;
+  overflow: hidden;
+  padding: 0 40px;
+  position:relative;
+  top: 56px;
+  width: 100%;
+  z-index: 2;
 }
 
 .wave-menu-header .navigation-mobile {
-    top:9px;
+  top: 9px;
 }
 
-.navigation-mobile ul{
+.navigation-mobile ul {
 	list-style: none;
-	margin:0;
+	margin: 30px 0 0;
 }
 
 .navigation-mobile li:last-child {
-    padding-bottom:100px;
-}
-
-.navigation-mobile li li:last-child , .navigation-mobile li li li:last-child {
-    padding-bottom:0;
+  padding-bottom: 100px;
 }
 
 .navigation-mobile li  {
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 40px;
-	border-bottom:1px solid #fff;
-    margin-right:80px;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 60px;
+  margin-right: 80px;
 }
+
 .navigation-mobile li:last-child {
 	border-bottom:none;
 }
@@ -5294,10 +5281,44 @@ blockquote .name
 	margin-bottom:50px;
 }
 
-.post-media
-{
-  margin-top:30px;
+.post-media {
+  margin-top: 30px;
 	margin-bottom: 0;
+}
+
+.related {
+  margin-bottom: 50px;
+}
+
+.related h2 {
+  color: #000;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.related p {
+  margin: 8px 0;
+}
+
+.related a {
+  color: #D09C2A;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.related a:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width:767px) {
+  .related h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .related p {
+    margin: 14px 0;
+  }
 }
 
 .post-media.video-frame {
@@ -5314,9 +5335,22 @@ blockquote .name
     margin:0;
 }
 
-.type-portfolio .post-media p{
-    font-size: 18px;
-    line-height: 160%;
+.type-portfolio .post-media p {
+  color: #575757;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+@media screen and (max-width:767px) {
+  .type-portfolio .post-media p {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .type-portfolio {
+    margin-top: 20px;
+  }
 }
 
 .post-info {
@@ -6491,26 +6525,29 @@ a.postlink {
 }
 
 /* Portfolio Detial*/
-
 #ajaxPDetail .pDHeader {
-    padding-bottom: 18px;
-    margin-bottom: 15px;
+  margin-bottom: -30px;
+  margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+  #ajaxPDetail .pDHeader {
+    margin-bottom: -30px;
+    margin-top: 20px;
+  }
 }
 
 #ajaxPDetail .pDHeader .title {
-  border-left: 8px solid #2c2c2c;
   color: #000;
   float: left;
-  font-family: Roboto, sans-serif;
   font-size: 32px;
   font-weight: 700;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   line-height: 31px;
-  padding-left: 16px;
 }
 
 #portfolioDetailAjax .pDENav {
-  display:none;
+  display: none;
 }
 
 .pDENav a {
@@ -6641,53 +6678,36 @@ a.postlink {
 }
 
 #ajaxPDetail  .postMedia  .flex-direction-nav {
-    position: absolute;
-    bottom: 0;
-    left: 60px;
-    height: 48px;
-    width: 51px;
-    background-color:#fff;
+  bottom: 0;
+  height: 48px;
+  left: 35px;
+  position: absolute;
+  width: 75px;
 }
 
-#ajaxPDetail  .postMedia .slider-nav-controls-container  .flex-prev {
-
-    border-left:1px solid #141414;
-
-}
-
-#ajaxPDetail  .postMedia .slider-nav-controls-container{
-    position:absolute;
-    bottom:8px;
-    left:9px;
-    z-index:4;
+#ajaxPDetail  .postMedia .slider-nav-controls-container {
+  bottom: -2px;
+  position: absolute;
+  right: 119px;
+  z-index: 4;
 }
 
 #ajaxPDetail  .postMedia .slider-nav-controls-container .slider-status {
-    background-color:#fff;
-    color:#141414;
-    font-family: Roboto, sans-serif;
-	font-weight:400;
-    font-size:31px;
-    line-height:48px;
-    text-align:center;
-    height:48px;
-    width:60px;
-    position: relative;
+  display: none;
 }
 
 #ajaxPDetail .postMedia .flex-direction-nav li {
+  background-color: rgba(255,255,255,.8);
+  display: block;
+  float: right;
+  height: 35px;
+  margin: 1px 1px 1px 0;
+  width: 34px;
 
-    height: 46px;
-    width: 24px;
-    display: block;
-    background-color: #fff;
-    float:right;
-    margin:1px 1px 1px 0;
-
-    -moz-transition:  background-color 500ms ;
-    -o-transition:  background-color 500ms ;
-    -webkit-transition:  background-color 500ms ;
-    transition:  background-color 500ms ;
+  -moz-transition: background-color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out;
+  -webkit-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
 }
 
 #ajaxPDetail .postMedia .flex-direction-nav li:first-child {
@@ -6696,37 +6716,36 @@ a.postlink {
 }
 
 #ajaxPDetail .postMedia .flex-direction-nav li:hover {
-    background-color: #141414;
+  background-color: #141414;
 
-    -moz-transition:  background-color 500ms ;
-    -o-transition:  background-color 500ms ;
-    -webkit-transition:  background-color 500ms ;
-    transition:  background-color 500ms ;
+  -moz-transition: background-color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out;
+  -webkit-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
 }
 
 #ajaxPDetail .postMedia .flex-direction-nav li:hover a:before {
-    color:#fff;
+  color: #fff;
 }
 
 #ajaxPDetail .postMedia .flex-direction-nav a {
-
-   text-indent:0;
-   margin:9px 0;
-   height:31px;
-   width:25px;
-   border-radius:0;
-   border:none;
-   top:0;
+ border-radius: 0;
+ border: none;
+ height: 35px;
+ margin: 9px 0;
+ text-indent: 0;
+ top: 0;
+ width: 35px;
 }
 
 #ajaxPDetail .postMedia .flex-direction-nav  a:before {
-    color:#141414;
-	font-family: 'icomoon';
-	font-size: 16px;
-	display: inline-block;
-    content: "\e740";
-    line-height:35px;
-    padding-left:4px;
+  color: #575757;
+  content: "\e740";
+  display: inline-block;
+  font-family: 'icomoon';
+  font-size: 18px;
+  line-height: 35px;
+  padding-left: 2px;
 }
 
 #ajaxPDetail .postMedia .flex-direction-nav  .flex-prev:before {
@@ -6734,19 +6753,19 @@ a.postlink {
 }
 
 #ajaxPDetail .postMedia .flex-direction-nav  .flex-next {
-     background:none;
-     padding:1px 0;
-     right:0;
-     margin:8px 0;
-     left:auto !important;
+  background: none;
+  left: auto !important;
+  margin: 2px 0;
+  padding: 0;
+  right: 0;
 }
 
 #ajaxPDetail .postMedia .flex-direction-nav .flex-prev {
-    background:none;
-    padding:1px 0;
-    right:26px;
-    margin:8px 0;
-    left:0 !important;
+  background: none;
+  left: 0 !important;
+  margin: 2px 0;
+  padding: 0;
+  right: 26px;
 }
 
 .portfolioSection #ajaxPDetail {
@@ -8833,13 +8852,15 @@ Kym Abrams Design Custom Styles
     margin-bottom: 2px;
 }
 
+.video-row {
+    padding-top: 145px;
+}
+
 @media screen and (max-width: 980px){
     .image-sliders .pixflow_image_slider_title br{
         display: none;
     }
 }
-
-
 
 /* The Counters */
 .counterBox .counterBoxNumber{
@@ -9294,7 +9315,13 @@ Kym Abrams Design Custom Styles
 /* BLOG PAGES */
 
 .single #pxHeader.scooter-menu #logoHeader {
-    background-color:#ffffff;
+  background-color:#ffffff;
+}
+
+@media screen and (max-width:767px) {
+  .single #pxHeader.scooter-menu #logoHeader {
+    box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+  }
 }
 
 .single .post{
@@ -9302,10 +9329,10 @@ Kym Abrams Design Custom Styles
 }
 
 .single header .navigation-button {
-color: #575757;
+  color: #575757;
 }
 
-.related-stories h2{
+.related-stories h2 {
     color: #000;
     font-size: 28px;
 }

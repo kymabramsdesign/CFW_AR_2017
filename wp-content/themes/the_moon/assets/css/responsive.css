@@ -173,21 +173,10 @@
     }
 
     /* portfolio Detail */
-    #ajaxPDetail .pDHeader {
-       margin:0 auto;
-       display:table;
-    }
-
     #ajaxPDetail .pDHeader .title {
-        font-size:20px;
-        padding:5px 7px;
-        border:1px solid #141414;
-        margin-top:20px;
-        letter-spacing:0px;
-    }
-
-    #ajaxPDetail .post-media {
-      text-align: center;
+      font-size: 20px;
+      letter-spacing: 0;
+      margin-bottom: -20px;
     }
 
     #ajaxPDetail .postMedia .slider-nav-controls-container .flex-direction-nav {
@@ -652,7 +641,7 @@ width: 662px;
 }
 
 .span10 {
-width: 600px;
+  width: 724px;
 }
 
 .span9 {
@@ -1076,10 +1065,6 @@ margin-left: 82px;
     /* menu */
     header .logo img {
         max-width: 80%;
-    }
-
-    header .navigation-button {
-        margin-top: 15px;
     }
 
     /* left iconbox */

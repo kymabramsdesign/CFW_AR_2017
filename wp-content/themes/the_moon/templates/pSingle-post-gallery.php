@@ -2,7 +2,7 @@
 
   <!--  Portfolio Detail Slider  -->
   <div class="row">
-    <div class="span12 postMedia">
+    <div class="span10 postMedia">
 
       <?php
 
@@ -42,7 +42,7 @@
 
    <!-- Portfolio Detail Title  -->
   <div class="row">
-    <div class="span12 pDHeader">
+    <div class="span10 pDHeader">
       <!-- Title -->
       <div class="title">
           <?php the_title(); ?>
@@ -53,19 +53,18 @@
 
   <!-- Portfolio Detail content  -->
   <div class="row">
-    <div class="span12 post-media">
+    <div class="span10 post-media">
       <?php the_content();?>
     </div>
   </div>
+
+  <!--Related Stories   -->
   <div class="row">
-    <div class="span12">
-      <?php 
-        // get portfolio social share 
-        $portfolio_social_share = px_get_meta('portfolio-social-share');?>
-        
-      <?php get_template_part('templates/social-share'); ?>
+    <div class="span12 related">
+      <h2>Related Stories</h2>
+      <p><a href="<?php the_field('link_1');?>"><?php the_field('link_1_title');?></a></p>
+      <p><a href="<?php the_field('link_2');?>"><?php the_field('link_2_title');?></a></p>
+      <p><a href="<?php the_field('link_3');?>"><?php the_field('link_3_title');?></a></p>
+      <p><a href="<?php the_field('link_4');?>"><?php the_field('link_4_title');?></a></p>
     </div>
   </div>
-  
-
-
