@@ -1406,13 +1406,13 @@ header .navigation-button span{
 /*-----------------------------------------------------------------------------------*/
 
 .textSliderHome {
-	position:absolute;
-	top:50%;
-	width:70%;
-	text-align:center;
-	z-index:5;
-	margin:0 15%;
-    margin-bottom:70px;
+  margin-bottom: 70px;
+  margin: 0 15%;
+  position: absolute;
+  text-align: center;
+  top: 54%; /* was 50% */
+  width: 70%;
+  z-index: 5;
 }
 
 .textSliderHome  .textSlide{
@@ -1470,8 +1470,9 @@ header .navigation-button span{
 }
 
 .textSliderHome .trimage img {
-    max-width: 355px;
-    max-height:200px;
+  max-height: 700px; /* was 200px */
+/*  max-width: 355px;*/
+  height: 70vh;
 }
 
 /* text rotator - standard 1 */
