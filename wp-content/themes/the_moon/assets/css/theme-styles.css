@@ -1256,6 +1256,12 @@ header .navigation-button span{
   top: 0;
 }
 
+@media screen and (max-width: 767px) {
+  header .navigation-button:hover {
+    color: #fff !important;
+  }
+}
+
 /* Mobile Navigation */
 #phoneNavItems {
   display: none;
@@ -1369,14 +1375,20 @@ header .navigation-button span{
 }
 
 .wrap {
-	width:100%;
-	position:relative;
-	min-width:940px;
-    overflow:hidden;
+  min-width: 940px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 979px) {
+  .wrap {
+    min-width: 90vw;
+  }
 }
 
 .cblog .wrap {
-    overflow:visible;
+  overflow:visible;
 }
 
 .wrapGoogleMap {
@@ -1385,17 +1397,9 @@ header .navigation-button span{
 	position:relative;
 }
 
-.homeWrap {
-/*  height:100%;
-  position:relative;
-  width:100%;
-  background-color: #853eab !important;*/
-}
-
 .wrap.headerWrap , .wrap.portfoliowrap {
     overflow:inherit;
 }
-
 
 .fullWidth .container{
     width:100%;
@@ -1406,13 +1410,116 @@ header .navigation-button span{
 /*-----------------------------------------------------------------------------------*/
 
 .textSliderHome {
-  margin-bottom: 70px;
-  margin: 0 15%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 108vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   position: absolute;
-  text-align: center;
-  top: 54%; /* was 50% */
-  width: 70%;
+  width: 100vw;
   z-index: 5;
+}
+
+.quotes {
+  width: 100vw;
+}
+
+.textSlide {
+  margin: 0 !important;
+}
+
+.mejs-container {
+  min-width: 100vw !important;
+}
+
+.textSliderHome .trimage img {
+  max-width: 950px;
+}
+
+#homeVideoHeight {
+    height: 0 !important;
+  }
+
+@media screen and (max-width:1024px) {
+
+  .textSliderHome .trimage img {
+    max-width: 80%;
+  }
+
+  .videoMask,
+  .videoColorMask {
+    max-height: 100vh;
+  }
+
+  .videoWrap {
+    min-height: 0 !important;
+  }
+}
+
+@media screen and (max-width:979px) {
+  .hidden-desktop.videoHomePreload {
+    display: none !important;
+  }
+}
+
+@media screen and (max-height:800px) {
+
+  .textSliderHome .trimage img {
+    max-width: 850px;
+  }
+
+  .textSliderHome {
+    height: 112vh;
+  }
+}
+
+@media screen and (max-height:767px) {
+
+  .textSliderHome .trimage img {
+    max-width: 650px;
+  }
+
+  .textSliderHome {
+    height: 118vh;
+  }
+}
+
+@media screen and (max-width:767px) {
+
+  .textSliderHome .trimage img {
+    max-width: 80%;
+  }
+
+  .textSliderHome {
+    height: 86vh;
+  }
+
+  .hidden-desktop.videoHomePreload {
+    display: block !important;
+    max-height: calc(100vh - 58px);
+  }
+
+  .videoMask,
+  .videoColorMask {
+    max-height: calc(100vh - 58px);
+  }
+}
+
+@media screen and (max-width:500px) {
+
+  .textSliderHome .trimage img {
+    max-width: 90%;
+  }
+
+
 }
 
 .textSliderHome  .textSlide{
@@ -1429,35 +1536,40 @@ header .navigation-button span{
 
 /* text rotator - standard description text */
 .textSliderHome .desc {
-
-    color:#fff;
-    font-family:'Open Sans', sans-serif;
-    font-size:14px;
-    line-height:20px;
-
-    display:table;
-    margin:0 auto;
-    width:60%;
-
+  color: #fff;
+  display: table;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 auto;
+  width: 60%;
 }
 
 .textSliderHome .desc3 {
-    margin-top:5px;
-
+  margin-top:5px;
 }
 
 .textSliderHome .standarddesc3 {
-    margin-bottom:15px;
+  margin-bottom:15px;
 }
 
 .textSliderHome .standarddesc {
-    margin-top:15px;
+  margin-top:15px;
 }
 
 .textSliderHome .trimage {
-    display: table;
-    margin: 0 auto;
-    position:relative;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .textSliderHome .trimage.animated {
@@ -1467,12 +1579,6 @@ header .navigation-button span{
     -ms-animation: iconFloat 2s infinite linear;
     -o-animation: iconFloat 2s infinite linear;
     animation: iconFloat 1s infinite linear;
-}
-
-.textSliderHome .trimage img {
-  max-height: 700px; /* was 200px */
-/*  max-width: 355px;*/
-  height: 70vh;
 }
 
 /* text rotator - standard 1 */
@@ -3690,9 +3796,9 @@ header a.trigger {
 	height: 100%;
 }
 
-.videoHome  video{
-	width:100%;
-	height:auto;
+.videoHome video {
+  height: auto !important;
+  width: 100% !important;
 }
 
 .videoHomePreload {
@@ -3713,6 +3819,13 @@ header a.trigger {
 
 .vc_videowrap .wpb_column {
    z-index:1;
+}
+
+@media screen and (max-width:767px) {
+  .videoHome video,
+  .mejs-container {
+    display: none;
+  }
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -5934,6 +6047,7 @@ sup {
   position: absolute;
   top: 0;
   width: 100vw !important;
+  height: 100vh !important;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -8786,37 +8900,48 @@ Kym Abrams Design Custom Styles
 /* NAVIGATION */
 
 #logoHeader .logo,
-#pxHeader.scooter-menu #logoMenuHeader .container .logo{
+#pxHeader.scooter-menu #logoMenuHeader .container .logo {
   margin-top: 30px;
 }
 
 #logoHeader .navigation li:hover,
-#pxHeader.scooter-menu #logoMenuHeader .container .navigation li:hover{
+#pxHeader.scooter-menu #logoMenuHeader .container .navigation li:hover {
   background-color: #fff;
 }
 
 #logoHeader .navigation li:hover a,
-#pxHeader.scooter-menu #logoMenuHeader .container .navigation li:hover a{
+#pxHeader.scooter-menu #logoMenuHeader .container .navigation li:hover a {
   color: #ef483f;
 }
 
 #logoHeader .navigation li,
-#pxHeader.scooter-menu #logoMenuHeader .container .navigation li{
+#pxHeader.scooter-menu #logoMenuHeader .container .navigation li {
   margin: 0;
 }
 
 #logoHeader .navigation li a,
-#pxHeader.scooter-menu #logoMenuHeader .container .navigation li a{
+#pxHeader.scooter-menu #logoMenuHeader .container .navigation li a {
   letter-spacing: .4px;
   margin: 37px 0 -37px 0;
   padding-left: 16px;
   padding-right: 16px;
 }
 
+@media screen and (max-width: 767px) {
+  #logoHeader .logo,
+  #pxHeader.scooter-menu #logoMenuHeader .container .logo {
+    margin-top: 27px;
+  }
+
+  header .navigation-button {
+    margin-top: 18px;
+  }
+}
+
 /* BLOG POST NAVIGATION */
 
 .single #logoHeader .navigation li:hover,
-.single #pxHeader.scooter-menu #logoMenuHeader .container .navigation li:hover{
+.single #pxHeader.scooter-menu #logoMenuHeader .container .navigation li:hover {
   background-color: #EB907C;
 }
 
@@ -8838,18 +8963,19 @@ Kym Abrams Design Custom Styles
 }
 
 #welcome-section .president-portrait {
-    height: 104px;
-    width: 104px;
+  height: 154px;
+  margin-top: 0;
+  width: 154px;
 }
 
 #welcome-section .presidents-letter > .container {
-    color: #000;
-    font-size: 20px;
-    line-height: 150%;
-    margin: 0 auto;
-    padding-bottom: 50px;
-    padding-top: 55px;
-    width: 910px;
+  color: #000;
+  font-size: 20px;
+  line-height: 150%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 55px;
+  width: 910px;
 }
 
 .image-sliders .pixflow-super-title {
@@ -8931,36 +9057,32 @@ Kym Abrams Design Custom Styles
     height: 239px;
 }
 
-.stats-with-icon h3{
-    color: #7ea4b7;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    margin-bottom: 80px;
-    text-transform: uppercase;
+.stats-with-icon h3 {
+  color: #D09C2A;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
 }
 
 .stats-with-icon p{
-    color: #6c5aa6;
+    color: #30849F;
     font-size: 33px;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
 @media screen and (max-width: 979px){
 
-  /*  #phoneNav{
-        display: block;
-    }*/
+  #investing-in-women-and-girls-work .vc_column_container:nth-of-type(3) .stats-with-icon h3{
+    margin-bottom: 58px;
+  }
 
-    #investing-in-women-and-girls-work .vc_column_container:nth-of-type(3) .stats-with-icon h3{
-        margin-bottom: 58px;
-    }
-
-    .stats-no-icon p:last-of-type{
-        position: relative;
-        top: 10px;
-    }
+  .stats-no-icon p:last-of-type{
+    position: relative;
+    top: 10px;
+  }
 }
 
 .stats-with-icon p:first-of-type{
@@ -8972,31 +9094,31 @@ Kym Abrams Design Custom Styles
 }
 
 .stats-with-icon hr{
-    background-color: #6c5aa6;
-    margin: 0 auto;
-    height: 2px;
-    width: 200px;
+  background-color: #30849F;
+  height: 2px;
+  margin: 0 auto;
+  width: 200px;
 }
 
-.stats-no-icon{
-    margin-bottom: 126px !important;
-    text-align: center;
+.stats-no-icon {
+  margin-bottom: 126px !important;
+  text-align: center;
 }
 
-.stats-no-icon p:first-of-type{
-    font-size: 18px;
-    font-weight: 500;
-    color: #7ea4b7;
-    height: 40px;
-    margin-bottom: 0;
-    text-transform: uppercase;
+.stats-no-icon p:first-of-type {
+  color: #D09C2A;
+  font-size: 18px;
+  font-weight: 500;
+  height: 40px;
+  margin-bottom: 0;
+  text-transform: uppercase;
 }
 
-.stats-no-icon p:nth-of-type(2){
-    color: #6c5aa6;
-    font-size: 70px;
-    font-weight: bold;
-    margin-top: 40px;
+.stats-no-icon p:nth-of-type(2) {
+  color: #30849F;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 40px;
 }
 
 .are-you-in .are-you-in--title-image{
@@ -9120,7 +9242,8 @@ Kym Abrams Design Custom Styles
 #the-grants h2,
 #donors-financials h2,
 #leadership h2,
-#stay-in-touch h2 {
+#stay-in-touch h2,
+#counter-2 h2 {
   font-size: 49px;
   font-weight: bold;
   margin: 133px 0 50px;
@@ -9146,7 +9269,25 @@ Kym Abrams Design Custom Styles
 }
 
 #leadership h2 {
-  color: #26b8ce;
+  color: #30849F;
+}
+
+#counter-2 h2 {
+  color: #EB907C;
+  margin: 30px 0 -24px;
+}
+
+@media screen and (max-width: 767px) {
+  #welcome-section h2,
+  #the-activists h2,
+  #the-grants h2,
+  #donors-financials h2,
+  #leadership h2,
+  #stay-in-touch h2,
+  #counter-2 h2 {
+    font-size: 38px;
+    margin: 80px 0 50px;
+  }
 }
 
 /* END Heading Styles for Pages and Sections */
@@ -9164,6 +9305,23 @@ Kym Abrams Design Custom Styles
   width: 776px;
 }
 
+#are-you-in .wpb_wrapper p {
+  color: #fff;
+}
+
+.in-link {
+  color: #fff !important;
+  border: 2px solid #fff !important;
+}
+
+.in-link .hover-bg {
+  background: #fff !important;
+}
+
+.in-link .hover-text {
+  color: #000 !important;
+}
+
 /* END Copy Styles for Pages and Sections */
 
 #leadership p strong {
@@ -9175,15 +9333,15 @@ Kym Abrams Design Custom Styles
     display: none;
 }
 
-.leadership-list h3{
-    color: #5ac7d8;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 1px;
+.leadership-list h3 {
+  color: #30849F;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
-#leadership .leadership-list p{
-    font-size: 16px;
+#leadership .leadership-list p {
+  font-size: 16px;
 }
 
 .button-link{
@@ -9192,7 +9350,6 @@ Kym Abrams Design Custom Styles
     border-radius: 6px;
     display: block;
     font-size: 18px;
-/*    line-height: 40px;*/
     margin: 98px auto 144px !important;
     text-align: center;
     text-transform: uppercase;
@@ -9448,13 +9605,6 @@ Kym Abrams Design Custom Styles
 }
 
 
-@media screen and (max-width: 979px){
-
-    #welcome-section .presidents-letter > .container{
-        width: 90%;
-    }
-}
-
 /* --- Responsive Styling --- */
 
 .next_prv_container.prv {
@@ -9610,7 +9760,23 @@ Kym Abrams Design Custom Styles
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+
+  #welcome-section .presidents-letter > .container {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  #welcome-section .president-portrait {
+    float: none;
+    height: auto;
+    margin: -20px 10% 20px;
+    width: 80%;
+  }
+
+  .video-row {
+    padding-top: 98px;
+  }
 
   .mCS-autoHide > .mCustomScrollBox > .mCSB_scrollTools {
     display: none !important;
@@ -9625,7 +9791,7 @@ Kym Abrams Design Custom Styles
   }
 
   #welcome-section {
-    margin-top: -20px;
+    margin-top: -78px;
   }
 
   #are-you-in .wpb_wrapper p,
@@ -9635,7 +9801,7 @@ Kym Abrams Design Custom Styles
   }
 
   .fullWidth .container {
-    width: 90%;
+    width: 90% !important;
   }
 
   #financials .financials-item-list {
@@ -9672,8 +9838,6 @@ Kym Abrams Design Custom Styles
   }
 }
 
-
-
 @media screen and (max-width: 538px) {
 
   .post-media {
@@ -9685,7 +9849,6 @@ Kym Abrams Design Custom Styles
     padding: 0;
   }
 
-  .presidents-letter strong span,
   #financials h1,
   #leadership h2,
   #stay-in-touch h1 {
