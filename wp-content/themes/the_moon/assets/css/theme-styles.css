@@ -1244,9 +1244,9 @@ header .navigation-button {
   width: 32px;
 }
 
-header .navigation-button:hover{
+/*header .navigation-button:hover{
   color: #EB907C !important;
-}
+}*/
 
 header .navigation-button span{
   font-size: 32px;
@@ -1438,6 +1438,10 @@ header .navigation-button span{
 
 .mejs-container {
   min-width: 100vw !important;
+}
+
+.mejs-container .mejs-controls {
+  display: none !important;
 }
 
 .textSliderHome .trimage img {
@@ -2124,19 +2128,28 @@ header .logo
 
 header .logo img
 {
-	/*width: auto;*/
-    width: 388px;
-	display: block;
-    max-height:70px;
+  display: block;
+  max-height: 70px;
+  width: 388px;
 }
 
 header.wave-menu-header .logo img {
-    margin: 50px auto 0;
+  margin: 50px auto 0;
 }
 
-header .container
-{
-    max-height: 70px;
+header .container {
+  max-height: 70px;
+}
+
+@media screen and (max-width: 979px) {
+  header .container {
+    margin: 0 5%;
+    width: 90%;
+  }
+
+  header .navigation-button {
+    right: 4%;
+  }
 }
 
 /* scooter menu */
@@ -3797,8 +3810,14 @@ header a.trigger {
 }
 
 .videoHome video {
-  height: auto !important;
-  width: 100% !important;
+/*  height: 100vh !important;
+  min-width: 100vw;
+  width: 100vw !important;*/
+}
+
+.mejs-mediaelement {
+  height: 100vh !important;
+  width: 100vw !important;
 }
 
 .videoHomePreload {
@@ -8973,41 +8992,40 @@ Kym Abrams Design Custom Styles
   font-size: 20px;
   line-height: 150%;
   margin: 0 auto;
-  padding-bottom: 50px;
-  padding-top: 55px;
+  padding-bottom: 49px;
   width: 910px;
 }
 
 .image-sliders .pixflow-super-title {
-    color: #fff;
-    font-size: 16px;
-    position: absolute;
-    text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  position: absolute;
+  text-transform: uppercase;
 }
 
 .image-sliders .pixflow_image_slider_title{
-    border: none;
-    font-size: 48px;
-    padding: 0;
-    text-transform: uppercase;
+  border: none;
+  font-size: 48px;
+  padding: 0;
+  text-transform: uppercase;
 }
 
-.image-sliders .pixflow_image_slider_title span{
-    display: block;
-    font-size: 14px;
-    line-height: 150%;
-    letter-spacing: 2px;
-    margin-bottom: 2px;
+.image-sliders .pixflow_image_slider_title span {
+  display: block;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 150%;
+  margin-bottom: 2px;
 }
 
 .video-row {
-    padding-top: 145px;
+  padding-top: 145px;
 }
 
 @media screen and (max-width: 980px){
-    .image-sliders .pixflow_image_slider_title br{
-        display: none;
-    }
+  .image-sliders .pixflow_image_slider_title br {
+    display: none;
+  }
 }
 
 /* The Counters */
@@ -9066,23 +9084,11 @@ Kym Abrams Design Custom Styles
   text-transform: uppercase;
 }
 
-.stats-with-icon p{
+.stats-with-icon p {
     color: #30849F;
     font-size: 33px;
     font-weight: 700;
     text-transform: uppercase;
-}
-
-@media screen and (max-width: 979px){
-
-  #investing-in-women-and-girls-work .vc_column_container:nth-of-type(3) .stats-with-icon h3{
-    margin-bottom: 58px;
-  }
-
-  .stats-no-icon p:last-of-type{
-    position: relative;
-    top: 10px;
-  }
 }
 
 .stats-with-icon p:first-of-type{
@@ -9250,7 +9256,10 @@ Kym Abrams Design Custom Styles
   text-transform: uppercase;
 }
 
-#welcome-section h2,
+#welcome-section h2 {
+  color: #D09C2A;
+}
+
 #stay-in-touch h2 {
   color: #D09C2A;
 }
@@ -9275,6 +9284,19 @@ Kym Abrams Design Custom Styles
 #counter-2 h2 {
   color: #EB907C;
   margin: 30px 0 -24px;
+}
+
+@media screen and (max-width: 979px) {
+  #welcome-section h2,
+  #the-activists h2,
+  #the-grants h2,
+  #donors-financials h2,
+  #leadership h2,
+  #stay-in-touch h2,
+  #counter-2 h2 {
+    font-size: 44px;
+    margin: 85px 0 40px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -9387,12 +9409,12 @@ Kym Abrams Design Custom Styles
     width: 80px;
 }
 
-@media screen and (max-width: 979px){
-    .pixflow-slider-link.button-link{
-        margin: 0 auto !important;
-        position: relative;
-        top: 15px;
-    }
+@media screen and (max-width: 979px) {
+  .pixflow-slider-link.button-link {
+    margin: 0 auto !important;
+    position: relative;
+    top: 15px;
+  }
 }
 
 
@@ -9430,7 +9452,7 @@ Kym Abrams Design Custom Styles
   font-size: 33px;
   font-weight: bold;
   letter-spacing: 1px;
-  margin: 112px 0 96px;
+  margin: 112px 0 131px;
   text-align: center;
 }
 
@@ -9604,6 +9626,10 @@ Kym Abrams Design Custom Styles
     background-position: right 10px;
 }
 
+.leadership-copy {
+  margin-bottom: 98px !important;
+}
+
 
 /* --- Responsive Styling --- */
 
@@ -9656,7 +9682,7 @@ Kym Abrams Design Custom Styles
   }
 }
 
-@media screen and (max-width:1024px) and (orientation:landscape) {
+@media screen and (max-width:1024px) {
 
   #welcome-section {
     margin-top: -20px;
@@ -9675,35 +9701,115 @@ Kym Abrams Design Custom Styles
   }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 979px) {
+
+  .single-portfolio .skills-staff {
+    min-height: 82vh;
+  }
+
+  #ajaxPDetail .pDHeader {
+    margin-top: 28px;
+  }
+
+  .singlePost .row,
+  .singlePost [class*="span"] {
+    margin-left: 0;
+  }
+
+  .singlePost .span12 {
+    width: 100%;
+  }
+
+  #stay-in-touch .hash-tag p {
+    margin: 76px 0 82px;
+  }
+
+  .leadership-copy {
+    margin-bottom: 60px !important;
+  }
+
+  .button-link {
+    margin: 70px auto 95px !important;
+  }
 
   #are-you-in .wpb_wrapper p,
   #leadership p,
   #were-all-in .were-all-in,
   #financials .financials-item-list {
-    width: 675px;
+    width: 90%;
+  }
+
+  #the-grants .wpb_wrapper p,
+  #donors-financials .wpb_wrapper p,
+  #leadership .wpb_wrapper p {
+    width: 100%;
   }
 
   #stay-in-touch {
     background-position: 165% 85%;
     background-size: 80%;
   }
-}
 
-@media screen and (max-width: 979px) {
+  .counterBox  .counterBoxNumber {
+    letter-spacing: -2px;
+  }
 
-    .post-media {
-      min-height: 272px;
-    }
+  .counterBox .counterBoxDetails {
+    margin-bottom: 58px;
+  }
 
-.pixflow_image_slider_content_wrap .pixflow_image_slider_title {
-    bottom: 90px;
-    font-size: 30px;
-    letter-spacing: .05px;
-    line-height: 30px;
+  div[id^="counter-"] .background_cover {
     padding: 0;
-    width: 100%;
-}
+  }
+
+  .stats-with-icon h3,
+  .stats-no-icon p:first-of-type {
+    font-size: 16px;
+    letter-spacing: .5px;
+  }
+
+  .stats-no-icon p:nth-of-type(2) {
+    font-size: 58px;
+  }
+
+  .stats-no-icon {
+    margin-bottom: 115px !important;
+  }
+
+  .vc_column_container>.vc_column-inner {
+    padding: 0 !important;
+  }
+
+  #welcome-section .presidents-letter > .container {
+    padding-bottom: 0;
+    width: 90%;
+  }
+
+  .video-row {
+    padding-top: 95px;
+  }
+
+  hr {
+    margin: 40px 0;
+  }
+
+  .stats-no-icon p:last-of-type{
+    position: relative;
+    top: 10px;
+  }
+
+  .post-media {
+    min-height: 272px;
+  }
+
+  .pixflow_image_slider_content_wrap .pixflow_image_slider_title {
+      bottom: 90px;
+      font-size: 30px;
+      letter-spacing: .05px;
+      line-height: 30px;
+      padding: 0;
+      width: 100%;
+  }
 
   .mCS-autoHide > .mCustomScrollBox > .mCSB_scrollTools {
     display: none !important;
@@ -9728,10 +9834,6 @@ Kym Abrams Design Custom Styles
   .next_prv_container.nxt {
     position: absolute;
     top: -6px;
-  }
-
-  .post-media {
-    margin-bottom: 25px;
   }
 
   .pixflow-slider-link.button-link {
