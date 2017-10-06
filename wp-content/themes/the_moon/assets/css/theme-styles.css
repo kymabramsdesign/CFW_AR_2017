@@ -6402,7 +6402,7 @@ a.postlink {
   margin: 0 auto;
   opacity: 0;
   position: relative;
-  top: 50%;
+  top: 53%;
   width: 0;
   -moz-transition:width 150ms ease-in-out, opacity 150ms ease-in-out;
   -o-transition:width 150ms ease-in-out, opacity 150ms ease-in-out;
@@ -6493,7 +6493,7 @@ a.postlink {
 }
 
 .slim .postphoto .overlay:hover .hover-subtitle {
-  top: calc(50% + 15px);
+  top: calc(55% + 15px);
 }
 
 .square .postphoto .overlay:hover .hover-subtitle , .hslim .postphoto .overlay:hover .hover-subtitle , .slim .postphoto .overlay:hover .hover-subtitle   {
@@ -6509,13 +6509,6 @@ a.postlink {
 
 .postphoto .overlay:hover .hover-subtitle{
   bottom: calc(50% - 60px);
-}
-
-#emily-dreke .postphoto .overlay:hover .hover-subtitle,
-#ilda-lagunas .postphoto .overlay:hover .hover-subtitle,
-#linda-l-wagner .postphoto .overlay:hover .hover-subtitle{
-    bottom: calc(50% - 75px);
-    line-height: 22px;
 }
 
 .postphoto .overlay .icon-type {
@@ -9703,6 +9696,62 @@ Kym Abrams Design Custom Styles
 
 @media screen and (max-width: 979px) {
 
+  .square .postphoto .overlay:hover .hover-subtitle,
+  .hslim .postphoto .overlay:hover .hover-subtitle,
+  .slim .postphoto .overlay:hover .hover-subtitle {
+    font-size: 14px;
+    letter-spacing: .5px;
+    line-height: 18px;
+  }
+
+  .postphoto .overlay .hover-title,
+  .square .postphoto .overlay .hover-title {
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+
+  .postphoto .overlay:hover .hover-subtitle {
+      bottom: calc(53% - 60px);
+  }
+
+  .postphoto .overlay:hover .hover-title {
+    bottom: 50%;
+  }
+
+  .postphoto .overlay .center-line {
+    height: 1px;
+    top: 58%;
+  }
+
+  .postphoto .overlay:hover .center-line {
+    width: 25%;
+  }
+
+  .slim .postphoto .overlay:hover .hover-subtitle {
+    top: calc(58% + 15px);
+  }
+
+  .portfoliowrap .hidden-desktop {
+    display: none !important;
+  }
+
+  .portfoliowrap .visible-desktop {
+    display: inline-block !important;
+  }
+
+  .subnavigation {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100vw;
+  }
+
   .single-portfolio .skills-staff {
     min-height: 82vh;
   }
@@ -9854,15 +9903,91 @@ Kym Abrams Design Custom Styles
   .mCustomScrollBox {
     overflow: visible !important;
   }
-}
 
-@media sceen and (min-width: 768px) and (orientation: portrait) {
-    .span9 {
-        width: 657px;
-    }
+  #the-activists h2 {
+    margin-bottom: -12px;
+  }
 }
 
 @media screen and (max-width: 767px) {
+
+  .postphoto .overlay {
+    background-color: rgba(0, 0, 0, .20);
+  }
+
+  .postphoto .overlay .center-line {
+    display: none;
+  }
+
+  .postphoto .overlay .hover-title {
+    bottom: 3%;
+    color: rgba(255,255,255,.8);
+    font-size: 60px;
+    letter-spacing: -1px;
+    line-height: 60px;
+    opacity: 1;
+    padding: 0 3%;
+    text-align: left;
+    width: 94%;
+  }
+
+  .postphoto .overlay  .hover-subtitle {
+    bottom: initial;
+    color: rgba(255,255,255,.85);
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 12px;
+    opacity: 1;
+    text-align: left;
+    text-transform: uppercase;
+    top: 5%;
+  }
+
+  .slim .postphoto .overlay .hover-title {
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: 0;
+    padding: 0 5%;
+    width: 90%;
+  }
+
+  .square .postphoto .overlay:hover .hover-subtitle,
+  .hslim .postphoto .overlay:hover .hover-subtitle,
+  .slim .postphoto .overlay:hover .hover-subtitle {
+    bottom: initial;
+    color: rgba(255,255,255,.85);
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 12px;
+    opacity: 1;
+    text-align: left;
+    text-transform: uppercase;
+    top: 5%;
+  }
+
+  .postphoto .overlay:hover .hover-title {
+    bottom: 3%;
+    color: #fff;
+  }
+
+  .portfoliowrap .visible-desktop {
+    padding: 0;
+  }
+
+  .subnavigation {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .subnavigation li {
+    float: none;
+    margin: 0 0 18px;
+  }
+
+  .subnavigation a {
+    padding: 0 20px;
+  }
 
   #welcome-section .presidents-letter > .container {
     font-size: 18px;
@@ -10025,5 +10150,16 @@ Kym Abrams Design Custom Styles
 
   .post-title {
     letter-spacing: .05px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .subnavigation a {
+    padding: 0 18px;
+  }
+
+  .postphoto .overlay .hover-title {
+    font-size: 50px;
+    line-height: 50px;
   }
 }

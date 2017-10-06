@@ -140,42 +140,6 @@
         width: 31.3%;
     }
 
-    /* portfolio hover */
-    .postphoto .overlay .hover-title {
-        font-size:25px;
-        letter-spacing:-1px;
-    }
-
-    .postphoto .overlay .icon-type {
-        height: 22px;
-        width: 27px;
-    }
-
-    .postphoto .overlay .hover-subtitle {
-        font-size: 13px;
-        letter-spacing: 4px;
-    }
-
-    .postphoto .overlay:hover .hover-subtitle {
-        bottom:29%;
-    }
-
-    .hslim .postphoto .overlay:hover .hover-subtitle {
-        bottom:20%;
-    }
-
-    .slim .postphoto .overlay:hover .hover-subtitle {
-        bottom:38%;
-    }
-
-    .big .postphoto .overlay:hover .hover-subtitle {
-        bottom:35%;
-    }
-
-    .slim .overlay:hover .icon-type {
-       left:46%
-    }
-
     /* portfolio Detail */
     #ajaxPDetail .pDHeader .title {
       font-size: 20px;
@@ -761,17 +725,6 @@
   }
 
   /* portfolio hover  */
-  .postphoto .overlay .hover-title , .square .postphoto .overlay .hover-title{
-      font-size:35px;
-      letter-spacing:-1px;
-  }
-
-  .postphoto .overlay .icon-type {
-      height: 22px;
-      width: 27px;
-
-      left:45% !important;
-  }
 
   .hslim .postphoto .overlay .icon-type , .big .postphoto .overlay .icon-type {
       left:48% !important;

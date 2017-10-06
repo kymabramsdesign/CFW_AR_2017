@@ -2522,9 +2522,11 @@
                 var w = $(window).width(),
 					columnNum = 1;
 
-                if (w > 1200) {
+                if (w > 1440) {
+                    columnNum = 8;
+                } else if (w > 767) {
                     columnNum = 6;
-                } else if (w > 999) {
+                } else if (w > 360) {
                     columnNum = 4;
                 } else {
                     columnNum = 2;
@@ -2587,10 +2589,28 @@
 						$brickphoto = $brick.find('.postphoto');
 
                     if ($brick.hasClass('big')) {
-                        $brickphoto.css({
-                            'width': (colWidth * 2) + 'px',
-                            'height': ((colWidth * 2) * .769) + 'px'
-                        });
+
+                        if (w > 600) {
+
+                            $brickphoto.css({
+                                'width': (colWidth * 2) + 'px',
+                                'height': ((colWidth * 2) * .769) + 'px'
+                            });
+
+                        } else if (w > 340) {
+
+                            $brickphoto.css({
+                                'width': (colWidth * 4) + 'px',
+                                'height': ((colWidth * 4) * .769) + 'px'
+                            });
+
+                        } else {
+
+                            $brickphoto.css({
+                                'width': (colWidth * 2) + 'px',
+                                'height': ((colWidth * 2) * .769) + 'px'
+                            });
+                        }
 
                     } else if ($brick.hasClass('slim')) {
 
@@ -2601,11 +2621,18 @@
                                 'height': ((colWidth * 2) * .769) + 'px'
                             });
 
-                        } else {
+                        } else if (w > 340) {
 
                             $brickphoto.css({
                                 'width': (colWidth * 2) + 'px',
-                                'height': ((colWidth * 3) * .769) + 'px'
+                                'height': ((colWidth * 4) * .769) + 'px'
+                            });
+
+                        } else {
+
+                            $brickphoto.css({
+                                'width': colWidth + 'px',
+                                'height': ((colWidth * 2) * .769) + 'px'
                             });
 
                         }
@@ -2652,20 +2679,12 @@
 
 
             //portfolio Filter
-            if ($window.width() > 979) { // if Desktop
-                var $pFilter = $portfolioId.concat(' #filters a');
-            } else {
-                var $pFilter = $portfolioId.concat(' #filterstablet a');
-            }
+            var $pFilter = $portfolioId.concat(' #filters a');
 
             var $pThis = $portfolioId.concat(' .isotope');
             $($pFilter).click(function () {
-
-                if ($window.width() > 979) { // if Desktop
-                    var $pFilter = $portfolioId.concat(' #filters a');
-                } else {
-                    var $pFilter = $portfolioId.concat(' #filterstablet a');
-                }
+                
+                var $pFilter = $portfolioId.concat(' #filters a');
 
                 var $pFilterText = $portfolioId.concat(' .portfolio-filter span.text');
                 $($pFilter).removeClass("active");
