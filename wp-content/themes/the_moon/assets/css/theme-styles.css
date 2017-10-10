@@ -9055,11 +9055,6 @@ Kym Abrams Design Custom Styles
     text-transform: uppercase;
 }
 
-.investing-image-title img{
-    margin: 145px auto 166px;
-    width: 651px;
-}
-
 .stats-with-icon{
     background-repeat: no-repeat;
     background-position: center 47px;
@@ -9120,9 +9115,57 @@ Kym Abrams Design Custom Styles
   margin-top: 40px;
 }
 
-.are-you-in .are-you-in--title-image{
-    margin: 145px auto 50px;
-    width: 593px;
+.are-you-in .are-you-in--title-image {
+  margin: 143px auto 50px;
+  width: 50%;
+}
+
+.taking-image-title img {
+  margin: 143px auto 0;
+  width: 84.7%;
+}
+
+.investing-image-title img {
+  margin: 143px auto 95px;
+  width: 84.7%;
+}
+
+@media screen and (max-width: 979px) {
+  .are-you-in .are-you-in--title-image {
+    margin: 94px auto 50px;
+    width: 40%;
+  }
+
+  .taking-image-title img {
+    margin: 94px auto 0;
+    width: 70%;
+  }
+
+  .investing-image-title img {
+    margin: 94px auto 95px;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .are-you-in .are-you-in--title-image {
+    margin: 84px auto 20px;
+    width: 80%;
+  }
+
+  .taking-image-title img {
+    margin: 50px auto 0;
+    width: 80%;
+  }
+
+  .investing-image-title img {
+    margin: 84px auto 40px;
+    width: 80%;
+  }
+
+  #the-activists .container:first-of-type {
+    display: none;
+  }
 }
 
 #are-you-in .wpb_wrapper p:last-of-type{
