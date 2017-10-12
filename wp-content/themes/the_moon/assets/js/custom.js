@@ -2526,10 +2526,8 @@
                     columnNum = 8;
                 } else if (w > 767) {
                     columnNum = 6;
-                } else if (w > 360) {
-                    columnNum = 4;
                 } else {
-                    columnNum = 2;
+                    columnNum = 4;
                 }
 
                 return columnNum;
@@ -2590,14 +2588,14 @@
 
                     if ($brick.hasClass('big')) {
 
-                        if (w > 600) {
+                        if (w > 767) {
 
                             $brickphoto.css({
                                 'width': (colWidth * 2) + 'px',
                                 'height': ((colWidth * 2) * .769) + 'px'
                             });
 
-                        } else if (w > 340) {
+                        } else if (w > 300) {
 
                             $brickphoto.css({
                                 'width': (colWidth * 4) + 'px',
@@ -2614,14 +2612,14 @@
 
                     } else if ($brick.hasClass('slim')) {
 
-                        if (w > 600) {
+                        if (w > 767) {
 
                             $brickphoto.css({
                                 'width': colWidth + 'px',
                                 'height': ((colWidth * 2) * .769) + 'px'
                             });
 
-                        } else if (w > 340) {
+                        } else if (w > 300) {
 
                             $brickphoto.css({
                                 'width': (colWidth * 2) + 'px',
@@ -2631,8 +2629,8 @@
                         } else {
 
                             $brickphoto.css({
-                                'width': colWidth + 'px',
-                                'height': ((colWidth * 2) * .769) + 'px'
+                                'width': (colWidth * 2) + 'px',
+                                'height': ((colWidth * 4) * .769) + 'px'
                             });
 
                         }
@@ -2646,7 +2644,7 @@
 
                     } else {
 
-                        if (w > 600) {
+                        if (w > 767) {
 
                             $brickphoto.css({
                                 'width': colWidth + 'px',
@@ -2683,7 +2681,7 @@
 
             var $pThis = $portfolioId.concat(' .isotope');
             $($pFilter).click(function () {
-                
+
                 var $pFilter = $portfolioId.concat(' #filters a');
 
                 var $pFilterText = $portfolioId.concat(' .portfolio-filter span.text');
