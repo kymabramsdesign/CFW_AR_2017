@@ -3816,12 +3816,6 @@ header a.trigger {
 	height: 100%;
 }
 
-.videoHome video {
-/*  height: 100vh !important;
-  min-width: 100vw;
-  width: 100vw !important;*/
-}
-
 .mejs-mediaelement {
   height: 100vh !important;
   width: 100vw !important;
