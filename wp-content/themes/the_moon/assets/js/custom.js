@@ -1947,6 +1947,7 @@
             }
 
             if ($(window).width() > 1024) {
+                var isIE = '-ms-scroll-limit' in document.documentElement.style && '-ms-ime-align' in document.documentElement.style;
                 // Layer Slider & master Slider
                 if ($('#homeHeight').height() > 0) {
                     clearInterval(i);
@@ -1958,7 +1959,7 @@
                         $LHeight = $LHeight - $wpAdminBarHeight;
                     }
 
-                    if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) { // If Internet Explorer, Margin-top 0
+                    if (isIE == true || msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) { // If Internet Explorer, Margin-top 0
                         $("#main").css({ marginTop: 0 + 'px' });
 
 
@@ -1971,20 +1972,11 @@
                 } else if ($('#fullScreenSlider').length !== 0 || $('#fullScreenImage').length !== 0 || $('#homeGoogleMap').length !== 0 || $('#homeVideoHeight').length !== 0) {
                     clearInterval(i);
 
-                    if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) { // If Internet Explorer, Margin-top 0
+                    if (isIE == true || msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) { // If Internet Explorer, Margin-top 0
                         $("#main").css({ marginTop: 0 + 'px' });
-                        // $("#home").css({ height: $HSlMVal + 'px' });
+                        $("#home").css({ height: $HSlMVal + 'px' });
                     } else {
                         $("#main").css({ marginTop: $HSlMVal + 'px' });
-                    }
-
-
-                    if ($('#fullScreenImage').length !== 0) {
-
-                        if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) { // If Internet Explorer, Margin-top 0
-
-                            $('#home .homeWrap .fullScreenImage').css({ position:'static'})
-                        }
                     }
 
                     //parallaxImg();
